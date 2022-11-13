@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_O-6jYFulEe2rJc5Vovpn4w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_O-6jYVulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Schema" prompt="AdventuresWorksDB_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value=""/>
+  <contextParameter xmi:id="_O-6jYlulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Database" prompt="AdventuresWorksDB_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="AdventureWorks2019"/>
+  <contextParameter xmi:id="_O-6jY1ulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Login" prompt="AdventuresWorksDB_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="dm15012"/>
+  <contextParameter xmi:id="_O-6jZFulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Password" prompt="AdventuresWorksDB_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:PgxjcEmON8oY0EONwFywlRGQALxnZqt5jA2jTw0vS+ya9PZQ"/>
+  <contextParameter xmi:id="_O-6jZVulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Server" prompt="AdventuresWorksDB_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="DESKTOP-DALTON\DM15012_19"/>
+  <contextParameter xmi:id="_O-6jZlulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_Port" prompt="AdventuresWorksDB_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="49173"/>
+  <contextParameter xmi:id="_O-6jZ1ulEe2rJc5Vovpn4w" comment="" name="AdventuresWorksDB_AdditionalParams" prompt="AdventuresWorksDB_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require"/>
+</talendfile:ContextType>
