@@ -1,0 +1,29 @@
+{
+  "itemId" : "_IOAqwGMNEe2DOZSW8nq6Dg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_uEDNYGMOEe2DOZSW8nq6Dg",
+    "parameterList" : [ {
+      "id" : "_uEVhQWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Schema"
+    }, {
+      "id" : "_uEVhQmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Database"
+    }, {
+      "id" : "_uEWIUGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_AdditionalParams"
+    }, {
+      "id" : "_uEWIUWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Password"
+    }, {
+      "id" : "_uEWIUmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Server"
+    }, {
+      "id" : "_uEWIU2MOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Login"
+    }, {
+      "id" : "_uEWIVGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Port"
+    } ]
+  } ]
+}

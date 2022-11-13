@@ -1,0 +1,67 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class CommonFunctions {
+
+    /**
+     * Extrae el nombre del archivo de la ruta del directorio de S3 cuya 
+     * extension sea igual a la del parametro
+     *  
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("Archive/raw/Test.csv") _valor: S3 - Ubicacion fuente.
+     * 
+     * {example} getS3FileName("Archive/raw/Test.csv", ".csv") # Test.csv
+     */
+    public static String getS3FileName(String _valor, String _extension) 
+    {
+    	String current_key  = _valor;
+    	String s3FileName = "";
+
+    	if (current_key.lastIndexOf(".") > 0 && current_key.substring(current_key.lastIndexOf("."), current_key.length()).equals(_extension))
+    	{
+    		s3FileName = current_key.substring(current_key.lastIndexOf("/")+1, current_key.length());
+    	}
+    	
+    	System.out.println(s3FileName);
+    	
+    	return s3FileName;
+    }
+    
+    /**
+     * Elimina la ultima parte de la S3 - Ubicacion fuente
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("Archive/raw/Test.csv") _valor: S3 - Ubicacion fuente.
+     * 
+     * {example} getS3SourcePath("Archive/raw/Test.csv) # Archive/raw/
+     */
+    public static String getS3SourcePath(String _valor) 
+    {
+    	String current_key = _valor.replace(_valor.substring(_valor.lastIndexOf("/")+1, _valor.length()), "");
+    	
+    	return current_key;
+    }
+}

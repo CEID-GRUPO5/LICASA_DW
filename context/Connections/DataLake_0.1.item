@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_qvt2EF1AEe2LUq6GAYvfnw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qvt2EV1AEe2LUq6GAYvfnw" comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="AKIAZB3DXVKZDFXZYTHT"/>
+  <contextParameter xmi:id="_JJgfAF1BEe2LUq6GAYvfnw" comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="m1R49jSHK6dRThfnYwofJ9HEuUtsf+L2+keoYWeY"/>
+  <contextParameter xmi:id="_JJgfAl1BEe2LUq6GAYvfnw" comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw"/>
+  <contextParameter xmi:id="_JJgfA11BEe2LUq6GAYvfnw" comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="stage"/>
+  <contextParameter xmi:id="_JJgfBF1BEe2LUq6GAYvfnw" comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="presentation"/>
+  <contextParameter xmi:id="_JJgfBV1BEe2LUq6GAYvfnw" comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lica.datalake"/>
+  <contextParameter xmi:id="_uV0C4F4YEe2blsXHUKcvPQ" comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="NoProcesados"/>
+  <contextParameter xmi:id="_uV0C4V4YEe2blsXHUKcvPQ" comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Archivados"/>
+  <contextParameter xmi:id="_ewYWsF83Ee2U_bRQ1uDmug" comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="\"/>
+  <contextParameter xmi:id="_ewYWsV83Ee2U_bRQ1uDmug" comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/"/>
+</talendfile:ContextType>

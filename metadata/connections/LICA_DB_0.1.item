@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_uaeJUGMOEe2DOZSW8nq6Dg" name="LICA_DB" id="_IOAqwGMNEe2DOZSW8nq6Dg" label="LICA_DB" dataPackage="_uctlAGMOEe2DOZSW8nq6Dg" ContextMode="true" ContextId="_uEDNYGMOEe2DOZSW8nq6Dg" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://DESKTOP-DALTON\DM15012_19:49173;DatabaseName=LICA;&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" dbVersionString="MSSQL_PROP" Port="context.LICA_DB_Port" Username="context.LICA_DB_Login" Password="context.LICA_DB_Password" ServerName="context.LICA_DB_Server" DatasourceName="" FileFieldName="" SID="context.LICA_DB_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.LICA_DB_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.LICA_DB_Schema">
+    <taggedValue xmi:id="_uaeJUWMOEe2DOZSW8nq6Dg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_ua0uoGMOEe2DOZSW8nq6Dg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_ua5nIGMOEe2DOZSW8nq6Dg" tag="Status" value=""/>
+    <taggedValue xmi:id="_ua5nIWMOEe2DOZSW8nq6Dg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_ua5nImMOEe2DOZSW8nq6Dg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_ua5nI2MOEe2DOZSW8nq6Dg" tag="Description" value=""/>
+    <taggedValue xmi:id="_ua5nJGMOEe2DOZSW8nq6Dg" tag="Author" value=""/>
+    <taggedValue xmi:id="_ua5nJWMOEe2DOZSW8nq6Dg" tag="otherParameter"/>
+    <taggedValue xmi:id="_ubSBoGMOEe2DOZSW8nq6Dg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_ubSBoWMOEe2DOZSW8nq6Dg" tag="DB ProductVersion" value="15.00.2095"/>
+    <taggedValue xmi:id="_ubSBomMOEe2DOZSW8nq6Dg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_uaeJUmMOEe2DOZSW8nq6Dg" key="CONN_PARA_KEY_USERNAME" value="context.LICA_DB_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_uctlAGMOEe2DOZSW8nq6Dg" name="LICA" dataManager="_uaeJUGMOEe2DOZSW8nq6Dg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_uctlAWMOEe2DOZSW8nq6Dg" name="LICASA"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_-NDMsF3pEe2Q3cH_xodkWA" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_-NDMsl3pEe2Q3cH_xodkWA" comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".csv"/>
+  <contextParameter xmi:id="_-NDMtF3pEe2Q3cH_xodkWA" comment="" name="DimFecha" prompt="DimFecha?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimFecha"/>
+  <contextParameter xmi:id="_-NDMt13pEe2Q3cH_xodkWA" comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="_"/>
+  <contextParameter xmi:id="_b9sQUF39Ee2Q3cH_xodkWA" comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyyMMdd"/>
+  <contextParameter xmi:id="_Nr06IGMUEe2b-7T3-ll5oA" comment="" name="ZIPExt" prompt="ZIPExt?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".zip"/>
+  <contextParameter xmi:id="_Nr06IWMUEe2b-7T3-ll5oA" comment="" name="DimArticulo" prompt="DimArticulo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimArticulo"/>
+  <contextParameter xmi:id="_Nr06ImMUEe2b-7T3-ll5oA" comment="" name="DimVendedor" prompt="DimVendedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimVendedor"/>
+  <contextParameter xmi:id="_Nr06I2MUEe2b-7T3-ll5oA" comment="" name="DimCobrador" prompt="DimCobrador?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimCobrador"/>
+  <contextParameter xmi:id="_Nr06JGMUEe2b-7T3-ll5oA" comment="" name="DimCliente" prompt="DimCliente?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimCliente"/>
+  <contextParameter xmi:id="_Nr06JWMUEe2b-7T3-ll5oA" comment="" name="DimBodega" prompt="DimBodega?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimBodega"/>
+  <contextParameter xmi:id="_Nr06JmMUEe2b-7T3-ll5oA" comment="" name="DimProveedor" prompt="DimProveedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimProveedor"/>
+  <contextParameter xmi:id="_Nr06J2MUEe2b-7T3-ll5oA" comment="" name="FactVentas" prompt="FactVentas?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FactVentas"/>
+</talendfile:ContextType>

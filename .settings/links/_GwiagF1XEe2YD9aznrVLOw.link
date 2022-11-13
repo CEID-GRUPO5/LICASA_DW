@@ -1,0 +1,30 @@
+{
+  "itemId" : "_GwiagF1XEe2YD9aznrVLOw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "parameterList" : [ {
+      "id" : "_qvt2EV1AEe2LUq6GAYvfnw",
+      "name" : "AccessKey"
+    }, {
+      "id" : "_JJgfBV1BEe2LUq6GAYvfnw",
+      "name" : "BuketName"
+    }, {
+      "id" : "_JJgfAF1BEe2LUq6GAYvfnw",
+      "name" : "SecretKey"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wzOEEF1VEe2YD9aznrVLOw",
+    "parameterList" : [ {
+      "id" : "_wzbfdV1VEe2YD9aznrVLOw",
+      "name" : "FileLocalPath"
+    }, {
+      "id" : "_wzbfcl1VEe2YD9aznrVLOw",
+      "name" : "FileName"
+    }, {
+      "id" : "_MAO6oF3oEe2Q3cH_xodkWA",
+      "name" : "SourcePath"
+    } ]
+  } ]
+}

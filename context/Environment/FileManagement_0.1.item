@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_wzbfcF1VEe2YD9aznrVLOw" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_wzbfcV1VEe2YD9aznrVLOw" comment="Ubicacion de destino en S3" name="DestPath" prompt="DestPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_wzbfcl1VEe2YD9aznrVLOw" comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_wzbfdV1VEe2YD9aznrVLOw" comment="Ubicacion local del archivo a subir" name="FileLocalPath" prompt="FileLocalPath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_MAO6oF3oEe2Q3cH_xodkWA" comment="Ubicacion de origen para descargar archivo" name="SourcePath" prompt="SourcePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_qKd6cGMTEe2b-7T3-ll5oA" comment="" name="FromDirectory" prompt="FromDirectory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_qKd6cWMTEe2b-7T3-ll5oA" comment="" name="ToDirectory" prompt="ToDirectory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_qKd6cmMTEe2b-7T3-ll5oA" comment="" name="FromZone" prompt="FromZone?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_qKd6c2MTEe2b-7T3-ll5oA" comment="" name="ToZone" prompt="ToZone?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

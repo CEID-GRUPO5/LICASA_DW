@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_uEVhQGMOEe2DOZSW8nq6Dg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_uEVhQWMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="LICASA"/>
+  <contextParameter xmi:id="_uEVhQmMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="LICA"/>
+  <contextParameter xmi:id="_uEWIUGMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;"/>
+  <contextParameter xmi:id="_uEWIUWMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:9VvQecMuYsr2dka4vSuI9ras/9dXY8E4F+8eZccVU9HvPyDg"/>
+  <contextParameter xmi:id="_uEWIUmMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="DESKTOP-DALTON\DM15012_19"/>
+  <contextParameter xmi:id="_uEWIU2MOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="dm15012"/>
+  <contextParameter xmi:id="_uEWIVGMOEe2DOZSW8nq6Dg" comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="49173"/>
+</talendfile:ContextType>
