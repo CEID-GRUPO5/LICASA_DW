@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
   <TalendMetadata:DatabaseConnection xmi:id="_uaeJUGMOEe2DOZSW8nq6Dg" name="LICA_DB" id="_IOAqwGMNEe2DOZSW8nq6Dg" label="LICA_DB" dataPackage="_uctlAGMOEe2DOZSW8nq6Dg" ContextMode="true" ContextId="_uEDNYGMOEe2DOZSW8nq6Dg" contextName="Default" DatabaseType="Microsoft SQL Server" DriverClass="com.microsoft.sqlserver.jdbc.SQLServerDriver" URL="jdbc:sqlserver://DESKTOP-DALTON\DM15012_19:49173;DatabaseName=LICA;&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" dbVersionString="MSSQL_PROP" Port="context.LICA_DB_Port" Username="context.LICA_DB_Login" Password="context.LICA_DB_Password" ServerName="context.LICA_DB_Server" DatasourceName="" FileFieldName="" SID="context.LICA_DB_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="context.LICA_DB_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.LICA_DB_Schema">
     <taggedValue xmi:id="_uaeJUWMOEe2DOZSW8nq6Dg" tag="Is Conn Need Reload" value="false"/>
     <taggedValue xmi:id="_ua0uoGMOEe2DOZSW8nq6Dg" tag="package filter" value=""/>
@@ -12,9 +12,43 @@
     <taggedValue xmi:id="_ubSBoGMOEe2DOZSW8nq6Dg" tag="DB ProductName" value="Microsoft SQL Server"/>
     <taggedValue xmi:id="_ubSBoWMOEe2DOZSW8nq6Dg" tag="DB ProductVersion" value="15.00.2095"/>
     <taggedValue xmi:id="_ubSBomMOEe2DOZSW8nq6Dg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_zF6EAG2eEe2mkY_pehLLgw">
+      <query xmi:id="_zF6EAm2eEe2mkY_pehLLgw" id="_zF6EAW2eEe2mkY_pehLLgw" comment="Selecciona la fecha mas reciente" label="Select Max RecordDate" value="SELECT MAX(RecordDate)as RecordDate FROM"/>
+    </queries>
     <parameters xmi:id="_uaeJUmMOEe2DOZSW8nq6Dg" key="CONN_PARA_KEY_USERNAME" value="context.LICA_DB_Login"/>
   </TalendMetadata:DatabaseConnection>
   <orgomg.cwm.resource.relational:Catalog xmi:id="_uctlAGMOEe2DOZSW8nq6Dg" name="LICA" dataManager="_uaeJUGMOEe2DOZSW8nq6Dg">
-    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_uctlAWMOEe2DOZSW8nq6Dg" name="LICASA"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_uctlAWMOEe2DOZSW8nq6Dg" name="LICASA">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_xe6JoGPdEe2j8O8hDcRJow" name="PROVEEDOR" id="_xe4UcGPdEe2j8O8hDcRJow" label="PROVEEDOR" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_xe6JoWPdEe2j8O8hDcRJow" name="PROVEEDOR" label="PROVEEDOR" length="20" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_xe6JomPdEe2j8O8hDcRJow" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_xe6Jo2PdEe2j8O8hDcRJow" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_xe6JpGPdEe2j8O8hDcRJow" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_xe6JqWPdEe2j8O8hDcRJow" name="NOMBRE" label="NOMBRE" length="150" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_xe6JqmPdEe2j8O8hDcRJow" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_xe6Jq2PdEe2j8O8hDcRJow" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_xe6JrGPdEe2j8O8hDcRJow" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_rKrCWW2VEe25ktO4GIdjAA" name="RecordDate" label="RecordDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+          <taggedValue xmi:id="_rKrCWm2VEe25ktO4GIdjAA" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_rKrCW22VEe25ktO4GIdjAA" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_rKrCXG2VEe25ktO4GIdjAA" name="DATETIME" numericPrecision="3" javaDataType="93"/>
+        </feature>
+      </ownedElement>
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_xpJDsGPdEe2j8O8hDcRJow" name="VENDEDOR" id="_xpIcoGPdEe2j8O8hDcRJow" label="VENDEDOR" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_xpJDsWPdEe2j8O8hDcRJow" name="VENDEDOR" label="VENDEDOR" length="4" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_xpJDsmPdEe2j8O8hDcRJow" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_xpJDs2PdEe2j8O8hDcRJow" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_xpJDtGPdEe2j8O8hDcRJow" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_xpJDtWPdEe2j8O8hDcRJow" name="NOMBRE" label="NOMBRE" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+          <taggedValue xmi:id="_xpJDtmPdEe2j8O8hDcRJow" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_xpJDt2PdEe2j8O8hDcRJow" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_xpJDuGPdEe2j8O8hDcRJow" name="VARCHAR" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Tr3Y0G27Ee2mkY_pehLLgw" name="RecordDate" label="RecordDate" sourceType="DATE" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      </ownedElement>
+    </ownedElement>
   </orgomg.cwm.resource.relational:Catalog>
 </xmi:XMI>

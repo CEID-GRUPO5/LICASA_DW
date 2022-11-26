@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_C0JNMG1MEe2RRexG98jSIQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_C0JNMW1MEe2RRexG98jSIQ" comment="" name="ProveedorTabla" prompt="ProveedorTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROVEEDOR"/>
+  <contextParameter xmi:id="_5on5YG26Ee2mkY_pehLLgw" comment="" name="VendedorTabla" prompt="VendedorTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VENDEDOR"/>
+  <contextParameter xmi:id="_CqI10G2-Ee2mkY_pehLLgw" comment="" name="NombreTabla" prompt="NombreTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

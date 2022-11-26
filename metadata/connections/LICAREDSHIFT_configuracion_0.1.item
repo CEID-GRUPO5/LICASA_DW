@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_H_lmEG1GEe2RRexG98jSIQ" name="LICAREDSHIFT_configuracion" id="_H-3NUG1GEe2RRexG98jSIQ" label="LICAREDSHIFT_configuracion" dataPackage="_OelvQGokEe2g-JAJsVDEDg" ContextMode="true" ContextId="_JJZMMGokEe2g-JAJsVDEDg" contextName="Default" DatabaseType="Redshift" DriverJarPath="" DriverClass="com.amazon.redshift.jdbc42.Driver" URL="jdbc:redshift://licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com:5439/licasa_dw?" Port="context.LICAREDSHIFT_Port" Username="context.LICAREDSHIFT_Login" Password="context.LICAREDSHIFT_Password" ServerName="context.LICAREDSHIFT_Server" DatasourceName="" FileFieldName="" SID="context.LICAREDSHIFT_Database" SqlSynthax="" StringQuote="" NullChar="" DbmsId="redshift_id" ProductId="REDSHIFT" DBRootPath="" AdditionalParams="context.LICAREDSHIFT_AdditionalParams" StandardSQL="true" SQLMode="false" UiSchema="context.LICAREDSHIFT_Schema_Configuracion">
+    <taggedValue xmi:id="_OJOjQWokEe2g-JAJsVDEDg" tag="Is Conn Need Reload" value="true"/>
+    <taggedValue xmi:id="_OJ4qkGokEe2g-JAJsVDEDg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_OJ88AGokEe2g-JAJsVDEDg" tag="Status" value=""/>
+    <taggedValue xmi:id="_OJ88AWokEe2g-JAJsVDEDg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_OJ88AmokEe2g-JAJsVDEDg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_OJ88A2okEe2g-JAJsVDEDg" tag="Description" value=""/>
+    <taggedValue xmi:id="_OJ88BGokEe2g-JAJsVDEDg" tag="Author" value=""/>
+    <taggedValue xmi:id="_OJ88BWokEe2g-JAJsVDEDg" tag="otherParameter"/>
+    <taggedValue xmi:id="_OTLJcGokEe2g-JAJsVDEDg" tag="DB ProductName" value="Redshift"/>
+    <taggedValue xmi:id="_OTLJcWokEe2g-JAJsVDEDg" tag="DB ProductVersion" value="08.00.0002"/>
+    <taggedValue xmi:id="_OTLJcmokEe2g-JAJsVDEDg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <queries xmi:id="_B0p4YG1HEe2RRexG98jSIQ">
+      <query xmi:id="_RxfIgW1HEe2RRexG98jSIQ" id="_RxfIgG1HEe2RRexG98jSIQ" comment="Selecciona todos los regristros y columnas de la tabla" label="cargasdelta - SELECT ALL" value="select cargasdelta.key, to_char(cargasdelta.value, 'YYYY-MM-DD HH24:MI:SS.MS') as value from configuracion.cargasdelta"/>
+    </queries>
+    <parameters xmi:id="_OJOjQmokEe2g-JAJsVDEDg" key="CONN_PARA_KEY_USERNAME" value="context.LICAREDSHIFT_Login"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_OelvQGokEe2g-JAJsVDEDg" name="licasa_dw" dataManager="_H_lmEG1GEe2RRexG98jSIQ">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_R-WBZGopEe2sRco_IpGnFg" name="pg_internal"/>
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_nur1EG1GEe2RRexG98jSIQ" name="configuracion"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

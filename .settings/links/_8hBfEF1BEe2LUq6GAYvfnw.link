@@ -25,6 +25,9 @@
     }, {
       "id" : "_wzbfcl1VEe2YD9aznrVLOw",
       "name" : "FileName"
+    }, {
+      "id" : "_mmTaoG2cEe2mkY_pehLLgw",
+      "name" : "S3Path"
     } ]
   } ]
 }

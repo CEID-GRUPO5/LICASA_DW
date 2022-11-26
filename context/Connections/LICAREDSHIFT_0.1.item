@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_JJkyYGokEe2g-JAJsVDEDg" confirmationNeeded="false" name="Default">
-  <contextParameter xmi:id="_JJkyYWokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:D0/WKH8rsk900qa/B5732XtFByjI60LWC7/aW4F/EqvlM83IgDWPWJnHVQ=="/>
+  <contextParameter xmi:id="_JJkyYWokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:tL+XyxNN8+zlliBkV1NyUxQRdFV3aNlkeU5Cq+CDLBf8f39PLWLW9ngKjA=="/>
   <contextParameter xmi:id="_JJkyYmokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="licauser"/>
   <contextParameter xmi:id="_JJkyY2okEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="licasa_dw"/>
   <contextParameter xmi:id="_JJkyZGokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com"/>
   <contextParameter xmi:id="_JJkyZWokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
-  <contextParameter xmi:id="_JJkyZmokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_JJkyZmokEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="licasa"/>
   <contextParameter xmi:id="_JJkyZ2okEe2g-JAJsVDEDg" comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5439"/>
-  <contextParameter xmi:id="_gMvWkGolEe2g-JAJsVDEDg" comment="" name="DELTA_ACTUAL" prompt="DELTA_ACTUAL?" promptNeeded="false" repositoryContextId="built-in" type="id_Date" value=""/>
+  <contextParameter xmi:id="_b-6bQG1GEe2RRexG98jSIQ" comment="" name="LICAREDSHIFT_Schema_Configuracion" prompt="LICAREDSHIFT_Schema_Configuracion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="configuracion"/>
 </talendfile:ContextType>

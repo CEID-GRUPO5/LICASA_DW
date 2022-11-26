@@ -1,0 +1,32 @@
+{
+  "itemId" : "_3wjnMGoaEe2g-JAJsVDEDg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_JJZMMGokEe2g-JAJsVDEDg",
+    "parameterList" : [ {
+      "id" : "_JJkyYWokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Password"
+    }, {
+      "id" : "_JJkyYmokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Login"
+    }, {
+      "id" : "_JJkyY2okEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Database"
+    }, {
+      "id" : "_JJkyZGokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Server"
+    }, {
+      "id" : "_JJkyZWokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_AdditionalParams"
+    }, {
+      "id" : "_JJkyZmokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Schema"
+    }, {
+      "id" : "_JJkyZ2okEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Port"
+    }, {
+      "id" : "_b-6bQG1GEe2RRexG98jSIQ",
+      "name" : "LICAREDSHIFT_Schema_Configuracion"
+    } ]
+  } ]
+}

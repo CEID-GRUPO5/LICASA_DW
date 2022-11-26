@@ -1,0 +1,75 @@
+{
+  "itemId" : "_ELpdIG3EEe2mkY_pehLLgw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qV55gG1HEe2RRexG98jSIQ",
+    "parameterList" : [ {
+      "id" : "_yLuYEG28Ee2mkY_pehLLgw",
+      "name" : "Delta"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_uEDNYGMOEe2DOZSW8nq6Dg",
+    "parameterList" : [ {
+      "id" : "_uEWIUGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_AdditionalParams"
+    }, {
+      "id" : "_uEVhQmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Database"
+    }, {
+      "id" : "_uEWIU2MOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Login"
+    }, {
+      "id" : "_uEWIUWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Password"
+    }, {
+      "id" : "_uEWIVGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Port"
+    }, {
+      "id" : "_uEVhQWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Schema"
+    }, {
+      "id" : "_uEWIUmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Cz-OEG1MEe2RRexG98jSIQ",
+    "parameterList" : [ {
+      "id" : "_CqI10G2-Ee2mkY_pehLLgw",
+      "name" : "NombreTabla"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "parameterList" : [ {
+      "id" : "_rZy_0GPNEe2j8O8hDcRJow",
+      "name" : "ModifiedDateFormat"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JJZMMGokEe2g-JAJsVDEDg",
+    "parameterList" : [ {
+      "id" : "_JJkyZWokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_AdditionalParams"
+    }, {
+      "id" : "_JJkyY2okEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Database"
+    }, {
+      "id" : "_JJkyYmokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Login"
+    }, {
+      "id" : "_JJkyYWokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Password"
+    }, {
+      "id" : "_JJkyZ2okEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Port"
+    }, {
+      "id" : "_b-6bQG1GEe2RRexG98jSIQ",
+      "name" : "LICAREDSHIFT_Schema_Configuracion"
+    }, {
+      "id" : "_JJkyZGokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Server"
+    } ]
+  } ]
+}
