@@ -2,5 +2,10 @@
 <talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_C0JNMG1MEe2RRexG98jSIQ" confirmationNeeded="false" name="Default">
   <contextParameter xmi:id="_C0JNMW1MEe2RRexG98jSIQ" comment="" name="ProveedorTabla" prompt="ProveedorTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROVEEDOR"/>
   <contextParameter xmi:id="_5on5YG26Ee2mkY_pehLLgw" comment="" name="VendedorTabla" prompt="VendedorTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VENDEDOR"/>
-  <contextParameter xmi:id="_CqI10G2-Ee2mkY_pehLLgw" comment="" name="NombreTabla" prompt="NombreTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  <contextParameter xmi:id="_8dxg4G7TEe2q4PETIaKj0w" comment="" name="ArticuloTabla" prompt="ArticuloTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="ARTICULO"/>
+  <contextParameter xmi:id="_8dxg4W7TEe2q4PETIaKj0w" comment="" name="ClienteTabla" prompt="ClienteTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="CLIENTE"/>
+  <contextParameter xmi:id="_8dxg4m7TEe2q4PETIaKj0w" comment="" name="BodegaTabla" prompt="BodegaTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="BODEGA"/>
+  <contextParameter xmi:id="_8dxg427TEe2q4PETIaKj0w" comment="" name="CobradorTabla" prompt="CobradorTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="COBRADOR"/>
+  <contextParameter xmi:id="_8dxg5G7TEe2q4PETIaKj0w" comment="" name="FacturaLineaTabla" prompt="FacturaLineaTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FACTURA_LINEA"/>
+  <contextParameter xmi:id="_8dxg5W7TEe2q4PETIaKj0w" comment="" name="NombreTabla" prompt="NombreTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
 </talendfile:ContextType>

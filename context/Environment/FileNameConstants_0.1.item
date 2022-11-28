@@ -12,7 +12,7 @@
   <contextParameter xmi:id="_Nr06JWMUEe2b-7T3-ll5oA" comment="" name="DimBodega" prompt="DimBodega?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimBodega"/>
   <contextParameter xmi:id="_Nr06JmMUEe2b-7T3-ll5oA" comment="" name="DimProveedor" prompt="DimProveedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DimProveedor"/>
   <contextParameter xmi:id="_Nr06J2MUEe2b-7T3-ll5oA" comment="" name="FactVentas" prompt="FactVentas?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FactVentas"/>
-  <contextParameter xmi:id="_rZy_0GPNEe2j8O8hDcRJow" comment="" name="ModifiedDateFormat" prompt="ModifiedDateFormat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyy-MM-dd HH:mm:ss"/>
+  <contextParameter xmi:id="_rZy_0GPNEe2j8O8hDcRJow" comment="" name="ModifiedDateFormat" prompt="ModifiedDateFormat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="yyyy-MM-dd HH:mm:ss.SSS"/>
   <contextParameter xmi:id="_syGKUGPfEe2j8O8hDcRJow" comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\n&quot;"/>
   <contextParameter xmi:id="_syGKUWPfEe2j8O8hDcRJow" comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,&quot;"/>
   <contextParameter xmi:id="_rNB_EGPhEe2j8O8hDcRJow" comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\&quot;"/>
