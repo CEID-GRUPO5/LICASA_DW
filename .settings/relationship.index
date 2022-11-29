@@ -12,6 +12,10 @@
     "id" : "_wzOEEF1VEe2YD9aznrVLOw",
     "version" : "Latest",
     "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
   } ]
 }, {
   "baseItem" : {
@@ -31,6 +35,104 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_DzCqsG3WEe2mkY_pehLLgw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_hwQWEG26Ee2mkY_pehLLgw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_x01kAF1TEe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "LICASA_DW:_8hBfEF1BEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "LICASA_DW:_DNcT4F4rEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "LICASA_DW:_XgLwIF4yEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "LICASA_DW:_pshysF5cEe22AcZFT5YvQA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "CommonFunctions",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "_20WB4G-REe2jBq9Nka1WkQ - ProveedorStage",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xIxmMG-REe2jBq9Nka1WkQ - ProveedorRaw",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_EFwJAGCpEe2St6VdmX8T5w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0MEDoF1fEe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_x01kAF1TEe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "PROYECCIONVUELOS:_8hBfEF1BEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_DNcT4F4rEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_XgLwIF4yEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_pshysF5cEe22AcZFT5YvQA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_atApwGCpEe2St6VdmX8T5w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
@@ -288,5 +390,60 @@
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wZ_1QGCWEe2St6VdmX8T5w",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_0MEDoF1fEe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_x01kAF1TEe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "PROYECCIONVUELOS:_8hBfEF1BEe2LUq6GAYvfnw",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_DNcT4F4rEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_XgLwIF4yEe21Ruzs5eqnyg",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "PROYECCIONVUELOS:_pshysF5cEe22AcZFT5YvQA",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "_zGIesF1REe2YD9aznrVLOw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Sp4e0GC_Ee2PFfGrnmDoxQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_zGIesF1REe2YD9aznrVLOw - CancellatioReasonCode",
+    "version" : "Latest",
+    "type" : "schema"
   } ]
 } ]

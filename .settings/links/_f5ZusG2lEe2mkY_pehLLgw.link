@@ -4,6 +4,21 @@
     "contextName" : "Default",
     "repoId" : "_qV55gG1HEe2RRexG98jSIQ",
     "parameterList" : [ {
+      "id" : "_oE4VIG7TEe2q4PETIaKj0w",
+      "name" : "ARTICULO"
+    }, {
+      "id" : "_oE3uEG7TEe2q4PETIaKj0w",
+      "name" : "BODEGA"
+    }, {
+      "id" : "_oE3uEW7TEe2q4PETIaKj0w",
+      "name" : "CLIENTE"
+    }, {
+      "id" : "_oE4VIW7TEe2q4PETIaKj0w",
+      "name" : "COBRADOR"
+    }, {
+      "id" : "_oE4VIm7TEe2q4PETIaKj0w",
+      "name" : "FACTURA_LINEA"
+    }, {
       "id" : "_qWGGwW1HEe2RRexG98jSIQ",
       "name" : "PROVEEDOR"
     }, {
@@ -14,6 +29,21 @@
     "contextName" : "Default",
     "repoId" : "_Cz-OEG1MEe2RRexG98jSIQ",
     "parameterList" : [ {
+      "id" : "_8dxg4G7TEe2q4PETIaKj0w",
+      "name" : "ArticuloTabla"
+    }, {
+      "id" : "_8dxg4m7TEe2q4PETIaKj0w",
+      "name" : "BodegaTabla"
+    }, {
+      "id" : "_8dxg4W7TEe2q4PETIaKj0w",
+      "name" : "ClienteTabla"
+    }, {
+      "id" : "_8dxg427TEe2q4PETIaKj0w",
+      "name" : "CobradorTabla"
+    }, {
+      "id" : "_8dxg5G7TEe2q4PETIaKj0w",
+      "name" : "FacturaLineaTabla"
+    }, {
       "id" : "_C0JNMW1MEe2RRexG98jSIQ",
       "name" : "ProveedorTabla"
     }, {
