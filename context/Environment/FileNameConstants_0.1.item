@@ -17,4 +17,5 @@
   <contextParameter xmi:id="_syGKUWPfEe2j8O8hDcRJow" comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;,&quot;"/>
   <contextParameter xmi:id="_rNB_EGPhEe2j8O8hDcRJow" comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\\&quot;"/>
   <contextParameter xmi:id="_rNB_EWPhEe2j8O8hDcRJow" comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;\&quot;&quot;"/>
+  <contextParameter xmi:id="_W4pjgG-gEe2jBq9Nka1WkQ" comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="*"/>
 </talendfile:ContextType>
