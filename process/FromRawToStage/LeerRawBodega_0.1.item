@@ -23,7 +23,7 @@
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_MU_UQnBgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_MU_UQ3BgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_MU_URHBgEe2tquu0ngAOCw"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:OoPb8H/CGylUYYHqztki+PU+Q4y2u1zgrCdSUK7NuPKXTHxSJg==" internalId="_MU_URXBgEe2tquu0ngAOCw"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:z04c+p+l1AdrGIp9E+78BJGRMqzl2912NRsMhKtzt7B22iTJYw==" internalId="_MU_URXBgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_MU_URnBgEe2tquu0ngAOCw"/>
   </context>
   <parameters>
@@ -68,7 +68,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:s3zuDPLOzLPU11SiTzTBD6xKbCYuWTn2tZ0NnYO1" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:3LP/+89IRTOcOEXoKFwMjww2cZzhyI+YDK9B2jdE" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -103,7 +103,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:0jlMdY0ez7+0h23hCzM00ntuKg1pjJMYOq4Kk6oJ" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UGsVymI2SvSvagI2FeHKzfPnE1Azv0A06DU7V6Fw" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -149,11 +149,13 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="RemoteSourcePath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Unprocessed+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="RemoteZone"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine+context.BodegaOutputFileName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalSourcePath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.LocalMachine+context.Unprocessed+context.LocalMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalZone"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.LocalMachine"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="FileNamePrefix"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.BodegaOutputFileName"/>
     </elementParameter>
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
