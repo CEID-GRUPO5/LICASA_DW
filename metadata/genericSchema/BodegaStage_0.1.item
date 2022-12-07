@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_wnhK0HBjEe2tquu0ngAOCw" name="repository.metadataGenericSchema" dataPackage="_wnhK0XBjEe2tquu0ngAOCw"/>
+  <TalendMetadata:GenericPackage xmi:id="_wnhK0XBjEe2tquu0ngAOCw" name="repository.metadataGenericSchema" dataManager="_wnhK0HBjEe2tquu0ngAOCw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wnhK0nBjEe2tquu0ngAOCw" id="_ey9kEHBjEe2tquu0ngAOCw" label="BodegaStage">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK03BjEe2tquu0ngAOCw" name="BodegaID" label="BodegaID" length="4" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK1HBjEe2tquu0ngAOCw" name="BodegaNombre" label="BodegaNombre" length="40" talendType="id_String" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

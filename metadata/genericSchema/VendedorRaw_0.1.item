@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_OYAHIHBbEe2MC545H857gQ" name="VendedorRaw" label="VendedorRaw" dataPackage="_xI9MYW-REe2jBq9Nka1WkQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_xI9MYW-REe2jBq9Nka1WkQ" name="repository.metadataGenericSchema" dataManager="_OYAHIHBbEe2MC545H857gQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xI9MYm-REe2jBq9Nka1WkQ" id="_8LKyEG-QEe2jBq9Nka1WkQ" label="VendedorRaw">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MY2-REe2jBq9Nka1WkQ" name="VENDEDOR" label="VENDEDOR" length="20" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MZG-REe2jBq9Nka1WkQ" name="NOMBRE" label="NOMBRE" length="150" talendType="id_String" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
