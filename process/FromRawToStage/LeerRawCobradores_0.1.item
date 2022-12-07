@@ -3,19 +3,22 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="InputLocalFile" prompt="InputLocalFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_wAi07WdkEe2jKbS9j-lKNQ"/>
     <contextParameter comment="" name="OutputLocalFile" prompt="OutputLocalFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_wAi07mdkEe2jKbS9j-lKNQ"/>
-    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_ue42AG-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_ue42AW-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_ue42Am-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_ue42A2-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_ue42BG-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_ue42BW-VEe269o_qmZCS-A"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_ue42Bm-VEe269o_qmZCS-A"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_ue42B2-VEe269o_qmZCS-A"/>
-    <contextParameter comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_wzOEEF1VEe2YD9aznrVLOw" type="id_String" value="" internalId="_ue42CG-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_ue6EIG-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_ue6EIW-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_ue6EI2-VEe269o_qmZCS-A"/>
-    <contextParameter comment="" name="CobradorOutputFileName" prompt="CobradorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Cobrador" internalId="_ue6EJG-VEe269o_qmZCS-A"/>
+    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_ZK9B8HZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_ZK9B8XZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_ZK9B8nZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_ZK9B83ZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_ZK9B9HZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_ZK9B9XZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_ZK9B9nZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_ZK9B93ZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_wzOEEF1VEe2YD9aznrVLOw" type="id_String" value="" internalId="_ZK9B-HZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_ZLAFQHZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_ZLAFQXZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_ZLAFQnZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_ZLAFQ3ZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_ZLAFRHZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_ZLAFRXZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="CobradorOutputFileName" prompt="CobradorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Cobrador" internalId="_ZLAFRnZyEe2s4rtqHtCj9w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -59,7 +62,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:2hcf6E9G00WL+gFy2OseHgwI3gZ0tgTB7WSWLRGA" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:PGtrBJFy9p+bE78VbVfrfoz83XiUqb6Hy5c3LIir" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -94,7 +97,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:W/OsO/0jsj/Qsnto4n2T4u1N8RkE+b5YVQ+gKrAz" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hcDYmsMizKSjEkA7eyyYR+5i8JNuu5IVNCDts4MG" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -275,14 +278,16 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_dq4uwHZjEe2s4rtqHtCj9w - CobradorRaw" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
@@ -293,49 +298,37 @@
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false" show="false"/>
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Cobrador"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRE"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nombre"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Cobrador"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="NOMBRE"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVO"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Nombre"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="true" length="4" name="COBRADOR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="NOMBRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ACTIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+    <metadata connector="FLOW" label="CobradorRaw" name="tFileInputDelimited_1">
+      <column comment="" key="true" length="4" name="Cobrador" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Nombre" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="true" length="4" name="COBRADOR" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="NOMBRE" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ACTIVO" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Character" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
+    <metadata connector="REJECT" label="CobradorRaw" name="REJECT">
+      <column comment="" key="true" length="4" name="Cobrador" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Nombre" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -355,21 +348,19 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stage" name="stage">
-      <column comment="" key="false" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="4" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="40" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stage">
-        <mapperTableEntries name="cobrador_id" expression="row1.COBRADOR " type="id_String"/>
-        <mapperTableEntries name="cobrador_nombre" expression="row1.NOMBRE " type="id_String"/>
+        <mapperTableEntries name="cobrador_id" expression="row1.Cobrador " type="id_String"/>
+        <mapperTableEntries name="cobrador_nombre" expression="row1.Nombre " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="COBRADOR" type="id_String" nullable="true"/>
-        <mapperTableEntries name="NOMBRE" type="id_String" nullable="true"/>
-        <mapperTableEntries name="ACTIVO" type="id_Character" nullable="true"/>
-        <mapperTableEntries name="RecordDate" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="Cobrador" type="id_String"/>
+        <mapperTableEntries name="Nombre" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -378,19 +369,21 @@
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.OutputLocalFile"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
     <elementParameter field="CHECK" name="APPEND" value="true"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_p21GMHZuEe2s4rtqHtCj9w - CobradorStage" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="SPLIT" value="false"/>
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
@@ -403,9 +396,9 @@
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="stage" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="4" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="40" usefulColumn="true"/>
+    <metadata connector="FLOW" label="CobradorStage" name="tFileOutputDelimited_1">
+      <column comment="" key="true" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
@@ -564,13 +557,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate3" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>

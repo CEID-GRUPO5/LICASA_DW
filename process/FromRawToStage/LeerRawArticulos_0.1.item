@@ -12,7 +12,7 @@
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_S3LUBnX0Ee2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_S3LUB3X0Ee2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_S3LUCHX0Ee2WQo0cOgox-w"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:05O/7qgKHVYBgdGqN89hE+FsQAFzCXm9/cVmWokdzS0=" internalId="_S3L7EHX0Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:FrYMVdNeemRw3JHWkQu1kQKTYci8TDaBARMarB9eqAc=" internalId="_S3L7EHX0Ee2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_S3L7EXX0Ee2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_S3L7EnX0Ee2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_S3L7E3X0Ee2WQo0cOgox-w"/>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:mKYWMFHoxfC81+BRs1c0Gz2dktaHfaNV5LlsBv0G" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:GvPO8iEmHMyo99aXUzgGcHTuscG89cJP0qqiuAuf" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -104,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3Y53qjxx96LppbVsWFoLJIMcn8MNu/njnct17qlV" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:oYhKrwlsmcIccIRir8ImSGnkpM6qCVYuVJQDMCld" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -281,6 +281,8 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_boaEMHZkEe2s4rtqHtCj9w - ArticuloRaw" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
@@ -303,23 +305,17 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ARTICULO"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Articulo"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPCION"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Descripcion"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_1"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_2"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_3"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TIPO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ORIGEN_CORP"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVO"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fecha_modificacion"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
@@ -329,49 +325,37 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ARTICULO"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Articulo"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESCRIPCION"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Descripcion"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_1"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_2"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLASIFICACION_3"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion_3"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TIPO"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ORIGEN_CORP"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ACTIVO"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fecha_modificacion"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="true" length="20" name="ARTICULO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="DESCRIPCION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="TIPO" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ORIGEN_CORP" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ACTIVO" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="" type="id_Date" originalLength="23" usefulColumn="true"/>
+    <metadata connector="FLOW" label="ArticuloRaw" name="tFileInputDelimited_1">
+      <column comment="" key="true" length="20" name="Articulo" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="Descripcion" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_3" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="true" length="20" name="ARTICULO" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="DESCRIPCION" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="CLASIFICACION_3" nullable="true" pattern="" precision="0" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="TIPO" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ORIGEN_CORP" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="1" name="ACTIVO" nullable="false" pattern="" precision="0" sourceType="" type="id_String" originalLength="1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="" type="id_Date" originalLength="23" usefulColumn="true"/>
+    <metadata connector="REJECT" label="ArticuloRaw" name="REJECT">
+      <column comment="" key="true" length="20" name="Articulo" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="Descripcion" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="Clasificacion_3" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -391,45 +375,42 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stage" name="stage">
-      <column comment="" key="false" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stage">
-        <mapperTableEntries name="articulo_id" expression="raw.ARTICULO " type="id_String"/>
-        <mapperTableEntries name="articulo_descripcion" expression="raw.DESCRIPCION " type="id_String"/>
+        <mapperTableEntries name="articulo_id" expression=" raw.Articulo " type="id_String"/>
+        <mapperTableEntries name="articulo_descripcion" expression="raw.Descripcion " type="id_String"/>
         <mapperTableEntries name="clasificacion1_grupo" expression="grupo.DESCRIPCION" type="id_String" nullable="true"/>
         <mapperTableEntries name="clasificacion2_subgrupo" expression="subgrupo.DESCRIPCION" type="id_String" nullable="true"/>
         <mapperTableEntries name="clasificacion3_marca" expression="marca.DESCRIPCION" type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="raw" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ARTICULO" type="id_String"/>
-        <mapperTableEntries name="DESCRIPCION" type="id_String"/>
-        <mapperTableEntries name="CLASIFICACION_1" type="id_String" nullable="true"/>
-        <mapperTableEntries name="CLASIFICACION_2" type="id_String" nullable="true"/>
-        <mapperTableEntries name="CLASIFICACION_3" type="id_String" nullable="true"/>
-        <mapperTableEntries name="TIPO" type="id_String"/>
-        <mapperTableEntries name="ORIGEN_CORP" type="id_String"/>
-        <mapperTableEntries name="ACTIVO" type="id_String"/>
-        <mapperTableEntries name="RecordDate" type="id_Date"/>
+        <mapperTableEntries name="Articulo" type="id_String"/>
+        <mapperTableEntries name="Descripcion" type="id_String"/>
+        <mapperTableEntries name="Clasificacion_1" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Clasificacion_2" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Clasificacion_3" type="id_String" nullable="true"/>
+        <mapperTableEntries name="Fecha_modificacion" type="id_Date"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="grupo" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="CLASIFICACION" expression="raw.CLASIFICACION_1 " type="id_String" operator="="/>
+        <mapperTableEntries name="CLASIFICACION" expression="raw.Clasificacion_1 " type="id_String" operator="="/>
         <mapperTableEntries name="DESCRIPCION" type="id_String"/>
         <mapperTableEntries name="AGRUPACION" type="id_Short"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="subgrupo" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="CLASIFICACION" expression="raw.CLASIFICACION_2 " type="id_String" operator="="/>
+        <mapperTableEntries name="CLASIFICACION" expression="raw.Clasificacion_2 " type="id_String" operator="="/>
         <mapperTableEntries name="DESCRIPCION" type="id_String"/>
         <mapperTableEntries name="AGRUPACION" type="id_Short"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="marca" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="CLASIFICACION" expression="raw.CLASIFICACION_3 " type="id_String" operator="="/>
+        <mapperTableEntries name="CLASIFICACION" expression="raw.Clasificacion_3 " type="id_String" operator="="/>
         <mapperTableEntries name="DESCRIPCION" type="id_String"/>
         <mapperTableEntries name="AGRUPACION" type="id_Short"/>
       </inputTables>
@@ -447,6 +428,8 @@
     <elementParameter field="CHECK" name="APPEND" value="true"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_TXDN0HZrEe2s4rtqHtCj9w - ArticuloStage" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
@@ -465,12 +448,12 @@
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="stage" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="12" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+    <metadata connector="FLOW" label="ArticuloStage" name="tFileOutputDelimited_1">
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tHashInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
@@ -635,7 +618,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KODvL4PO0T7pzdDuV4oHWml/sYEJ4sTiUKFAG6RFi/LTiLwlj5zIrj5WZeMm7Yz6L+iDwQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9GYYoLIgMBtipvqztgAPVozx4bCRSrT8KLNToGj66JU6DqRztWaUc6yYHp4l3BjS7nABlw=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;CLASIFICACION&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>

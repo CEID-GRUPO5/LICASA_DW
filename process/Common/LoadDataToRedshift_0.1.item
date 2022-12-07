@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIA55QSPEHJ7S5S3BD4" internalId="_Fsjc8HUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="ues-talend-s3" internalId="_Fsjc8XUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_Fsjc8nUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_Fsjc83UcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="h5FisQOuKKDCc+vNF0xnVivw4lh/tGaHQgHBvO8G" internalId="_Fsjc9HUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_Fsjc9XUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_FskEAnUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_FskrEHUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="lica" internalId="_FskrEXUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-testing" internalId="_FskrEnUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:27TxPnTXv1jfuX0Etk8LuxLtvkPNPPQSRzvLVAymt6RY6vqr5kMw510Faw==" internalId="_FskrE3UcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_FskrFHUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-lica-test.ciajdesjkekl.us-east-2.redshift.amazonaws.com" internalId="_FskrFnUcEe2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Schema_Staging" prompt="LICAREDSHIFT_Schema_Staging?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="staging" internalId="_QsgxIHUhEe2bm4xgxrJKuw"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Schema_Staging" prompt="LICAREDSHIFT_Schema_Staging?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="staging" internalId="_QsgxIHUhEe2bm4xgxrJKuw"/>
     <contextParameter comment="" name="NombreTabla" prompt="NombreTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_xn-VgHU1Ee2bm4xgxrJKuw"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa" internalId="_3tdo4HU8Ee2oHr02_2G8cg"/>
     <contextParameter comment="" name="Campos" prompt="Campos?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_w_LwkHXMEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="IdTabla" prompt="IdTabla?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_w_LwkXXMEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="QueryInsert" prompt="QueryInsert?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ztW8IHXOEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="QueryUpdate" prompt="QueryUpdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ztW8IXXOEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="FileNamePrefix" prompt="FileNamePrefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_-AEDkHXlEe226L-Vkd9oFA"/>
+    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIAZB3DXVKZDFXZYTHT" internalId="_sN2OoHZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="lica.datalake" internalId="_sN2OoXZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_sN2OonZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_sN2Oo3ZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="m1R49jSHK6dRThfnYwofJ9HEuUtsf+L2+keoYWeY" internalId="_sN2OpHZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_sN2OpXZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_sN2OpnZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_sN2Op3ZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_sN2OqHZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa_dw" internalId="_sN2OqXZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_sN2OqnZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:fTx3M3dlHaHEk62gtsunGkynT25AnBxagFM40QYxpHdHlJ0lqXoFRhjh6A==" internalId="_sN2Oq3ZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_sN2OrHZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa" internalId="_sN2OrXZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com" internalId="_sN2OrnZzEe2s4rtqHtCj9w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -65,7 +66,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:wR8rbEInmSI5Bwm9tgcWe6guY+iriegm7EVQIK7W" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:tBfNPvHVR20HFsv2hmOVNNsJZ7V03sfbA1tot7yP" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -100,7 +101,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GIvAi7477weNWFwWmg1Fw1PyhdeFVYA+RSFPKBRJ" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LN/iabEg55134CYQNB3jUlbPqDlVB1jjzmHYbSnJ" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -131,12 +132,11 @@
   </parameters>
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3Connection_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS"/>
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="  context.AccessKey"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:FfgupKS9/nHOYd16E9iaA0ZibFcbeLnSR+C4HNPYZ7ckfFOca56H9vTDvAq3"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:2+S5Bo4k60Vn1P194HtY4/x3nbD5xgphlDMqJpDAq07bdJLFUMHuNmwPVGuL"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -147,8 +147,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" value="AES" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" value="RSA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" value="BASE64" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:yBOowtmdP4uFxlIPUW6iashgNtLny+LJ4CZ0EkPZ" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:k9reobsDD3aHwwgKOSoYPaefqGXfCWK8rV4BiH7B" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:D6fxwyLbAfsDE3Fhgu3L9p2+AyKCvQXAvfeZkSGA" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:ao4MNO3JOg7vElA2bAo4xK0k58MxI3h1XDOw/mc2" show="false"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
@@ -181,7 +181,6 @@
   </node>
   <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
@@ -190,7 +189,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:WzFse3wQxgcEVuo+Xk/ngzIG5QYRhHgE1Ji1wAPk" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fK1QX59YfktSf18X+Jr6SLybhLxuYI4JdEWA9zLg" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -214,36 +213,31 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRedshiftCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="96">
+  <node componentName="tRedshiftCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBCommit_2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBCommit_2"/>
   </node>
-  <node componentName="tRedshiftRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="288">
+  <node componentName="tRedshiftRollback" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRollback_2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="CHECK" name="CLOSE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBRollback_2"/>
   </node>
-  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="352">
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="0" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tRedshiftClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="352">
+  <node componentName="tRedshiftClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="864" posY="192">
+  <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="800" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_3" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
@@ -252,7 +246,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TyW7k0m6jU8RJQkAm01J9TztVqVIct+HRjX4lV+Y" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DdiADKghgJ8ypTwEyEBj1UDSyRC21yNe6RvEObHe" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dimcobrador&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -277,7 +271,6 @@
   </node>
   <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBRow_2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_2"/>
     <elementParameter field="TEXT" name="HOST" value="&quot;&quot;" show="false"/>
@@ -286,7 +279,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:OgHVaQlJ4ywi5lxxoThWlv5mUnyWiCnlHNGu3WfM" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:T1OordvT5OZg+HAM73qHuvziHN4NJRvDsyzfOHTK" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -320,7 +313,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LICAREDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema_Staging"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:y9tDHXiC70QP3E6wg1AhugmClsbKK38XQ7OXMdR0rN9hjgwiH4qaXw5hvtkDpYaNoJ0Z8moe4BGk"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FXvRksehhs+w1Ia8frOfJf4TFuNxqvDz+l26dD2iE8Ux6flDrXI4UufmxGCu/kuWzLsBnNB0sk34"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -335,14 +328,13 @@
   </node>
   <node componentName="tS3List" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tS3List_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tS3Connection_1"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS" show="false"/>
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:cF4r5i1dc6BF9rlOkOjDpv7DrDIHMFlLnNcwj8lL" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:yoCl4rcHXCjROgV+3Wxpy93ZU6tK1HODqpDONw9D" show="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -374,7 +366,6 @@
   </node>
   <node componentName="tRedshiftBulkExec" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBBulkExec_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_3wjnMGoaEe2g-JAJsVDEDg" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
@@ -385,7 +376,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="REDSHIFT" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:79D2znYsYdJYqpO4+Pwgsj/cD+KuKVaF0sXVs+E3E+DpnYn+tklRPJvkRlnj19mbFvYt3CLOEqHy" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M8QUC7c2dgDgSdmNFjsOPYog0DEbx0HX2uT3zAt1pzZhwaotWfcG5rjGzX+I6zD0NxAxV7wTLNSw" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
@@ -395,33 +386,33 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_S3" value="tS3Connection_1"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:4l2meGZRvggmBaKiCDCtyE4N8LImUtfqNpaP7TMA" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:I/nstWRVkNTYQgQyi0JQ5WjvJW6BRAKVFk2etypI" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="context.BuketName"/>
     <elementParameter field="TEXT" name="KEY" value="((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;))"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_EMR" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_EMR" value="enc:system.encryption.key.v1:0/SkJLUm4REGdTJRqXhGDsQltf86ZBeics/p2yTX" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_EMR" value="enc:system.encryption.key.v1:6bG9MVLBo+9PZkqCbtcsKXI9IUW5fDI9tqZy12yA" show="false"/>
     <elementParameter field="TEXT" name="EMR_CLUSTER_ID" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="HDFS_FILEPATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_DYNAMODB" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_DYNAMODB" value="enc:system.encryption.key.v1:kvVXgvGkgkt/Wm4VYpdzG0lVuQZ9Y3o7YyuqgkIg" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_DYNAMODB" value="enc:system.encryption.key.v1:VOtm9GP7b2nCpkRyUjG6BYOjXTwm0xcBelQX8bRm" show="false"/>
     <elementParameter field="TEXT" name="TABLENAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="READRATIO" value="50" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_SSH" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_SSH" value="enc:system.encryption.key.v1:/yM3YZhBz6KRRS8VYqMqWg97tOFlqqatZUeIbjNL" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_SSH" value="enc:system.encryption.key.v1:nAcuZr4iD7dUxSh7NXvJCJwrn2Ok9r7XSEHYM5ZD" show="false"/>
     <elementParameter field="TEXT" name="BUCKET_SSH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="KEY_SSH" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
     <elementParameter field="TABLE" name="ROLE_TABLE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORT_TYPE" value="DELIMITED_OR_CSV"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="','"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
     <elementParameter field="OPENED_LIST" name="TEXT_ENCLOSURE" value="EMPTY"/>
     <elementParameter field="TEXT" name="JSON_MAPPING" value="&quot;s3://jsonpaths_file&quot;" show="false"/>
     <elementParameter field="TEXT" name="FIXEDWIDTH_MAPPING" value="&quot;column1:8,column2:64&quot;" show="false"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="COMPRESSION" value="GZIP" show="false"/>
     <elementParameter field="CHECK" name="ENCRYPT" value="false" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY" value="enc:system.encryption.key.v1:N6nBIDWOtMsSOZsQKAIaFSN8HZfPMzFBm5F+9z0I" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="ENCODING" value="&quot;UTF8&quot;"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY" value="enc:system.encryption.key.v1:XBgw3+nSVr/KFRDA9JFGevm3FG+pYjRMOVjoh+d/" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="ENCODING" value="&quot;UTF16&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATEFORMAT" value="NONE"/>
     <elementParameter field="TEXT" name="DATE_PATTERN" value="&quot;YYYY-MM-DD&quot;" show="false"/>
     <elementParameter field="CLOSED_LIST" name="TIMEFORMAT" value="NONE"/>
@@ -430,8 +421,6 @@
     <elementParameter field="TABLE" name="OTHER_CONFIGURATION">
       <elementValue elementRef="OTHER_PARAMETER" value="IGNOREHEADER"/>
       <elementValue elementRef="DATA_VALUE" value="1"/>
-      <elementValue elementRef="OTHER_PARAMETER" value="ESCAPE"/>
-      <elementValue elementRef="DATA_VALUE" value=""/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Copiar archivos desde S3"/>
@@ -446,31 +435,25 @@
     <metadata connector="FLOW" name="tJava_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tS3Connection_1" offsetLabelX="0" offsetLabelY="0" source="tS3Connection_1" target="tS3List_1">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk6" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_1" offsetLabelX="0" offsetLabelY="0" source="tDBRow_1" target="tDBRow_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk3" show="false"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tDBCommit_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tDBRow_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_ERROR" label="OnSubjobError" lineStyle="4" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tDBRollback_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobError2" show="false"/>
   </connection>
-  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tDBRow_3">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk4" show="false"/>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tDBRow_2" offsetLabelX="0" offsetLabelY="0" source="tDBRow_2" target="tDBCommit_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBConnection_2" offsetLabelX="0" offsetLabelY="0" source="tDBConnection_2" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk7" show="false"/>
@@ -478,11 +461,9 @@
   <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tS3List_1" offsetLabelX="0" offsetLabelY="0" source="tS3List_1" target="tDBBulkExec_1">
     <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
     <elementParameter field="TEXT" name="NUMBER_PARALLEL" value="2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate1" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tDBBulkExec_1" offsetLabelX="0" offsetLabelY="0" source="tDBBulkExec_1" target="tDBRow_1">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk5" show="false"/>
   </connection>
   <subjob>
