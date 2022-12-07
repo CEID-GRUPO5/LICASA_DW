@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="ARTICULO" prompt="ARTICULO?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_EihaMG9zEe28t8F4rSr0mg"/>
+    <contextParameter comment="" name="COBRADOR" prompt="COBRADOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_EihaMW9zEe28t8F4rSr0mg"/>
     <contextParameter comment="" name="BODEGA" prompt="BODEGA?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEG-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="CLIENTE" prompt="CLIENTE?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEW-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="PROVEEDOR" prompt="PROVEEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEm-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="VENDEDOR" prompt="VENDEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVE2-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="ArticuloTabla" prompt="ArticuloTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="ARTICULO" internalId="_EihaNG9zEe28t8F4rSr0mg"/>
+    <contextParameter comment="" name="CobradorTabla" prompt="CobradorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="COBRADOR" internalId="_EihaNW9zEe28t8F4rSr0mg"/>
     <contextParameter comment="" name="BodegaTabla" prompt="BodegaTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="BODEGA" internalId="_wkqVFG-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="ClienteTabla" prompt="ClienteTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="CLIENTE" internalId="_wkqVFW-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="ProveedorTabla" prompt="ProveedorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="PROVEEDOR" internalId="_wkqVFm-oEe2RG4YmmXOOfg"/>
@@ -12,14 +16,14 @@
     <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_wkqVGG-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa_dw" internalId="_wkqVGW-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_wkqVGm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:x7werFtvRUHtF+FaKMkqu+EqMDXTlxRCsxAtOXLxfrl+HRIwcPc7Yg8tug==" internalId="_wkqVG2-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:SwHwPagtDZjml8a1gYY96fI0qiw0prNRex7hVKqqz8JyMuYke0dxDR20rQ==" internalId="_wkqVG2-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_wkqVHG-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Schema_Configuracion" prompt="LICAREDSHIFT_Schema_Configuracion?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="configuracion" internalId="_wkqVHW-oEe2RG4YmmXOOfg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com" internalId="_wkqVHm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Bodega" internalId="_wkqVH2-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ClienteOutputFileName" prompt="ClienteOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Cliente" internalId="_wkqVIG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Proveedor" internalId="_wkqVIW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="VendedorOutputFileName" prompt="VendedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Vendedor" internalId="_wkqVIm-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Bodega" internalId="_wkqVH2-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="ClienteOutputFileName" prompt="ClienteOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Cliente" internalId="_wkqVIG-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Proveedor" internalId="_wkqVIW-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="VendedorOutputFileName" prompt="VendedorOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Vendedor" internalId="_wkqVIm-oEe2RG4YmmXOOfg"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -63,7 +67,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:Odj29JRNJWJ+l0Q1hjEJiipe3TCMuoSC/P1r61cj" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:LUoJDetDtHC/QCeVuTgWuImnoCPCPuvQu/RLQlNs" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -98,7 +102,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Cn+Jx3A+TdEIfEzeVMu9rny4D5jVtNJqMtUALcJK" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xknbx4s7WXcZCnswXjyDJ/xXfPzj7jNG7QLiWRxa" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -143,12 +147,12 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LICAREDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema_Configuracion"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M2svraQzElTqhdVH7blD5Hrx3nxVFWG0f8SG7tDrV9wMNx4PuaIvU/4E4DB8rZUe0/4+mWtRNF/c"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UZb9NMfEMrEYd+l5Mr2Am4W8mecfNnqrKPxcoZ40ejBV1JGWf7rXQ7hpG1fQU1XgHXcr3tMLOvQn"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;cargasdelta&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="_H-3NUG1GEe2RRexG98jSIQ - cargasdelta - SELECT ALL" show="false"/>
-    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
     <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select cargasdelta.key, to_char(cargasdelta.value, 'YYYY-MM-DD HH24:MI:SS.MS') as value from configuracion.cargasdelta&quot;"/>
     <elementParameter field="MAPPING_TYPE" name="MAPPING" value="redshift_id" show="false"/>
@@ -226,9 +230,8 @@
       <column defaultValue="" key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_1" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LeerProveedores"/>
@@ -261,9 +264,8 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_1"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_2" show="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
     <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LeerVendedores"/>
@@ -296,7 +298,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_2"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="192">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -330,7 +332,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_3"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="192">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -364,6 +366,70 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_4"/>
   </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LeerArticulos"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="LICASA_DW:_6UIjEHAAEe2nTIc5qLeWgg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Delta"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.ARTICULO"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="NombreTabla"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.ArticuloTabla"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_5"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LeerCobradores"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="LICASA_DW:_UuY-4GPNEe2wRdn8F3i-YQ"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Delta"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.COBRADOR"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="NombreTabla"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.CobradorTabla"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_6"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
@@ -376,15 +442,19 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row3" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
-    <elementParameter field="CHECK" name="ACTIVATE" value="false" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk2" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tRunJob_4">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk3" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_4" offsetLabelX="0" offsetLabelY="0" source="tRunJob_4" target="tRunJob_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk5" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_5" offsetLabelX="0" offsetLabelY="0" source="tRunJob_5" target="tRunJob_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -414,6 +484,16 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_4" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_5" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
