@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_d5Qq8HYAEe2WQo0cOgox-w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_CTo9UHYBEe2WQo0cOgox-w" comment="" name="campos_proveedor" prompt="campos_proveedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="proveedor_id, proveedor_nombre"/>
+  <contextParameter xmi:id="_CTo9UXYBEe2WQo0cOgox-w" comment="" name="campos_vendedor" prompt="campos_vendedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vendedor_id, vendedor_nombre"/>
+  <contextParameter xmi:id="_CTo9UnYBEe2WQo0cOgox-w" comment="" name="campos_articulo" prompt="campos_articulo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="articulo_id, articulo_descripcion, clasificacion1_grupo, clasificacion2_subgrupo, clasificacion3_marca"/>
+  <contextParameter xmi:id="_CTo9U3YBEe2WQo0cOgox-w" comment="" name="campos_bodega" prompt="campos_bodega?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="bodega_id, bodega_nombre"/>
+  <contextParameter xmi:id="_CTo9VHYBEe2WQo0cOgox-w" comment="" name="campos_cobrador" prompt="campos_cobrador?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="cobrador_id, cobrador_nombre"/>
+  <contextParameter xmi:id="_CTo9VXYBEe2WQo0cOgox-w" comment="" name="campos_cliente" prompt="campos_cliente?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="cliente_id, cliente_nombre, cliente_categoria, cliente_zona"/>
+  <contextParameter xmi:id="_CTo9VnYBEe2WQo0cOgox-w" comment="" name="campos_fact_ventas" prompt="campos_fact_ventas?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>
