@@ -6,4 +6,5 @@
   <contextParameter xmi:id="_3BSNUW9zEe28t8F4rSr0mg" comment="" name="ArticuloOutputFileName" prompt="ArticuloOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Articulo"/>
   <contextParameter xmi:id="_WxTEsG-oEe2RG4YmmXOOfg" comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Bodega"/>
   <contextParameter xmi:id="_WxTEsW-oEe2RG4YmmXOOfg" comment="" name="ClienteOutputFileName" prompt="ClienteOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Cliente"/>
+  <contextParameter xmi:id="_UqRJYHaQEe2QO-17MY0PQg" comment="" name="Factura_LineaOutputFileName" prompt="Factura_LineaOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="FacturaLinea"/>
 </talendfile:ContextType>

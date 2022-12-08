@@ -1,29 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="ARTICULO" prompt="ARTICULO?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_EihaMG9zEe28t8F4rSr0mg"/>
-    <contextParameter comment="" name="COBRADOR" prompt="COBRADOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_EihaMW9zEe28t8F4rSr0mg"/>
-    <contextParameter comment="" name="BODEGA" prompt="BODEGA?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="CLIENTE" prompt="CLIENTE?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="PROVEEDOR" prompt="PROVEEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVEm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="VENDEDOR" prompt="VENDEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_wkqVE2-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ArticuloTabla" prompt="ArticuloTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="ARTICULO" internalId="_EihaNG9zEe28t8F4rSr0mg"/>
-    <contextParameter comment="" name="CobradorTabla" prompt="CobradorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="COBRADOR" internalId="_EihaNW9zEe28t8F4rSr0mg"/>
-    <contextParameter comment="" name="BodegaTabla" prompt="BodegaTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="BODEGA" internalId="_wkqVFG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ClienteTabla" prompt="ClienteTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="CLIENTE" internalId="_wkqVFW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ProveedorTabla" prompt="ProveedorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="PROVEEDOR" internalId="_wkqVFm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="VendedorTabla" prompt="VendedorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="VENDEDOR" internalId="_wkqVF2-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_wkqVGG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa_dw" internalId="_wkqVGW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_wkqVGm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:SwHwPagtDZjml8a1gYY96fI0qiw0prNRex7hVKqqz8JyMuYke0dxDR20rQ==" internalId="_wkqVG2-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_wkqVHG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Schema_Configuracion" prompt="LICAREDSHIFT_Schema_Configuracion?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="configuracion" internalId="_wkqVHW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com" internalId="_wkqVHm-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Bodega" internalId="_wkqVH2-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ClienteOutputFileName" prompt="ClienteOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Cliente" internalId="_wkqVIG-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Proveedor" internalId="_wkqVIW-oEe2RG4YmmXOOfg"/>
-    <contextParameter comment="" name="VendedorOutputFileName" prompt="VendedorOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Vendedor" internalId="_wkqVIm-oEe2RG4YmmXOOfg"/>
+    <contextParameter comment="" name="ARTICULO" prompt="ARTICULO?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YIHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="BODEGA" prompt="BODEGA?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YIXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="CLIENTE" prompt="CLIENTE?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YInajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="COBRADOR" prompt="COBRADOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YI3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="FACTURA_LINEA" prompt="FACTURA_LINEA?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YJHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="PROVEEDOR" prompt="PROVEEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YJXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="VENDEDOR" prompt="VENDEDOR?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_5A1YJnajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ArticuloTabla" prompt="ArticuloTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="ARTICULO" internalId="_5A1YJ3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="BodegaTabla" prompt="BodegaTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="BODEGA" internalId="_5A1YKHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ClienteTabla" prompt="ClienteTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="CLIENTE" internalId="_5A1YKXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="CobradorTabla" prompt="CobradorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="COBRADOR" internalId="_5A1YKnajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="FacturaLineaTabla" prompt="FacturaLineaTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="FACTURA_LINEA" internalId="_5A1YK3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ProveedorTabla" prompt="ProveedorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="PROVEEDOR" internalId="_5A1YLHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="VendedorTabla" prompt="VendedorTabla?" promptNeeded="false" repositoryContextId="_Cz-OEG1MEe2RRexG98jSIQ" type="id_String" value="VENDEDOR" internalId="_5A1YLXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_5A1YLnajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa_dw" internalId="_5A1YL3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_5A1YMHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:MvsiluVbD9OKyu8u6SbAz0Vfiz9XEMkO63eEtRTfmBUcY2SXlUtGvo6naA==" internalId="_5A1_MHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_5A1_MXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Schema_Configuracion" prompt="LICAREDSHIFT_Schema_Configuracion?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="configuracion" internalId="_5A1_MnajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com" internalId="_5A1_M3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ArticuloOutputFileName" prompt="ArticuloOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Articulo" internalId="_5A1_NHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Bodega" internalId="_5A1_NXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ClienteOutputFileName" prompt="ClienteOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Cliente" internalId="_5A1_NnajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="CobradorOutputFileName" prompt="CobradorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Cobrador" internalId="_5A1_N3ajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="Factura_LineaOutputFileName" prompt="Factura_LineaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="FacturaLinea" internalId="_5A1_OHajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Proveedor" internalId="_5A1_OXajEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="VendedorOutputFileName" prompt="VendedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Vendedor" internalId="_5A1_OnajEe27wtOC9i64DA"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -67,7 +72,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:LUoJDetDtHC/QCeVuTgWuImnoCPCPuvQu/RLQlNs" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:/tCx4mugbFTO2CuSxubhO0gOXo1uhDT6AeJsI4a/" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -102,7 +107,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xknbx4s7WXcZCnswXjyDJ/xXfPzj7jNG7QLiWRxa" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bvS5+oTotqEpgIFSFeac05xY6+DRW//cQn//HmAZ" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -147,7 +152,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LICAREDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema_Configuracion"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UZb9NMfEMrEYd+l5Mr2Am4W8mecfNnqrKPxcoZ40ejBV1JGWf7rXQ7hpG1fQU1XgHXcr3tMLOvQn"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kOm7mWfQ1DvmjhYTVwElXNR53vHJIFQrXU7mndchCdlRDJnkCT9hsN9Ig0kdD62DMDQwybV0B4nU"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;cargasdelta&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -430,6 +435,40 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_6"/>
   </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LeerFacturaLinea"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="LICASA_DW:_X1VCUHXvEe2XO4Q6dndEhg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" value="Default" show="false"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="Delta"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FACTURA_LINEA"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="NombreTabla"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.FacturaLineaTabla"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="FileName"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Factura_LineaOutputFileName"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" value="true" show="false"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" value="false" show="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" value="&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" value="false" show="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" value="&quot;&quot;" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_7"/>
+  </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBInput_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>
   </connection>
@@ -455,6 +494,9 @@
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_5" offsetLabelX="0" offsetLabelY="0" source="tRunJob_5" target="tRunJob_6">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk4" show="false"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_6" offsetLabelX="0" offsetLabelY="0" source="tRunJob_6" target="tRunJob_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnSubjobOk7" show="false"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
@@ -494,6 +536,11 @@
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_6" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_7" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
