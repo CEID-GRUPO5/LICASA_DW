@@ -3,20 +3,24 @@
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="InputLocalFile" prompt="InputLocalFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_wAi07WdkEe2jKbS9j-lKNQ"/>
     <contextParameter comment="" name="OutputLocalFile" prompt="OutputLocalFile?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_wAi07mdkEe2jKbS9j-lKNQ"/>
-    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_-tHB8HBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_-tHB8XBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_-tHB8nBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_-tHB83BiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_-tHB9HBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_-tHB9XBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_-tHB9nBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_-tHB93BiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_wzOEEF1VEe2YD9aznrVLOw" type="id_String" value="" internalId="_-tHB-HBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_-tHB-XBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_-tHB-nBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="DimArticulo" prompt="DimArticulo?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="DimArticulo" internalId="_-tHB-3BiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_-tHB_HBiEe2nTIc5qLeWgg"/>
-    <contextParameter comment="" name="ArticuloOutputFileName" prompt="ArticuloOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Articulo" internalId="_-tHB_XBiEe2nTIc5qLeWgg"/>
+    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_14FDQHX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_14FDQXX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_14FDQnX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_14FDQ3X6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_14FDRHX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_14FDRXX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_14FDRnX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_14FDR3X6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_wzOEEF1VEe2YD9aznrVLOw" type="id_String" value="" internalId="_14FDSHX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_14FDSXX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_14FDSnX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="DimArticulo" prompt="DimArticulo?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="DimArticulo" internalId="_14FDS3X6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_14FDTHX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_14FDTXX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\n&quot;" internalId="_14FDTnX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_14FDT3X6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_14FDUHX6Ee2WQo0cOgox-w"/>
+    <contextParameter comment="" name="ArticuloOutputFileName" prompt="ArticuloOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Articulo" internalId="_14FDUXX6Ee2WQo0cOgox-w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -60,7 +64,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:ui4xb/7b0m/WOXYRhlWMZtbAS4cK+ZUAvwHMv/DI" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:TU2yQztq1tj3YRsS9H0hatD4QZTpVYXQp9aal/l+" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -95,7 +99,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RMSW3WaAIiVsUFbIdmWvyQlU6jkIbVt1KVxxJz/+" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DY8u3d0mLaRjUNkW4EFTJddKhNl1s8/wdCMES5U/" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -276,14 +280,16 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_TXDN0HZrEe2s4rtqHtCj9w - ArticuloStage" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="TEXT" name="HEADER" value="1"/>
     <elementParameter field="TEXT" name="FOOTER" value="0"/>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
@@ -294,55 +300,55 @@
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false" show="false"/>
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ArticuloID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="articulo_id"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ArticuloDescripcion"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="articulo_descripcion"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion1Grupo"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion1_grupo"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion2SubGrupo"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion2_subgrupo"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion3Marca"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion3_marca"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ArticuloID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="articulo_id"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ArticuloDescripcion"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="articulo_descripcion"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion1Grupo"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion1_grupo"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion2SubGrupo"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion2_subgrupo"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Clasificacion3Marca"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="clasificacion3_marca"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1">
-      <column comment="" key="true" length="-1" name="ArticuloID" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ArticuloDescripcion" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion1Grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion2SubGrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion3Marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="FLOW" label="ArticuloStage" name="tFileInputDelimited_1">
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
-    <metadata connector="REJECT" label="metadata" name="REJECT">
-      <column comment="" key="true" length="-1" name="ArticuloID" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="ArticuloDescripcion" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion1Grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion2SubGrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion3Marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+    <metadata connector="REJECT" label="ArticuloStage" name="REJECT">
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -362,28 +368,28 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stage" name="stage">
-      <column comment="" key="false" length="-1" name="CobradorID" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="CobradorNombre" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion1Grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion2SubGrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion3Marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stage">
-        <mapperTableEntries name="CobradorID" expression="row1.ArticuloID " type="id_String"/>
-        <mapperTableEntries name="CobradorNombre" expression="row1.ArticuloDescripcion " type="id_String"/>
-        <mapperTableEntries name="Clasificacion1Grupo" expression="row1.Clasificacion1Grupo .length() == 0 ? &quot;No aplica&quot; : row1.Clasificacion1Grupo" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Clasificacion2SubGrupo" expression="row1.Clasificacion2SubGrupo.length() == 0 ? &quot;No aplica&quot; : row1.Clasificacion2SubGrupo " type="id_String" nullable="true"/>
-        <mapperTableEntries name="Clasificacion3Marca" expression="row1.Clasificacion3Marca.length() == 0 ? &quot;No aplica&quot; : row1.Clasificacion3Marca " type="id_String" nullable="true"/>
+        <mapperTableEntries name="articulo_id" expression="row1.articulo_id " type="id_String"/>
+        <mapperTableEntries name="articulo_descripcion" expression="row1.articulo_descripcion " type="id_String"/>
+        <mapperTableEntries name="clasificacion1_grupo" expression="row1.clasificacion1_grupo .length() == 0 ? &quot;No aplica&quot; : row1.clasificacion1_grupo" type="id_String" nullable="true"/>
+        <mapperTableEntries name="clasificacion2_subgrupo" expression="row1.clasificacion2_subgrupo.length() == 0 ? &quot;No aplica&quot; : row1.clasificacion2_subgrupo " type="id_String" nullable="true"/>
+        <mapperTableEntries name="clasificacion3_marca" expression="row1.clasificacion3_marca.length() == 0 ? &quot;No aplica&quot; : row1.clasificacion3_marca " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ArticuloID" type="id_String"/>
-        <mapperTableEntries name="ArticuloDescripcion" type="id_String"/>
-        <mapperTableEntries name="Clasificacion1Grupo" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Clasificacion2SubGrupo" type="id_String" nullable="true"/>
-        <mapperTableEntries name="Clasificacion3Marca" type="id_String" nullable="true"/>
+        <mapperTableEntries name="articulo_id" type="id_String"/>
+        <mapperTableEntries name="articulo_descripcion" type="id_String"/>
+        <mapperTableEntries name="clasificacion1_grupo" type="id_String" nullable="true"/>
+        <mapperTableEntries name="clasificacion2_subgrupo" type="id_String" nullable="true"/>
+        <mapperTableEntries name="clasificacion3_marca" type="id_String" nullable="true"/>
       </inputTables>
     </nodeData>
   </node>
@@ -392,19 +398,19 @@
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
     <elementParameter field="FILE" name="FILENAME" value="context.OutputLocalFile"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true" show="false"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
     <elementParameter field="CHECK" name="APPEND" value="true"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;" show="false"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;" show="false"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="SPLIT" value="false"/>
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
@@ -418,11 +424,11 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stage" name="tFileOutputDelimited_1">
-      <column comment="" key="false" length="-1" name="CobradorID" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="CobradorNombre" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion1Grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion2SubGrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="Clasificacion3Marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
@@ -478,7 +484,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRunJob_2"/>
   </node>
-  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="544" posY="352">
+  <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_2" show="false"/>
     <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine  + context.PPTPath + context.LocalMachine"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
@@ -501,7 +507,7 @@
     <elementParameter field="TEXT" name="LABEL" value="Listar archivos en PPT local"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="352">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="736" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -550,13 +556,16 @@
   </connection>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="Clasificacion1Grupo"/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion1_grupo"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="Clasificacion2SubGrupo"/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion2_subgrupo"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="Clasificacion3Marca"/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion3_marca"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="articulo_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -571,7 +580,22 @@
       <elementValue elementRef="TRACE_COLUMN" value="Clasificacion2SubGrupo"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="Clasificacion3Marca"/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion3_marca"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="articulo_descripcion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion2_subgrupo"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="clasificacion1_grupo"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cobrador_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="articulo_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>

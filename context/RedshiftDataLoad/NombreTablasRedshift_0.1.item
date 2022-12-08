@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_iVcX0HX_Ee2WQo0cOgox-w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_qVW0sHX_Ee2WQo0cOgox-w" comment="" name="dim_proveedor" prompt="dim_proveedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_proveedor"/>
+  <contextParameter xmi:id="_JdS9EHYAEe2WQo0cOgox-w" comment="" name="dim_vendedor" prompt="dim_vendedor?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_vendedor"/>
+  <contextParameter xmi:id="_JdS9EXYAEe2WQo0cOgox-w" comment="" name="dim_articulo" prompt="dim_articulo?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_articulo"/>
+  <contextParameter xmi:id="_JdS9EnYAEe2WQo0cOgox-w" comment="" name="dim_bodega" prompt="dim_bodega?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_bodega"/>
+  <contextParameter xmi:id="_JdS9E3YAEe2WQo0cOgox-w" comment="" name="dim_cobrador" prompt="dim_cobrador?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_cobrador"/>
+  <contextParameter xmi:id="_JdS9FHYAEe2WQo0cOgox-w" comment="" name="dim_cliente" prompt="dim_cliente?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dim_cliente"/>
+  <contextParameter xmi:id="_JdS9FXYAEe2WQo0cOgox-w" comment="" name="fact_ventas" prompt="fact_ventas?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="fact_ventas"/>
+</talendfile:ContextType>

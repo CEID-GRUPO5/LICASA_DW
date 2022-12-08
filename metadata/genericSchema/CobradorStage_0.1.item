@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_p21GMnZuEe2s4rtqHtCj9w" comment="connectionComment" label="connectionLabel" dataPackage="_p21GM3ZuEe2s4rtqHtCj9w"/>
+  <TalendMetadata:GenericPackage xmi:id="_p21GM3ZuEe2s4rtqHtCj9w" dataManager="_p21GMnZuEe2s4rtqHtCj9w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_p21GNHZuEe2s4rtqHtCj9w" id="_q_ae4HZuEe2s4rtqHtCj9w" label="CobradorStage">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p21GNXZuEe2s4rtqHtCj9w" name="cobrador_id" id="2355" label="cobrador_id" length="4" sourceType="" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_p21GNnZuEe2s4rtqHtCj9w"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p21GN3ZuEe2s4rtqHtCj9w" name="cobrador_nombre" id="2356" label="cobrador_nombre" length="40" sourceType="" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_p21GOHZuEe2s4rtqHtCj9w"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
