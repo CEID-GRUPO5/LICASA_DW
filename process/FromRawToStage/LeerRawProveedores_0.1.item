@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_5GrdoG-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_5GrdoW-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_5Grdom-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_5Grdo2-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_5GrdpG-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_5GrdpW-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_5Grdpm-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Dalton" internalId="_5Grdp2-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_5GrdqG-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_5GrdqW-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_5Grdqm-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_5Grdq2-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\n&quot;" internalId="_5GrdrG-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_5GrdrW-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="*" internalId="_5Grdrm-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_5Grdr2-hEe2jBq9Nka1WkQ"/>
-    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Proveedor" internalId="_5GrdsG-hEe2jBq9Nka1WkQ"/>
+    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_yIK5MHaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_yIK5MXaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_yIK5MnaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_yIK5M3aNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_yIK5NHaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_yIK5NXaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_yILgQHaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_yILgQXaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_yILgQnaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_yILgQ3aNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_yILgRHaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_yILgRXaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\n&quot;" internalId="_yILgRnaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_yILgR3aNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="*" internalId="_yILgSHaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_yILgSXaNEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Proveedor" internalId="_yILgSnaNEe2s4rtqHtCj9w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -61,7 +61,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:g1H9Ik8FCQIV9+CT4VphrBM2i7clFe27csoNI2ZN" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:3yA1lz1Q8awlBWtFKRTY6urFH4Gl4wPujj8E7CHv" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -96,7 +96,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a2sSmnkLb31CAPLefRk/FWdZSEIr170KfnHqZexP" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:miIQYMkTn/oYzaZV00EB0nVFOiEAMefsNOwT/0lD" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -259,15 +259,15 @@
     <elementParameter field="TEXT" name="LABEL" value="Conversion"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ProveedorStage" name="ProveedorStage">
-      <column comment="" key="true" length="20" name="ProveedorID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ProveedorNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="proveedor_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="proveedor_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="ProveedorStage">
-        <mapperTableEntries name="ProveedorID" expression="row1.Proveedor " type="id_String"/>
-        <mapperTableEntries name="ProveedorNombre" expression="row1.Nombre " type="id_String"/>
+        <mapperTableEntries name="proveedor_id" expression="row1.PROVEEDOR " type="id_String"/>
+        <mapperTableEntries name="proveedor_nombre" expression="row1.NOMBRE " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="PROVEEDOR" type="id_String"/>
@@ -309,8 +309,8 @@
     <elementParameter field="TEXT" name="LABEL" value="ProveedoresStage"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ProveedorStage" name="tFileOutputDelimited_1">
-      <column comment="" key="true" length="20" name="ProveedorID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ProveedorNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="proveedor_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="proveedor_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
@@ -514,7 +514,10 @@
       <elementValue elementRef="TRACE_COLUMN" value="ProveedorID"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
-      <elementValue elementRef="TRACE_COLUMN" value="ProveedorNombre"/>
+      <elementValue elementRef="TRACE_COLUMN" value="proveedor_nombre"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="proveedor_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
@@ -564,7 +567,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>

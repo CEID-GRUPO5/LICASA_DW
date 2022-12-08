@@ -7,8 +7,8 @@
     <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_pnynU3BdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_pnynVHBdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_pnynVXBdEe2tquu0ngAOCw"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_pnynVnBdEe2tquu0ngAOCw"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Usuario" internalId="_pnynV3BdEe2tquu0ngAOCw"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_pnynVnBdEe2tquu0ngAOCw"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_pnynV3BdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_pnzOYHBdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_pnzOYXBdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_pnzOYnBdEe2tquu0ngAOCw"/>
@@ -18,12 +18,12 @@
     <contextParameter comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="*" internalId="_pnzOZnBdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_pnzOZ3BdEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="BodegaOutputFileName" prompt="BodegaOutputFileName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Bodega" internalId="_pnzOaHBdEe2tquu0ngAOCw"/>
-    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="sa" internalId="_MU_UQHBgEe2tquu0ngAOCw"/>
-    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-SA4QGMU" internalId="_MU_UQXBgEe2tquu0ngAOCw"/>
+    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_MU_UQHBgEe2tquu0ngAOCw"/>
+    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_MU_UQXBgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_MU_UQnBgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_MU_UQ3BgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_MU_URHBgEe2tquu0ngAOCw"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:z04c+p+l1AdrGIp9E+78BJGRMqzl2912NRsMhKtzt7B22iTJYw==" internalId="_MU_URXBgEe2tquu0ngAOCw"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:sgH+bnawWaLHYOly/Nto6pzQ+pJgLkzxgAitCP14TP4=" internalId="_MU_URXBgEe2tquu0ngAOCw"/>
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_MU_URnBgEe2tquu0ngAOCw"/>
   </context>
   <parameters>
@@ -68,7 +68,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:3LP/+89IRTOcOEXoKFwMjww2cZzhyI+YDK9B2jdE" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:cILeg+sLDKRVsQxB+5Nmf3VEhKrt+5bMEp3AxIQV" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -103,7 +103,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UGsVymI2SvSvagI2FeHKzfPnE1Azv0A06DU7V6Fw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FddoMYXu5xqowak6yDS9Ut7/RsKhKP+G15POJmRy" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -196,8 +196,6 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_IOAqwGMNEe2DOZSW8nq6Dg - BODEGA" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
@@ -284,15 +282,15 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="BodegaStage" name="BodegaStage">
-      <column comment="" key="true" length="4" name="BodegaID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="BodegaNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="bodega_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="bodega_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="BodegaStage">
-        <mapperTableEntries name="BodegaID" expression="row1.BODEGA " type="id_String"/>
-        <mapperTableEntries name="BodegaNombre" expression="row1.NOMBRE " type="id_String"/>
+        <mapperTableEntries name="bodega_id" expression="row1.BODEGA " type="id_String"/>
+        <mapperTableEntries name="bodega_nombre" expression="row1.NOMBRE " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="BODEGA" type="id_String"/>
@@ -335,8 +333,8 @@
     <elementParameter field="TEXT" name="LABEL" value="BodegasStage"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="BodegaStage" name="tFileOutputDelimited_1">
-      <column comment="" key="true" length="4" name="BodegaID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="BodegaNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="4" name="bodega_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="bodega_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="128">
@@ -536,6 +534,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="BodegaStage" lineStyle="0" metaname="BodegaStage" offsetLabelX="4" offsetLabelY="8" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="bodega_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="BodegaStage" show="false"/>
   </connection>

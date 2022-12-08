@@ -8,21 +8,22 @@
     <contextParameter comment="" name="QueryInsert" prompt="QueryInsert?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ztW8IHXOEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="QueryUpdate" prompt="QueryUpdate?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_ztW8IXXOEe226L-Vkd9oFA"/>
     <contextParameter comment="" name="FileNamePrefix" prompt="FileNamePrefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_-AEDkHXlEe226L-Vkd9oFA"/>
-    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIAZB3DXVKZDFXZYTHT" internalId="_sN2OoHZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="lica.datalake" internalId="_sN2OoXZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_sN2OonZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_sN2Oo3ZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="m1R49jSHK6dRThfnYwofJ9HEuUtsf+L2+keoYWeY" internalId="_sN2OpHZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_sN2OpXZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_sN2OpnZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_sN2Op3ZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_sN2OqHZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa_dw" internalId="_sN2OqXZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_sN2OqnZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:fTx3M3dlHaHEk62gtsunGkynT25AnBxagFM40QYxpHdHlJ0lqXoFRhjh6A==" internalId="_sN2Oq3ZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_sN2OrHZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa" internalId="_sN2OrXZzEe2s4rtqHtCj9w"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa-cluster.cbzbtfsamhwu.us-east-1.redshift.amazonaws.com" internalId="_sN2OrnZzEe2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIA55QSPEHJ7S5S3BD4" internalId="__PEmYHZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="ues-talend-s3" internalId="__PEmYXZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="__PEmYnZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="__PEmY3Z_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="h5FisQOuKKDCc+vNF0xnVivw4lh/tGaHQgHBvO8G" internalId="__PEmZHZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="__PEmZXZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="__PEmZnZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="__PEmZ3Z_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="__PEmaHZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="__PEmaXZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="lica" internalId="__PEmanZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-testing" internalId="__PEma3Z_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:1j77r3q17kwxw5m2G68DdB+rW4UGDt9qkLGGIKBI8A6WtXWDvzTMdAAjgQ==" internalId="__PEmbHZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="__PEmbXZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Schema" prompt="LICAREDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licasa" internalId="__PEmbnZ_Ee2s4rtqHtCj9w"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-lica-test.ciajdesjkekl.us-east-2.redshift.amazonaws.com" internalId="__PEmb3Z_Ee2s4rtqHtCj9w"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -66,7 +67,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:tBfNPvHVR20HFsv2hmOVNNsJZ7V03sfbA1tot7yP" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:GE8aTSwZNCbXIuNat/MbQuf+DCi4WWOn0I/PwmE9" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -101,7 +102,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:LN/iabEg55134CYQNB3jUlbPqDlVB1jjzmHYbSnJ" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:rFJP2pMzZkteevXYxGL1UH3Ikx6ryk9L30N7j1/f" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -136,7 +137,7 @@
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="  context.AccessKey"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:2+S5Bo4k60Vn1P194HtY4/x3nbD5xgphlDMqJpDAq07bdJLFUMHuNmwPVGuL"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:3dbiNkJECr7HNdCUKAKPT2mQBKp806q6e4yEBNrHkUXXojBuWCaZ5e1XpZ9t"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -147,8 +148,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" value="AES" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" value="RSA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" value="BASE64" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:D6fxwyLbAfsDE3Fhgu3L9p2+AyKCvQXAvfeZkSGA" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:ao4MNO3JOg7vElA2bAo4xK0k58MxI3h1XDOw/mc2" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:rjnRntBshPRP1WWVZ/DFwtYTXzIfzaPW1cRYPXCI" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:FGFnpI0OVGK/qKN9NeQI99tXpN1EryWltTBIER7w" show="false"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
@@ -189,7 +190,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fK1QX59YfktSf18X+Jr6SLybhLxuYI4JdEWA9zLg" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:pLPQsRDc9YCG7RIxrNiADEjL9jvDslHhghay3d8z" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -246,7 +247,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DdiADKghgJ8ypTwEyEBj1UDSyRC21yNe6RvEObHe" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:aOje41gD7N79AAIx6ySaEFGMomkXXl3EhJvQwxU+" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;dimcobrador&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -279,7 +280,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="Redshift" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:T1OordvT5OZg+HAM73qHuvziHN4NJRvDsyzfOHTK" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:qpCw3OdBkiueFOyyV2dm1xODDQusf6MU7B+PX7gi" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
@@ -305,15 +306,13 @@
   </node>
   <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="128" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBConnection_2" show="false"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
-    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_EbsZMHT0Ee2bm4xgxrJKuw" show="false"/>
     <elementParameter field="TEXT" name="HOST" value="context.LICAREDSHIFT_Server"/>
     <elementParameter field="TEXT" name="TYPE" value="REDSHIFT" show="false"/>
     <elementParameter field="TEXT" name="PORT" value="context.LICAREDSHIFT_Port"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICAREDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema_Staging"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:FXvRksehhs+w1Ia8frOfJf4TFuNxqvDz+l26dD2iE8Ux6flDrXI4UufmxGCu/kuWzLsBnNB0sk34"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zrgrrlkXE+mZuzHLEgvub80d96JZ+5rgTp2RTnJutj5+Rf7DEUQqp7clRiB2L8yDs1ZktVOirLuZ"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -334,7 +333,7 @@
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:yoCl4rcHXCjROgV+3Wxpy93ZU6tK1HODqpDONw9D" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:/R5pNq9k9Lek9rHZSPtS2e9eunAZdfl+7gclZxma" show="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -376,7 +375,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema" show="false"/>
     <elementParameter field="TEXT" name="TYPE" value="REDSHIFT" show="false"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:M8QUC7c2dgDgSdmNFjsOPYog0DEbx0HX2uT3zAt1pzZhwaotWfcG5rjGzX+I6zD0NxAxV7wTLNSw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9F/FsSGtwFbq2UJ718vNFK6uYKjyRtWttCSMt5nXOS0aoH4kdNO/CHt8YaTlmFm3awCXJf7/UPHY" show="false"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="context.NombreTabla"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
@@ -386,33 +385,33 @@
     <elementParameter field="COMPONENT_LIST" name="CONNECTION_S3" value="tS3Connection_1"/>
     <elementParameter field="CLOSED_LIST" name="CREDENTIAL_PROVIDER" value="STATIC_CREDENTIALS" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:I/nstWRVkNTYQgQyi0JQ5WjvJW6BRAKVFk2etypI" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:O70WDzNahnKQ+TqC1Ij+wwb7ToEli2MubxgitH1b" show="false"/>
     <elementParameter field="TEXT" name="BUCKET" value="context.BuketName"/>
     <elementParameter field="TEXT" name="KEY" value="((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;))"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_EMR" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_EMR" value="enc:system.encryption.key.v1:6bG9MVLBo+9PZkqCbtcsKXI9IUW5fDI9tqZy12yA" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_EMR" value="enc:system.encryption.key.v1:Rd5lh6y6bMYA/GexxBVJaLxcgy+EA23AA4F4PD2Q" show="false"/>
     <elementParameter field="TEXT" name="EMR_CLUSTER_ID" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="HDFS_FILEPATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_DYNAMODB" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_DYNAMODB" value="enc:system.encryption.key.v1:VOtm9GP7b2nCpkRyUjG6BYOjXTwm0xcBelQX8bRm" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_DYNAMODB" value="enc:system.encryption.key.v1:6MzKPOuaCSu2EBnJSYU6LA2N+UjcB6t6s0xlq1rb" show="false"/>
     <elementParameter field="TEXT" name="TABLENAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="READRATIO" value="50" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY_SSH" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY_SSH" value="enc:system.encryption.key.v1:nAcuZr4iD7dUxSh7NXvJCJwrn2Ok9r7XSEHYM5ZD" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY_SSH" value="enc:system.encryption.key.v1:Ao1TJUUr6IyxGamQmw8axTT01SZ1uFDQyUyYZhZb" show="false"/>
     <elementParameter field="TEXT" name="BUCKET_SSH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="KEY_SSH" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
     <elementParameter field="TABLE" name="ROLE_TABLE" show="false"/>
     <elementParameter field="CLOSED_LIST" name="IMPORT_TYPE" value="DELIMITED_OR_CSV"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FieldSeparator"/>
-    <elementParameter field="OPENED_LIST" name="TEXT_ENCLOSURE" value="EMPTY"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="','"/>
+    <elementParameter field="OPENED_LIST" name="TEXT_ENCLOSURE" value="DOUBLE_QUOTE"/>
     <elementParameter field="TEXT" name="JSON_MAPPING" value="&quot;s3://jsonpaths_file&quot;" show="false"/>
     <elementParameter field="TEXT" name="FIXEDWIDTH_MAPPING" value="&quot;column1:8,column2:64&quot;" show="false"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false"/>
     <elementParameter field="CLOSED_LIST" name="COMPRESSION" value="GZIP" show="false"/>
     <elementParameter field="CHECK" name="ENCRYPT" value="false" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY" value="enc:system.encryption.key.v1:XBgw3+nSVr/KFRDA9JFGevm3FG+pYjRMOVjoh+d/" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="ENCODING" value="&quot;UTF16&quot;"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY" value="enc:system.encryption.key.v1:sa1iqSj0hiQeYPLUbuARvqlo9HFPnf+d9qyMXuxO" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="ENCODING" value="&quot;UTF8&quot;"/>
     <elementParameter field="CLOSED_LIST" name="DATEFORMAT" value="NONE"/>
     <elementParameter field="TEXT" name="DATE_PATTERN" value="&quot;YYYY-MM-DD&quot;" show="false"/>
     <elementParameter field="CLOSED_LIST" name="TIMEFORMAT" value="NONE"/>
@@ -421,6 +420,8 @@
     <elementParameter field="TABLE" name="OTHER_CONFIGURATION">
       <elementValue elementRef="OTHER_PARAMETER" value="IGNOREHEADER"/>
       <elementValue elementRef="DATA_VALUE" value="1"/>
+      <elementValue elementRef="OTHER_PARAMETER" value="ACCEPTINVCHARS"/>
+      <elementValue elementRef="DATA_VALUE" value=""/>
     </elementParameter>
     <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="Copiar archivos desde S3"/>

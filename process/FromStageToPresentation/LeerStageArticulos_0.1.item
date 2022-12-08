@@ -64,7 +64,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:TU2yQztq1tj3YRsS9H0hatD4QZTpVYXQp9aal/l+" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RGI/7Rv/q0NkSnBqCZGDP7P84Paq4zpoiS54oV6D" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -99,7 +99,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:DY8u3d0mLaRjUNkW4EFTJddKhNl1s8/wdCMES5U/" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:P6M9ndjbTcW8ZLRwos86bk4ipvgTfVrF27Yk5KnA" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -368,11 +368,11 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="stage" name="stage">
-      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
@@ -405,12 +405,14 @@
     <elementParameter field="CHECK" name="APPEND" value="true"/>
     <elementParameter field="CHECK" name="INCLUDEHEADER" value="true"/>
     <elementParameter field="CHECK" name="COMPRESS" value="false" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_TXDN0HZrEe2s4rtqHtCj9w - ArticuloStage" show="false"/>
     <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="SPLIT" value="false"/>
     <elementParameter field="TEXT" name="SPLIT_EVERY" value="1000" show="false"/>
@@ -423,12 +425,12 @@
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="stage" name="tFileOutputDelimited_1">
-      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="20" usefulColumn="true"/>
-      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" originalLength="254" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="12" usefulColumn="true"/>
+    <metadata connector="FLOW" label="ArticuloStage" name="tFileOutputDelimited_1">
+      <column comment="" key="true" length="20" name="articulo_id" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="254" name="articulo_descripcion" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion1_grupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion2_subgrupo" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">

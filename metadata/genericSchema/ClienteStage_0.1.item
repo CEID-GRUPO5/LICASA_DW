@@ -3,10 +3,10 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_NcgBsHRMEe2GipjZ6aK9Aw" name="repository.metadataGenericSchema" dataPackage="_NcgBsXRMEe2GipjZ6aK9Aw"/>
   <TalendMetadata:GenericPackage xmi:id="_NcgBsXRMEe2GipjZ6aK9Aw" name="repository.metadataGenericSchema" dataManager="_NcgBsHRMEe2GipjZ6aK9Aw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NcgBsnRMEe2GipjZ6aK9Aw" id="_AftbIHRMEe2GipjZ6aK9Aw" label="ClienteStage">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBs3RMEe2GipjZ6aK9Aw" name="ClienteID" label="ClienteID" length="20" talendType="id_String" key="true" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtHRMEe2GipjZ6aK9Aw" name="ClienteNombre" label="ClienteNombre" length="150" talendType="id_String" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtXRMEe2GipjZ6aK9Aw" name="ClienteCategoria" label="ClienteCategoria" length="40" talendType="id_String" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtnRMEe2GipjZ6aK9Aw" name="Zona" label="Zona" length="40" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBs3RMEe2GipjZ6aK9Aw" name="cliente_id" label="cliente_id" length="20" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtHRMEe2GipjZ6aK9Aw" name="cliente_nombre" label="cliente_nombre" length="150" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtXRMEe2GipjZ6aK9Aw" name="cliente_categoria" label="cliente_categoria" length="40" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtnRMEe2GipjZ6aK9Aw" name="cliente_zona" label="cliente_zona" length="40" talendType="id_String" nullable="false"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
