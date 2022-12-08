@@ -11,7 +11,7 @@
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_vSRRFnXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_vSRRF3XzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_vSRRGHXzEe2WQo0cOgox-w"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:c2BtrbB3RIvSWlp5DGRXAU7jRJ1P5yVuhqtV7ScoNZo=" internalId="_vSRRGXXzEe2WQo0cOgox-w"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:myh0RclDAf94UClgY7w73oP8jofxsrHNxkYEv4NIrWs=" internalId="_vSRRGXXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_vSRRGnXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_vSRRG3XzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_vSRRHHXzEe2WQo0cOgox-w"/>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:aaGqPtNCdggp51BLp4xgSjPtFgQggt2VjKm2qKj+" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:fAICh26hx4vJc3YUmrX6M2P8dyv4aEG6Qd9etulA" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -104,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iXl3xrqGZq1T3eGfHb4pIQIFXsHrOKRtcAeVPFuI" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:bg6MpadFBCdgoWzqH5M2FszCmP8LW/FMp9NVINk4" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -144,7 +144,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:noFEcQkfJty+EZyksplxeqxaHBiqO1qRqgCBGorm7M7BKu+Hb+zWzp7ic0CC+c67skm7uw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:KxLGtz3TVBQhdEUn+j2rzwWj6943Q4fne+kp+JujJsR/0LISUdtppW6BL8ukcdsKGTgAMg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICA_DB_AdditionalParams"/>
@@ -169,13 +169,13 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:3S856orzskE0oS8zh0dDYWiOaLwuP1vORxqI2vvx" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:g+hawHEF94AJXfMTS3Tdht+9JAb62pTdGhJ3Dm4s" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;ARTICULO&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.DESCRIPCION,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_2,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_3,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.TIPO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ORIGEN_CORP,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ACTIVO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO WHERE TIPO  IN ('T', 'K')&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.DESCRIPCION,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_2,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_3,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.TIPO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ORIGEN_CORP,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ACTIVO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -266,12 +266,15 @@
       <column comment="" key="false" length="40" name="Clasificacion_3" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
+      <column comment="" key="false" length="1" name="tipo" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
       <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="raw">
         <mapperTableEntries name="Articulo" expression="row1.ARTICULO" type="id_String"/>
@@ -279,6 +282,7 @@
         <mapperTableEntries name="Clasificacion_1" expression="row1.CLASIFICACION_1 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Clasificacion_2" expression="row1.CLASIFICACION_2 " type="id_String" nullable="true"/>
         <mapperTableEntries name="Clasificacion_3" expression="row1.CLASIFICACION_3 " type="id_String" nullable="true"/>
+        <mapperTableEntries name="tipo" expression="row1.TIPO " type="id_String"/>
         <mapperTableEntries name="Fecha_modificacion" expression="row1.RecordDate " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
@@ -332,6 +336,7 @@
       <column comment="" key="false" length="40" name="Clasificacion_1" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="Clasificacion_2" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="Clasificacion_3" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="tipo" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
@@ -460,7 +465,7 @@
   </connection>
   <connection connectorName="FLOW" label="raw" lineStyle="0" metaname="raw" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
-      <elementValue elementRef="TRACE_COLUMN" value="TIPO"/>
+      <elementValue elementRef="TRACE_COLUMN" value="tipo"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
       <elementValue elementRef="TRACE_COLUMN" value="CLASIFICACION_2"/>

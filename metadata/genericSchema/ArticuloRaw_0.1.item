@@ -18,6 +18,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_boaEPXZkEe2s4rtqHtCj9w" name="Clasificacion_3" id="411" label="Clasificacion_3" length="40" sourceType="VARCHAR" talendType="id_String">
         <initialValue xmi:id="_boaEPnZkEe2s4rtqHtCj9w"/>
       </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1B5ZYHbPEe2zo6yVSuvFPA" name="tipo" label="tipo" length="1" talendType="id_String"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_boaEP3ZkEe2s4rtqHtCj9w" name="Fecha_modificacion" id="415" label="Fecha_modificacion" length="-1" precision="-1" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;">
         <initialValue xmi:id="_boaEQHZkEe2s4rtqHtCj9w"/>
       </feature>
