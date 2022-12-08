@@ -3,8 +3,8 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_21q3kG-REe2jBq9Nka1WkQ" name="ProveedorStage" label="ProveedorStage" dataPackage="_xI9MYW-REe2jBq9Nka1WkQ"/>
   <TalendMetadata:GenericPackage xmi:id="_xI9MYW-REe2jBq9Nka1WkQ" name="repository.metadataGenericSchema" dataManager="_21q3kG-REe2jBq9Nka1WkQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xI9MYm-REe2jBq9Nka1WkQ" id="_8LKyEG-QEe2jBq9Nka1WkQ" label="ProveedorStage">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MY2-REe2jBq9Nka1WkQ" name="ProveedorID" label="ProveedorID" length="20" talendType="id_String" key="true" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MZG-REe2jBq9Nka1WkQ" name="ProveedorNombre" label="ProveedorNombre" length="150" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MY2-REe2jBq9Nka1WkQ" name="proveedor_id" label="proveedor_id" length="20" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MZG-REe2jBq9Nka1WkQ" name="proveedor_nombre" label="proveedor_nombre" length="150" talendType="id_String" nullable="false"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

@@ -7,8 +7,8 @@
     <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_u_h6U3BYEe2MC545H857gQ"/>
     <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_u_h6VHBYEe2MC545H857gQ"/>
     <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_u_h6VXBYEe2MC545H857gQ"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_u_ihYHBYEe2MC545H857gQ"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Dalton" internalId="_u_ihYXBYEe2MC545H857gQ"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_u_ihYHBYEe2MC545H857gQ"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_u_ihYXBYEe2MC545H857gQ"/>
     <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_u_ihYnBYEe2MC545H857gQ"/>
     <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_u_ihY3BYEe2MC545H857gQ"/>
     <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_u_ihZHBYEe2MC545H857gQ"/>
@@ -61,7 +61,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:gBBuKT8CVMRl+CUQAs/b4ffg5+qGIJD9LGNLIPLw" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:ZSMWNhanAKu/TxH3hnjpoMZMXhmt/E/nFROicteZ" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -96,7 +96,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:7yIWq9fGxGmWjzQsmheCKL6tClNst7WEUbuLD0Q3" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:01CgYptDeISTLYGi/yA+KvWO52ZqsWHOcjOaQhXv" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -259,15 +259,15 @@
     <elementParameter field="TEXT" name="LABEL" value="Conversion"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="VendedorStage" name="VendedorStage">
-      <column comment="" key="true" length="20" name="VendedorID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="VendedorNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="vendedor_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="vendedor_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="VendedorStage">
-        <mapperTableEntries name="VendedorID" expression="row1.VENDEDOR " type="id_String"/>
-        <mapperTableEntries name="VendedorNombre" expression="row1.NOMBRE " type="id_String"/>
+        <mapperTableEntries name="vendedor_id" expression="row1.VENDEDOR " type="id_String"/>
+        <mapperTableEntries name="vendedor_nombre" expression="row1.NOMBRE " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="VENDEDOR" type="id_String"/>
@@ -309,8 +309,8 @@
     <elementParameter field="TEXT" name="LABEL" value="VendedoresStage"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="VendedorStage" name="tFileOutputDelimited_1">
-      <column comment="" key="true" length="20" name="VendedorID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="VendedorNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="vendedor_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="vendedor_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="960" posY="192">
@@ -510,6 +510,11 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="VendedorStage" lineStyle="0" metaname="VendedorStage" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="vendedor_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="VendedorStage" show="false"/>
   </connection>

@@ -64,7 +64,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:NfPiqNLQLvQnJkLqT8iSb6Fls2ziaqLcm6VRK8NO" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:1RVPAXAtH4urSXyahCMN+s+k8j7pzWiPy3pvo/Di" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -99,7 +99,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:nLC7I08iRZkfC3++wLxYFMpX6WAZnCkhUgYB4f4a" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lIfg7g9i6O+UqWgw/MrGeP/ymvJ/B8CfX7kD92oo" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -138,7 +138,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.DimCobrador + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine + context.PPTPath + context.LocalMachine + context.FileName;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.DimCobrador + context.SeparadorPalabra + context.PPTPath + context.SeparadorPalabra + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine + context.PPTPath + context.LocalMachine + context.FileName;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -354,7 +354,7 @@
       <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stage">
         <mapperTableEntries name="cobrador_id" expression="row1.cobrador_id " type="id_String"/>
@@ -384,7 +384,7 @@
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="SPLIT" value="false"/>

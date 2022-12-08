@@ -3,8 +3,8 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_wnhK0HBjEe2tquu0ngAOCw" name="repository.metadataGenericSchema" dataPackage="_wnhK0XBjEe2tquu0ngAOCw"/>
   <TalendMetadata:GenericPackage xmi:id="_wnhK0XBjEe2tquu0ngAOCw" name="repository.metadataGenericSchema" dataManager="_wnhK0HBjEe2tquu0ngAOCw">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_wnhK0nBjEe2tquu0ngAOCw" id="_ey9kEHBjEe2tquu0ngAOCw" label="BodegaStage">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK03BjEe2tquu0ngAOCw" name="BodegaID" label="BodegaID" length="4" talendType="id_String" key="true" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK1HBjEe2tquu0ngAOCw" name="BodegaNombre" label="BodegaNombre" length="40" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK03BjEe2tquu0ngAOCw" name="bodega_id" label="bodega_id" length="4" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_wnhK1HBjEe2tquu0ngAOCw" name="bodega_nombre" label="bodega_nombre" length="40" talendType="id_String" nullable="false"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

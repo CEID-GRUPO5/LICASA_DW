@@ -12,13 +12,13 @@
     <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_icLcZnUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_icMDcHUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_icMDcXUXEe2aV9oFtbsavw"/>
-    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="sa" internalId="_icMDcnUXEe2aV9oFtbsavw"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:1eITofxFgaNrjYJZO+t2uPDz2yRsq6LLdLLX7tMAH14GbdpMiw==" internalId="_icMDc3UXEe2aV9oFtbsavw"/>
+    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_icMDcnUXEe2aV9oFtbsavw"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:hIMIJy8HeUMGwJO5PgZQMARHF/ISGtVZC9uINu/K6U4=" internalId="_icMDc3UXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_icMDdHUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_icMDdXUXEe2aV9oFtbsavw"/>
-    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-SA4QGMU" internalId="_icMDdnUXEe2aV9oFtbsavw"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_icMDd3UXEe2aV9oFtbsavw"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Usuario" internalId="_icMDeHUXEe2aV9oFtbsavw"/>
+    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_icMDdnUXEe2aV9oFtbsavw"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_icMDd3UXEe2aV9oFtbsavw"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_icMDeHUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_icMqgHUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_icMqgXUXEe2aV9oFtbsavw"/>
     <contextParameter comment="" name="DimCliente" prompt="DimCliente?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="DimCliente" internalId="_icMqgnUXEe2aV9oFtbsavw"/>
@@ -71,7 +71,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:XtAHSZyeshWonE9nfRunkx0RsVeKxI9fYWYU2iwM" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:nmKPcJPeC7r0ozdpNM2pDZziQw95/Pi97iBbziXX" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -106,7 +106,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:GvlDSbXfrtDERsjxihqTYeeCOXJmeNdz9yhqgm6o" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BO7seuxlKpthThvx/6VKTy0E/KD/P0bMi4zj584G" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -223,13 +223,13 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_id"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteNombre"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_nombre"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteCategoria"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_categoria"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Zona"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_zona"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
@@ -239,29 +239,29 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteID"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_id"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteNombre"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_nombre"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="ClienteCategoria"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_categoria"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Zona"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="cliente_zona"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ClienteStage" name="tFileInputDelimited_1">
-      <column comment="" key="true" length="20" name="ClienteID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ClienteNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="ClienteCategoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="Zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="cliente_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="cliente_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_categoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="ClienteStage" name="REJECT">
-      <column comment="" key="true" length="20" name="ClienteID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ClienteNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="ClienteCategoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="Zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="cliente_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="cliente_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_categoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -281,25 +281,25 @@
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ClienteStage" name="DimCliente">
-      <column comment="" key="true" length="20" name="ClienteID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ClienteNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="ClienteCategoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="Zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="cliente_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="cliente_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_categoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="DimCliente">
-        <mapperTableEntries name="ClienteID" expression="row1.ClienteID " type="id_String"/>
-        <mapperTableEntries name="ClienteNombre" expression="row1.ClienteNombre " type="id_String"/>
-        <mapperTableEntries name="ClienteCategoria" expression="row1.ClienteCategoria " type="id_String"/>
-        <mapperTableEntries name="Zona" expression="row1.Zona " type="id_String"/>
+        <mapperTableEntries name="cliente_id" expression="row1.cliente_id " type="id_String"/>
+        <mapperTableEntries name="cliente_nombre" expression="row1.cliente_nombre " type="id_String"/>
+        <mapperTableEntries name="cliente_categoria" expression="row1.cliente_categoria " type="id_String"/>
+        <mapperTableEntries name="cliente_zona" expression="row1.cliente_zona " type="id_String"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="ClienteID" type="id_String"/>
-        <mapperTableEntries name="ClienteNombre" type="id_String"/>
-        <mapperTableEntries name="ClienteCategoria" type="id_String"/>
-        <mapperTableEntries name="Zona" type="id_String"/>
+        <mapperTableEntries name="cliente_id" type="id_String"/>
+        <mapperTableEntries name="cliente_nombre" type="id_String"/>
+        <mapperTableEntries name="cliente_categoria" type="id_String"/>
+        <mapperTableEntries name="cliente_zona" type="id_String"/>
       </inputTables>
     </nodeData>
   </node>
@@ -321,7 +321,7 @@
     <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" value="&quot;,&quot;" show="false"/>
     <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" value="&quot;.&quot;" show="false"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="context.EscapeChar"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
     <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="context.TextEnclosure"/>
     <elementParameter field="CHECK" name="CREATE" value="true"/>
     <elementParameter field="CHECK" name="SPLIT" value="false"/>
@@ -337,10 +337,10 @@
     <elementParameter field="TEXT" name="LABEL" value="ClientesPresentation"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ClienteStage" name="tFileOutputDelimited_1">
-      <column comment="" key="true" length="20" name="ClienteID" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="150" name="ClienteNombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="ClienteCategoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="40" name="Zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="20" name="cliente_id" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="cliente_nombre" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_categoria" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="40" name="cliente_zona" nullable="false" pattern="" precision="0" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="128">
@@ -540,6 +540,17 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="FLOW" label="DimCliente" lineStyle="0" metaname="DimCliente" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="cliente_nombre"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cliente_categoria"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="cliente_id"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="DimCliente" show="false"/>
   </connection>
