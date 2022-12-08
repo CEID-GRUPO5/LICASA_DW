@@ -5,13 +5,15 @@
     <contextParameter comment="" name="RemoteZone" prompt="RemoteZone?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw/" internalId="__Msk0V42Ee21Ruzs5eqnyg"/>
     <contextParameter comment="" name="LocalSourcePath" prompt="LocalSourcePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="Archive\" internalId="_788_oF5oEe2ZsZJCIiCgaw"/>
     <contextParameter comment="" name="LocalZone" prompt="LocalZone?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw\" internalId="_788_oV5oEe2ZsZJCIiCgaw"/>
-    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIAZB3DXVKZDFXZYTHT" internalId="_TyfRUF8tEe26jdLxyWeqMw"/>
-    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="lica.datalake" internalId="_TyfRUV8tEe26jdLxyWeqMw"/>
-    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="m1R49jSHK6dRThfnYwofJ9HEuUtsf+L2+keoYWeY" internalId="_TyfRUl8tEe26jdLxyWeqMw"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_Tyf4YF8tEe26jdLxyWeqMw"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_Tyf4YV8tEe26jdLxyWeqMw"/>
-    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_TygfcF8tEe26jdLxyWeqMw"/>
     <contextParameter comment="" name="FileNamePrefix" prompt="FileNamePrefix?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" internalId="_S4naYG-REe28t8F4rSr0mg"/>
+    <contextParameter comment="" name="TargetExtension" prompt="TargetExtension?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=".csv" internalId="_-2UkAHbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="AccessKey" prompt="AccessKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="AKIAZB3DXVKZDFXZYTHT" internalId="_u34xYHbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="lica.datalake" internalId="_u34xYXbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="SecretKey" prompt="SecretKey?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="m1R49jSHK6dRThfnYwofJ9HEuUtsf+L2+keoYWeY" internalId="_u34xYnbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_u34xY3bTEe2raoi19kzSUQ"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Dalton" internalId="_u34xZHbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_u34xZXbTEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="ZIPExt" prompt="ZIPExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".zip" internalId="_u34xZnbTEe2raoi19kzSUQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -55,7 +57,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:U5KfmtNkVi38w/vFXQrrFehWofPE06GKW1DyCzuo" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:CaeCRN/p5IQSBaXRs7lh9b+8Lq+Wi/Qe+3elH2Ns" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -90,7 +92,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:Q0tdnx/fR1zQtp/OlIBdJnrYn/ZqqqvBpJKxAhRf" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iQxdKlE6H2uFxweDLg5uKQv5jH7eGd1SOEOJUylS" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -126,7 +128,7 @@
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="context.AccessKey"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:YHybxIhyohXyyQOoWHNuys3CiXewtfAV+qJ5CapsnB7C8NzTm53LJQtSGPFe"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:iBW3xVP0HhXPd8UYeFbItrQawT5HC/7VrHc2/ZWPWGO7sEVl1xUGUBI32Atb"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -137,8 +139,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" value="AES" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" value="RSA" show="false"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" value="BASE64" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:GcnLa/LgzLUlzkF/acuBbsha+B3CSVyrX7vEIeKy" show="false"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:j++gNA0tIN6MZqQLxxVaLjpV7Caj/r5rgZM81+Ea" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" value="enc:system.encryption.key.v1:i1rcskqty6en6gpQVK0dnB2Rswn9hLKtWFWANisM" show="false"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" value="enc:system.encryption.key.v1:k8hh7JQv3B+xqTmaMgYTgig6+FCfCXyXpm/JxWTY" show="false"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" value="&quot;&quot;" show="false"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" value="&quot;&quot;" show="false"/>
@@ -173,7 +175,7 @@
     <elementParameter field="FILE" name="PROFILE_PATH" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="PROFILE_NAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:bRh6zXcwIxubuNySJ8U+4V3XcPdJ5tmx4vuKoyYd" show="false"/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:ofYxFPZ8ZeGB+50Rkwp6lz2w1HQiLO/cQoVqKbOB" show="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ARN" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="ROLE_SESSION_NAME" value="&quot;&quot;" show="false"/>
@@ -219,7 +221,7 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileLocalPath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RootPath+context.LocalTempPath+context.LocalSourcePath+context.LocalZone"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileName"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="CommonFunctions.getS3FileName(((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)), context.CSVExt)"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="CommonFunctions.getS3FileName(((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)), context.TargetExtension)"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="SourcePath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="CommonFunctions.getS3SourcePath(((String)globalMap.get(&quot;tS3List_1_CURRENT_KEY&quot;)))"/>
     </elementParameter>
