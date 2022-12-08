@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ubkvAna2Ee2wH_5plyvi-g" comment="connectionComment" label="connectionLabel" dataPackage="_ubkvA3a2Ee2wH_5plyvi-g"/>
+  <TalendMetadata:GenericPackage xmi:id="_ubkvA3a2Ee2wH_5plyvi-g" dataManager="_ubkvAna2Ee2wH_5plyvi-g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ubkvBHa2Ee2wH_5plyvi-g" id="_w8nIYHa2Ee2wH_5plyvi-g" label="Factura_LineaCompuesta">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvBXa2Ee2wH_5plyvi-g" name="FACTURA" id="197" label="FACTURA" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_ubkvBna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvB3a2Ee2wH_5plyvi-g" name="TIPO_DOCUMENTO" id="198" label="TIPO_DOCUMENTO" length="1" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_ubkvCHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvCXa2Ee2wH_5plyvi-g" name="LINEA" id="199" label="LINEA" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+        <initialValue xmi:id="_ubkvCna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvC3a2Ee2wH_5plyvi-g" name="ARTICULO" id="201" label="ARTICULO" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvDHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvDXa2Ee2wH_5plyvi-g" name="CLIENTE" id="1953" label="CLIENTE" length="20" precision="-1" sourceType="" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvDna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvD3a2Ee2wH_5plyvi-g" name="COBRADOR" id="1951" label="COBRADOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvEHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvEXa2Ee2wH_5plyvi-g" name="VENDEDOR" id="1952" label="VENDEDOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvEna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvE3a2Ee2wH_5plyvi-g" name="BODEGA" id="200" label="BODEGA" length="4" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvFHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvFXa2Ee2wH_5plyvi-g" name="PROVEEDOR" id="1954" label="PROVEEDOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_ubkvFna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvF3a2Ee2wH_5plyvi-g" name="PRECIO_UNITARIO" id="202" label="PRECIO_UNITARIO" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvGHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvGXa2Ee2wH_5plyvi-g" name="CANTIDAD" id="203" label="CANTIDAD" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvGna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d6WCQHa_Ee2wH_5plyvi-g" name="CANTIDAD_DEVUELT" label="CANTIDAD_DEVUELT" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvG3a2Ee2wH_5plyvi-g" name="TOTAL_IMPUESTO1" id="204" label="TOTAL_IMPUESTO1" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvHHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvHXa2Ee2wH_5plyvi-g" name="PRECIO_TOTAL" id="205" label="PRECIO_TOTAL" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvHna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvH3a2Ee2wH_5plyvi-g" name="COSTO_TOTAL" id="206" label="COSTO_TOTAL" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvIHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvIXa2Ee2wH_5plyvi-g" name="DESC_TOT_LINEA" id="207" label="DESC_TOT_LINEA" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvIna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvI3a2Ee2wH_5plyvi-g" name="FECHA_FACTURA" id="883" label="FECHA_FACTURA" length="23" precision="3" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ubkvJHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvJXa2Ee2wH_5plyvi-g" name="RecordDate" id="208" label="RecordDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ubkvJna2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d8jowHa_Ee2wH_5plyvi-g" name="MONTO_DESCUENTO1" label="MONTO_DESCUENTO1" length="28" precision="8" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_lyK6IHa_Ee2wH_5plyvi-g" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eDqWUHa_Ee2wH_5plyvi-g" name="MONTO_DESCUENTO2" label="MONTO_DESCUENTO2" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

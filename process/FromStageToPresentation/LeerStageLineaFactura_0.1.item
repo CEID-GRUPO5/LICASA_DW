@@ -1,31 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_bG5JkHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_bG5JkXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_bG5JknbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_bG5Jk3bHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_bG5JlHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_bG5JlXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_bG5JlnbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_bG5Jl3bHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="dm15012" internalId="_bG5JmHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:J7ZZT3s6domxnyPOIND9QiIJvwUoDb2d2wLCA97vjM6WIsVb" internalId="_bG5JmXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="49173" internalId="_bG5JmnbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_bG5Jm3bHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-DALTON\DM15012_19" internalId="_bG5JnHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_bG5woHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Dalton" internalId="_bG5woXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_bG5wonbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_bG5wo3bHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_bG5wpHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_bG5wpXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\n&quot;" internalId="_bG5wpnbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_bG5wp3bHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="*" internalId="_bG5wqHbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_bG5wqXbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="ZIPExt" prompt="ZIPExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".zip" internalId="_bG5wqnbHEe2wH_5plyvi-g"/>
-    <contextParameter comment="" name="Factura_LineaOutputFileName" prompt="Factura_LineaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="FacturaLinea" internalId="_bG5wq3bHEe2wH_5plyvi-g"/>
+    <contextParameter comment="" name="Archive" prompt="Archive?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="Archivados" internalId="_LLaJAHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_LLaJAXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="PPTPath" prompt="PPTPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="presentation" internalId="_LLaJAnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_LLaJA3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_LLaJBHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_LLaJBXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_LLaJBnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_LLaJB3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="dm15012" internalId="_LLaJCHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:TpvxGTd5fHRGPXhdtWp/jNYxktax2OgO0MuYkmYLkffBwWda" internalId="_LLaJCXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="49173" internalId="_LLaJCnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_LLaJC3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-DALTON\DM15012_19" internalId="_LLaJDHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_LLaJDXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Dalton" internalId="_LLaJDnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_LLaJD3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="DateNameFormat" prompt="DateNameFormat?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="yyyyMMdd" internalId="_LLaJEHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="EscapeChar" prompt="EscapeChar?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\\&quot;" internalId="_LLaJEXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="FactVentas" prompt="FactVentas?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="FactVentas" internalId="_LLaJEnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="FieldSeparator" prompt="FieldSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;,&quot;" internalId="_LLaJE3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="RowSeparator" prompt="RowSeparator?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\n&quot;" internalId="_LLaJFHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="SeparadorPalabra" prompt="SeparadorPalabra?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="_" internalId="_LLaJFXbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="Star" prompt="Star?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="*" internalId="_LLaJFnbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="TextEnclosure" prompt="TextEnclosure?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value="&quot;\&quot;&quot;" internalId="_LLaJF3biEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="ZIPExt" prompt="ZIPExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".zip" internalId="_LLaJGHbiEe2raoi19kzSUQ"/>
+    <contextParameter comment="" name="Factura_LineaOutputFileName" prompt="Factura_LineaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="FacturaLinea" internalId="_LLawEHbiEe2raoi19kzSUQ"/>
   </context>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" value="Info" show="false"/>
@@ -69,7 +70,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:18LgShbSA5Jh4piS2c4WPY7nJTP8M3vqSinZ8PLg" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:swHOjGMAbFBI4ltHG7UTxvZ985EO9DFFgtuaJkh9" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -104,7 +105,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:9M7ZHFE2ek/Rt+aDE0ztjQt7OVPqQqEIBybGDZpf" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4pBD2lbc5oEsUTILZtRnqJS3OxNLuAN2HoxFVogJ" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -150,11 +151,11 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="RemoteSourcePath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Unprocessed+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="RemoteZone"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.StagePath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalSourcePath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.LocalMachine+context.Unprocessed+context.LocalMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalZone"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.LocalMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.StagePath+context.LocalMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileNamePrefix"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Factura_LineaOutputFileName"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="TargetExtension"/>
@@ -176,7 +177,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.RawPath"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.StagePath"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -200,7 +201,7 @@
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="128">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputDelimited_1" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
-    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_ubkvAHa2Ee2wH_5plyvi-g - Factura_LineaCompuesta" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_oYn3oHbCEe2wH_5plyvi-g - Factura_LineaCompuesta" show="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
@@ -223,45 +224,45 @@
     <elementParameter field="TEXT" name="NB_RANDOM" value="10" show="false"/>
     <elementParameter field="CHECK" name="TRIMALL" value="false"/>
     <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="FACTURA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FACTURA_ID"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TIPO_DOCUMENTO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LINEA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINEA_FACTURA"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ARTICULO"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CLIENTE"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_FACTURA"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="VENDEDOR"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROVEEDOR"/>
+      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="BODEGA"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROVEEDOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PRECIO_UNITARIO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_VENTA"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_DEVUELT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_VENDIDA"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_IMPUESTO1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUBTOTAL_VENDIDO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PRECIO_TOTAL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_DESCUENTO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COSTO_TOTAL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_DESCUENTO_GLOBAL"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESC_TOT_LINEA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_IMPUESTO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_FACTURA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_VENDIDO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_COSTO"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO1"/>
-      <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UTILIDAD_TOTAL"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
@@ -271,94 +272,94 @@
     <elementParameter field="CHECK" name="SPLITRECORD" value="false" show="false"/>
     <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
     <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="FACTURA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FACTURA_ID"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TIPO_DOCUMENTO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="LINEA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="LINEA_FACTURA"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ARTICULO"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CLIENTE"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_FACTURA"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="VENDEDOR"/>
       <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PROVEEDOR"/>
+      <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="BODEGA"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PROVEEDOR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PRECIO_UNITARIO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_VENTA"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_DEVUELT"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CANTIDAD_VENDIDA"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_IMPUESTO1"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SUBTOTAL_VENDIDO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PRECIO_TOTAL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_DESCUENTO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="COSTO_TOTAL"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_DESCUENTO_GLOBAL"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="DESC_TOT_LINEA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_IMPUESTO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FECHA_FACTURA"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_VENDIDO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TOTAL_COSTO"/>
       <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO1"/>
-      <elementValue elementRef="DECODE" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO2"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UTILIDAD_TOTAL"/>
       <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="FactLineaRaw"/>
+    <elementParameter field="TEXT" name="LABEL" value="FactLineaStage"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="Factura_LineaCompuesta" name="tFileInputDelimited_1">
-      <column comment="" key="true" length="50" name="FACTURA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="50" name="FACTURA_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="1" name="TIPO_DOCUMENTO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="5" name="LINEA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="true" length="5" name="LINEA_FACTURA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ARTICULO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="PROVEEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="PRECIO_UNITARIO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="CANTIDAD" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="CANTIDAD_DEVUELT" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="TOTAL_IMPUESTO1" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="PRECIO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="COSTO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="DESC_TOT_LINEA" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="RecordDate" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CANTIDAD_VENTA" nullable="false" pattern="" precision="-1" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="CANTIDAD_VENDIDA" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="SUBTOTAL_VENDIDO" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_DESCUENTO" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_DESCUENTO_GLOBAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_IMPUESTO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_VENDIDO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_COSTO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="UTILIDAD_TOTAL" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="Factura_LineaCompuesta" name="REJECT">
-      <column comment="" key="true" length="50" name="FACTURA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="true" length="50" name="FACTURA_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="1" name="TIPO_DOCUMENTO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="true" length="5" name="LINEA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
+      <column comment="" key="true" length="5" name="LINEA_FACTURA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ARTICULO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="PROVEEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="PRECIO_UNITARIO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="CANTIDAD" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="CANTIDAD_DEVUELT" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="TOTAL_IMPUESTO1" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="PRECIO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="COSTO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="DESC_TOT_LINEA" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="RecordDate" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
-      <column comment="" defaultValue="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CANTIDAD_VENTA" nullable="false" pattern="" precision="-1" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="CANTIDAD_VENDIDA" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="SUBTOTAL_VENDIDO" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_DESCUENTO" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_DESCUENTO_GLOBAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_IMPUESTO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_VENDIDO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="TOTAL_COSTO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="UTILIDAD_TOTAL" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -368,7 +369,7 @@
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_guXCEHX7Ee2_KqJgg75Lvg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_FpNMEHbfEe2raoi19kzSUQ-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true" show="false"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" value="false" show="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" value="0" show="false"/>
@@ -377,7 +378,7 @@
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" label="Factura_LineaCompuesta" name="FacturaLineaStage">
+    <metadata connector="FLOW" label="Factura_LineaCompuesta" name="FacturaLineaPPT">
       <column comment="" key="true" length="50" name="FACTURA_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="1" name="TIPO_DOCUMENTO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="5" name="LINEA_FACTURA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
@@ -402,10 +403,10 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var"/>
-      <outputTables sizeState="INTERMEDIATE" name="FacturaLineaStage">
-        <mapperTableEntries name="FACTURA_ID" expression="row1.FACTURA " type="id_String"/>
-        <mapperTableEntries name="TIPO_DOCUMENTO" expression="row1.TIPO_DOCUMENTO.equals(&quot;F&quot;) ? &quot;FACTURA&quot; : &quot;DEVOLUCION&quot;" type="id_String"/>
-        <mapperTableEntries name="LINEA_FACTURA" expression="row1.LINEA " type="id_Short"/>
+      <outputTables sizeState="INTERMEDIATE" name="FacturaLineaPPT">
+        <mapperTableEntries name="FACTURA_ID" expression="row1.FACTURA_ID" type="id_String"/>
+        <mapperTableEntries name="TIPO_DOCUMENTO" expression="row1.TIPO_DOCUMENTO" type="id_String"/>
+        <mapperTableEntries name="LINEA_FACTURA" expression="row1.LINEA_FACTURA" type="id_Short"/>
         <mapperTableEntries name="ARTICULO" expression="row1.ARTICULO" type="id_String"/>
         <mapperTableEntries name="CLIENTE" expression="row1.CLIENTE" type="id_String"/>
         <mapperTableEntries name="FECHA_FACTURA" expression="row1.FECHA_FACTURA" type="id_Date"/>
@@ -414,37 +415,37 @@
         <mapperTableEntries name="BODEGA" expression="row1.BODEGA" type="id_String"/>
         <mapperTableEntries name="COBRADOR" expression="row1.COBRADOR" type="id_String"/>
         <mapperTableEntries name="PRECIO_UNITARIO" expression="row1.PRECIO_UNITARIO" type="id_BigDecimal"/>
-        <mapperTableEntries name="CANTIDAD_VENTA" expression="1" type="id_Integer"/>
-        <mapperTableEntries name="CANTIDAD_VENDIDA" expression="row1.CANTIDAD.subtract(row1.CANTIDAD_DEVUELT)" type="id_BigDecimal"/>
-        <mapperTableEntries name="SUBTOTAL_VENDIDO" expression="row1.PRECIO_TOTAL.add(row1.DESC_TOT_LINEA)" type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_DESCUENTO" expression="row1.DESC_TOT_LINEA " type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_DESCUENTO_GLOBAL" expression="row1.MONTO_DESCUENTO1.add(row1.MONTO_DESCUENTO2)" type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_IMPUESTO" expression="row1.TOTAL_IMPUESTO1 " type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_VENDIDO" expression="row1.PRECIO_TOTAL " type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_COSTO" expression="row1.COSTO_TOTAL " type="id_BigDecimal"/>
-        <mapperTableEntries name="UTILIDAD_TOTAL" expression="row1.PRECIO_TOTAL.subtract(row1.COSTO_TOTAL)" type="id_BigDecimal"/>
+        <mapperTableEntries name="CANTIDAD_VENTA" expression="row1.CANTIDAD_VENTA" type="id_Integer"/>
+        <mapperTableEntries name="CANTIDAD_VENDIDA" expression="row1.CANTIDAD_VENDIDA" type="id_BigDecimal"/>
+        <mapperTableEntries name="SUBTOTAL_VENDIDO" expression="row1.SUBTOTAL_VENDIDO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_DESCUENTO" expression="row1.TOTAL_DESCUENTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_DESCUENTO_GLOBAL" expression="row1.TOTAL_DESCUENTO_GLOBAL" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_IMPUESTO" expression="row1.TOTAL_IMPUESTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_VENDIDO" expression="row1.TOTAL_VENDIDO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_COSTO" expression="row1.TOTAL_COSTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="UTILIDAD_TOTAL" expression="row1.UTILIDAD_TOTAL" type="id_BigDecimal"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
-        <mapperTableEntries name="FACTURA" type="id_String"/>
+        <mapperTableEntries name="FACTURA_ID" type="id_String"/>
         <mapperTableEntries name="TIPO_DOCUMENTO" type="id_String"/>
-        <mapperTableEntries name="LINEA" type="id_Short"/>
+        <mapperTableEntries name="LINEA_FACTURA" type="id_Short"/>
         <mapperTableEntries name="ARTICULO" type="id_String"/>
         <mapperTableEntries name="CLIENTE" type="id_String"/>
-        <mapperTableEntries name="COBRADOR" type="id_String"/>
+        <mapperTableEntries name="FECHA_FACTURA" type="id_Date"/>
         <mapperTableEntries name="VENDEDOR" type="id_String"/>
-        <mapperTableEntries name="BODEGA" type="id_String"/>
         <mapperTableEntries name="PROVEEDOR" type="id_String"/>
+        <mapperTableEntries name="BODEGA" type="id_String"/>
+        <mapperTableEntries name="COBRADOR" type="id_String"/>
         <mapperTableEntries name="PRECIO_UNITARIO" type="id_BigDecimal"/>
-        <mapperTableEntries name="CANTIDAD" type="id_BigDecimal"/>
-        <mapperTableEntries name="CANTIDAD_DEVUELT" type="id_BigDecimal"/>
-        <mapperTableEntries name="TOTAL_IMPUESTO1" type="id_BigDecimal"/>
-        <mapperTableEntries name="PRECIO_TOTAL" type="id_BigDecimal"/>
-        <mapperTableEntries name="COSTO_TOTAL" type="id_BigDecimal"/>
-        <mapperTableEntries name="DESC_TOT_LINEA" type="id_BigDecimal"/>
-        <mapperTableEntries name="FECHA_FACTURA" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="RecordDate" type="id_Date"/>
-        <mapperTableEntries name="MONTO_DESCUENTO1" type="id_BigDecimal"/>
-        <mapperTableEntries name="MONTO_DESCUENTO2" type="id_BigDecimal"/>
+        <mapperTableEntries name="CANTIDAD_VENTA" type="id_Integer"/>
+        <mapperTableEntries name="CANTIDAD_VENDIDA" type="id_BigDecimal"/>
+        <mapperTableEntries name="SUBTOTAL_VENDIDO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_DESCUENTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_DESCUENTO_GLOBAL" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_IMPUESTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_VENDIDO" type="id_BigDecimal"/>
+        <mapperTableEntries name="TOTAL_COSTO" type="id_BigDecimal"/>
+        <mapperTableEntries name="UTILIDAD_TOTAL" type="id_BigDecimal"/>
       </inputTables>
     </nodeData>
   </node>
@@ -452,7 +453,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileOutputDelimited_1" show="false"/>
     <elementParameter field="CHECK" name="USESTREAM" value="false"/>
     <elementParameter field="TEXT" name="STREAMNAME" value="outputStream" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.StagePath+context.LocalMachine+context.Factura_LineaOutputFileName+context.SeparadorPalabra+context.StagePath+context.SeparadorPalabra+TalendDate.formatDate(context.DateNameFormat,TalendDate.getCurrentDate())+context.CSVExt"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.PPTPath+context.LocalMachine+context.FactVentas+context.SeparadorPalabra+context.PPTPath+context.SeparadorPalabra+TalendDate.formatDate(context.DateNameFormat,TalendDate.getCurrentDate())+context.CSVExt"/>
     <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" show="false"/>
     <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" value="true"/>
     <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
@@ -522,7 +523,7 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="S3Path"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Unprocessed+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="DestPath"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.StagePath+context.RemoteMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.PPTPath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileName"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="CommonFunctions.getS3FileName(CommonFunctions.replaceFileExtension(((String)globalMap.get(&quot;tFileOutputDelimited_1_FILE_NAME&quot;)), context.CSVExt, context.ZIPExt), context.ZIPExt)"/>
     </elementParameter>
@@ -556,11 +557,11 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FromPath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Unprocessed+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FromZone"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.StagePath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ToPath"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Archive+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="ToZone"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.StagePath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileName"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;))"/>
     </elementParameter>
@@ -584,7 +585,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_2" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.RawPath"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.StagePath"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -602,7 +603,7 @@
     <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
     <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;" show="false"/>
     <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="ListarArchivosFacturaLinea_Raw"/>
+    <elementParameter field="TEXT" name="LABEL" value="ListarArchivosFacturaLinea_Stage"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="320">
@@ -637,14 +638,14 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_3" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.StagePath"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath+context.LocalTempPath+context.LocalMachine+context.Unprocessed+context.LocalMachine+context.PPTPath"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
     <elementParameter field="CHECK" name="ERROR" value="false"/>
     <elementParameter field="CHECK" name="GLOBEXPRESSIONS" value="true"/>
     <elementParameter field="TABLE" name="FILES">
-      <elementValue elementRef="FILEMASK" value="context.Factura_LineaOutputFileName+context.Star"/>
+      <elementValue elementRef="FILEMASK" value="context.FactVentas+context.Star"/>
     </elementParameter>
     <elementParameter field="RADIO" name="ORDER_BY_NOTHING" value="true"/>
     <elementParameter field="RADIO" name="ORDER_BY_FILENAME" value="false"/>
@@ -655,7 +656,7 @@
     <elementParameter field="CHECK" name="IFEXCLUDE" value="false"/>
     <elementParameter field="TEXT" name="EXCLUDEFILEMASK" value="&quot;*.txt&quot;" show="false"/>
     <elementParameter field="CHECK" name="FORMAT_FILEPATH_TO_SLASH" value="false"/>
-    <elementParameter field="TEXT" name="LABEL" value="ListarArchivosFacturaLinea_Stage"/>
+    <elementParameter field="TEXT" name="LABEL" value="ListarArchivosFacturaLinea_PPT"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="320">
@@ -700,9 +701,9 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
-  <connection connectorName="FLOW" label="FacturaLineaStage" lineStyle="0" metaname="FacturaLineaStage" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+  <connection connectorName="FLOW" label="FacturaLineaPPT" lineStyle="0" metaname="FacturaLineaPPT" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" value="FacturaLineaStage" show="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="FacturaLineaPPT" show="false"/>
   </connection>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tRunJob_2">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="OnComponentOk1" show="false"/>

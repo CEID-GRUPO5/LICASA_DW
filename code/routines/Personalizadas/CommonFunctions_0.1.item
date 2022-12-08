@@ -20,6 +20,33 @@ package routines;
  */
 public class CommonFunctions {
 
+	 /**
+     * Extrae el nombre del archivo de la ruta del directorio de S3 cuya 
+     * extension sea igual a la del parametro
+     *  
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("Archive/raw/Test.csv") _valor: S3 - Ubicacion fuente.
+     * 
+     * {example} getS3FileName("Archive/raw/Test.csv", ".csv") # Test.csv
+     */
+    public static String replaceFileExtension(String _valor, String _fromExtension, String _toExtension) 
+    {
+    	String current_key  = _valor;
+    	String newStringFileName = "";
+
+    	if (current_key.lastIndexOf(".") > 0 && current_key.substring(current_key.lastIndexOf("."), current_key.length()).equals(_fromExtension))
+    	{
+    		newStringFileName = current_key.replace(_fromExtension, _toExtension);
+    	}
+    	
+    	//System.out.println("Nueva extension: " + newStringFileName);
+    	
+    	return newStringFileName;
+    }
+    
     /**
      * Extrae el nombre del archivo de la ruta del directorio de S3 cuya 
      * extension sea igual a la del parametro
