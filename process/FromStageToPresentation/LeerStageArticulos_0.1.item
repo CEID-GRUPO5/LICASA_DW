@@ -64,7 +64,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RGI/7Rv/q0NkSnBqCZGDP7P84Paq4zpoiS54oV6D" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:Rf4MVT7NLdDVbqN3BtHwHWFieitx6HxZtrzbNd7k" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -99,7 +99,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:P6M9ndjbTcW8ZLRwos86bk4ipvgTfVrF27Yk5KnA" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1m8BxemyMdmx874AAJFdxqFmPwsABmKgjG9z9pmK" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -138,7 +138,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.DimArticulo + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine + context.PPTPath + context.LocalMachine + context.FileName;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.DimArticulo + context.SeparadorPalabra + context.PPTPath + context.SeparadorPalabra + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine + context.PPTPath + context.LocalMachine + context.FileName;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -375,7 +375,7 @@
       <column comment="" key="false" length="40" name="clasificacion3_marca" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="stage">
         <mapperTableEntries name="articulo_id" expression="row1.articulo_id " type="id_String"/>
