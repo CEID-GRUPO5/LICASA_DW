@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" name="campos_articulo" prompt="campos_articulo?" promptNeeded="false" repositoryContextId="_d5KkUHYAEe2WQo0cOgox-w" type="id_String" value="articulo_id, articulo_descripcion, clasificacion1_grupo, clasificacion2_subgrupo, clasificacion3_marca" internalId="_c0dUIHYCEe2WQo0cOgox-w"/>
+    <contextParameter comment="" name="campos_articulo" prompt="campos_articulo?" promptNeeded="false" repositoryContextId="_d5KkUHYAEe2WQo0cOgox-w" type="id_String" value="articulo_id, articulo_descripcion, clasificacion1_grupo, clasificacion2_subgrupo, clasificacion3_marca, articulo_tipo" internalId="_c0dUIHYCEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="campos_bodega" prompt="campos_bodega?" promptNeeded="false" repositoryContextId="_d5KkUHYAEe2WQo0cOgox-w" type="id_String" value="bodega_id, bodega_nombre" internalId="_c0dUIXYCEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="campos_cliente" prompt="campos_cliente?" promptNeeded="false" repositoryContextId="_d5KkUHYAEe2WQo0cOgox-w" type="id_String" value="cliente_id, cliente_nombre, cliente_categoria, cliente_zona" internalId="_c0dUInYCEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="campos_cobrador" prompt="campos_cobrador?" promptNeeded="false" repositoryContextId="_d5KkUHYAEe2WQo0cOgox-w" type="id_String" value="cobrador_id, cobrador_nombre" internalId="_c0dUI3YCEe2WQo0cOgox-w"/>
@@ -65,7 +65,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:kRyRHB1/TjnmOf7vSqe9TFajd4dAN7GAtBhQZ58u" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:q5kFMDis2TGkKPM+d9KPWxZsW1w/SjB3+HrIUicB" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -100,7 +100,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:2MVhRgjKusVLHCfs8gO6WgBDl8VW0kes//64D52i" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:ZAigKULpKL91k6EX7aCRLaTi1ERrf56Eg9VmZS1Y" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>

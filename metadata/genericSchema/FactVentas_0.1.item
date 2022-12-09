@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_mqsY8ndAEe2Aycke1_4hKQ" dataPackage="_mqsY83dAEe2Aycke1_4hKQ"/>
+  <TalendMetadata:GenericPackage xmi:id="_mqsY83dAEe2Aycke1_4hKQ" dataManager="_mqsY8ndAEe2Aycke1_4hKQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_mqsY9HdAEe2Aycke1_4hKQ" id="_mqsY8HdAEe2Aycke1_4hKQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY9XdAEe2Aycke1_4hKQ" name="FACTURA_ID" label="FACTURA_ID" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsY9ndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY93dAEe2Aycke1_4hKQ" name="TIPO_DOCUMENTO" label="TIPO_DOCUMENTO" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsY-HdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY-XdAEe2Aycke1_4hKQ" name="LINEA_FACTURA" label="LINEA_FACTURA" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsY-ndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY-3dAEe2Aycke1_4hKQ" name="ARTICULO" label="ARTICULO" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsY_HdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY_XdAEe2Aycke1_4hKQ" name="CLIENTE" label="CLIENTE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsY_ndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsY_3dAEe2Aycke1_4hKQ" name="FECHA_FACTURA" label="FECHA_FACTURA" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZAHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZAXdAEe2Aycke1_4hKQ" name="VENDEDOR" label="VENDEDOR" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZAndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZA3dAEe2Aycke1_4hKQ" name="PROVEEDOR" label="PROVEEDOR" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZBHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZBXdAEe2Aycke1_4hKQ" name="BODEGA" label="BODEGA" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZBndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZB3dAEe2Aycke1_4hKQ" name="COBRADOR" label="COBRADOR" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZCHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZCXdAEe2Aycke1_4hKQ" name="PRECIO_UNITARIO" label="PRECIO_UNITARIO" length="10" precision="9" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZCndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZC3dAEe2Aycke1_4hKQ" name="CANTIDAD_VENTA" label="CANTIDAD_VENTA" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZDHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZDXdAEe2Aycke1_4hKQ" name="CANTIDAD_VENDIDA" label="CANTIDAD_VENDIDA" length="12" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZDndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZD3dAEe2Aycke1_4hKQ" name="SUBTOTAL_VENDIDO" label="SUBTOTAL_VENDIDO" length="12" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZEHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZEXdAEe2Aycke1_4hKQ" name="TOTAL_DESCUENTO" label="TOTAL_DESCUENTO" length="10" precision="9" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZEndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZE3dAEe2Aycke1_4hKQ" name="TOTAL_DESCUENTO_GLOBAL" label="TOTAL_DESCUENTO_GLOBAL" length="11" precision="10" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZFHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZFXdAEe2Aycke1_4hKQ" name="TOTAL_IMPUESTO" label="TOTAL_IMPUESTO" length="10" precision="9" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZFndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZF3dAEe2Aycke1_4hKQ" name="TOTAL_VENDIDO" label="TOTAL_VENDIDO" length="12" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZGHdAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZGXdAEe2Aycke1_4hKQ" name="TOTAL_COSTO" label="TOTAL_COSTO" length="12" precision="11" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZGndAEe2Aycke1_4hKQ"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_mqsZG3dAEe2Aycke1_4hKQ" name="UTILIDAD_TOTAL" label="UTILIDAD_TOTAL" length="11" precision="10" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_mqsZHHdAEe2Aycke1_4hKQ"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
