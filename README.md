@@ -53,11 +53,11 @@ Para la solución del proceso de ventas de la empresa se han identificado un con
 ---
 ### **1. Artículo**
 Almacena los productos que la empresa utiliza para su proceso de ventas y para uso interno de sus operaciones.
-![BPMN](imagenesReadme/Dataset/ArticuloDataset.png)
+![BPMN](imagenesReadme/DataSet/ArticuloDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/Dataset/ArticuloIndices.png)
+![BPMN](imagenesReadme/DataSet/ArticuloIndices.png)
 
 **Referencias:**
 
