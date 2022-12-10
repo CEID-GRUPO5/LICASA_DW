@@ -4,7 +4,7 @@ El objetivo del presente proyecto es brindar una solución a nivel de Data Wareh
 Para ello se detalla un análisis y construcción de un Datawarehouse así como tambien la representación a nivel de reportes finales, utilizando herramientas como Talend Open Studio, Amazon Redshift, Amazon S3, SQL Server, Power BI.
 
 ## **Tabla de contenido**
-1. [Objetivos](#objetivos)
+1. [Objetivos](FilesReadme\Readme\Objetivos.md)
 2. [Technologies](#script-de-la-base-de-datos-del-dw)
 3. [Installation](#)
 4. [Collaboration](#)
