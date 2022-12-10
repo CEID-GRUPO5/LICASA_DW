@@ -53,11 +53,11 @@ Para la solución del proceso de ventas de la empresa se han identificado un con
 ---
 ### **1. Artículo**
 Almacena los productos que la empresa utiliza para su proceso de ventas y para uso interno de sus operaciones.
-![BPMN](imagenesReadme/dataset/ArticuloDataset.png)
+![BPMN](imagenesReadme/Dataset/ArticuloDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/dataset/ArticuloIndices.png)
+![BPMN](imagenesReadme/Dataset/ArticuloIndices.png)
 
 **Referencias:**
 
@@ -76,11 +76,11 @@ LICASA.FACTURA_LINEA (ARTICULO)
 ---
 ### **2. Clasificación**
 Guarda los valores del catálogo que se utiliza para clasificar los artículos de la empresa. 
-![BPMN](imagenesReadme/dataset/ClasificacionDataset.png)
+![BPMN](imagenesReadme/Dataset/ClasificacionDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/dataset/ClasificacionIndices.png)
+![BPMN](imagenesReadme/Dataset/ClasificacionIndices.png)
 
 **Referenciada por:**
 
@@ -93,11 +93,11 @@ LICASA.ARTICULO (CLASIFICACION_3 -> CLASIFICACION)
 ---
 ### **3. Cliente**
 Almacena a todas las personas naturales y jurídicas que forman parte de la cartera de clientes de la empresa.
-![BPMN](imagenesReadme/dataset/ClienteDataset.png)
+![BPMN](imagenesReadme/Dataset/ClienteDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/dataset/ClienteIndices.png)
+![BPMN](imagenesReadme/Dataset/ClienteIndices.png)
 
 **Referencias:**
 
@@ -118,11 +118,11 @@ LICASA.FACTURA (CLIENTE_CORPORAC -> CLIENTE)
 ---
 ### **4. Categoria_Cliente**
 Almacena el catálogo que se utiliza para categorizar a los clientes.
-![BPMN](imagenesReadme/dataset/CategoriaClienteDataset.png)
+![BPMN](imagenesReadme/Dataset/CategoriaClienteDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/dataset/CategoriaClienteIndices.png)
+![BPMN](imagenesReadme/Dataset/CategoriaClienteIndices.png)
 
 **Referenciada por:**
 
@@ -131,11 +131,11 @@ LICASA.CLIENTE (CATEGORIA_CLIENTE)
 ---
 ### **5. Vendedor**
 Guarda todos los vendedores con los que han trabajado en la empresa.
-![BPMN](imagenesReadme/dataset/VendedorDataset.png)
+![BPMN](imagenesReadme/Dataset/VendedorDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/dataset/VendedorIndices.png)
+![BPMN](imagenesReadme/Dataset/VendedorIndices.png)
 
 **Referenciada por:**
 
@@ -146,10 +146,10 @@ LICASA.FACTURA (VENDEDOR)
 ---
 ### **6. Proveedor**
 Almacena todos los proveedores con los que ha trabajado la empresa.
-![BPMN](imagenesReadme/dataset/ProveedorDataset.png)
+![BPMN](imagenesReadme/Dataset/ProveedorDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/ProveedorIndices.png)
+![BPMN](imagenesReadme/Dataset/ProveedorIndices.png)
 
 **Referenciada por:**
 
@@ -158,10 +158,10 @@ LICASA.ARTICULO (PROVEEDOR)
 ---
 ### **7. Cobrador**
 Guarda los datos de los cobradores, internamente conocidos como motoristas, que han trabajado en la empresa.
-![BPMN](imagenesReadme/dataset/CobradorDataset.png)
+![BPMN](imagenesReadme/Dataset/CobradorDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/CobradorIndices.png)
+![BPMN](imagenesReadme/Dataset/CobradorIndices.png)
 
 
 **Referenciada por:**
@@ -173,10 +173,10 @@ LICASA.FACTURA (COBRADOR)
 ---
 ### **8. Zona**
 Almacena el catálogo que permite a la empresa segregar a sus clientes de forma geográfica y/o por la empleada (display) encargada de promocionar sus productos en sus establecimientos.
-![BPMN](imagenesReadme/dataset/ZonaDataset.png)
+![BPMN](imagenesReadme/Dataset/ZonaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/ZonaIndices.png)
+![BPMN](imagenesReadme/Dataset/ZonaIndices.png)
 
 **Referenciada por:**
 
@@ -187,10 +187,10 @@ LICASA.FACTURA (ZONA)
 ---
 ### **9. Bodega**
 Guarda los datos de las bodegas utilizadas por la empresa como almacén de sus productos.
-![BPMN](imagenesReadme/dataset/BodegaDataset.png)
+![BPMN](imagenesReadme/Dataset/BodegaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/BodegaIndices.png)
+![BPMN](imagenesReadme/Dataset/BodegaIndices.png)
 
 **Referenciada por:**
 
@@ -199,10 +199,10 @@ LICASA.FACTURA_LINEA (BODEGA)
 ---
 ### **10. Factura**
 Guarda los datos relacionados al encabezado de una transacción de venta, también conocida como factura. 
-![BPMN](imagenesReadme/dataset/FacturaDataset.png)
+![BPMN](imagenesReadme/Dataset/FacturaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/FacturaIndices.png)
+![BPMN](imagenesReadme/Dataset/FacturaIndices.png)
 
 
 **Referencias:**
@@ -218,10 +218,10 @@ LICASA.VENDEDOR (VENDEDOR)
 ---
 ### **11. Factura_Linea**
 Almacena los datos detallados de una transacción de venta, el artículo, cantidades y otros detalles pertinentes a la transacción. 
-![BPMN](imagenesReadme/dataset/FacturaLineaDataset.png)
+![BPMN](imagenesReadme/Dataset/FacturaLineaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/dataset/FacturaLineaIndices.png)
+![BPMN](imagenesReadme/Dataset/FacturaLineaIndices.png)
 
 
 **Referencias:**
