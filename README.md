@@ -4,8 +4,8 @@ El objetivo del presente proyecto es brindar una solución a nivel de Data Wareh
 Para ello se detalla un análisis y construcción de un Datawarehouse así como tambien la representación a nivel de reportes finales, utilizando herramientas como Talend Open Studio, Amazon Redshift, Amazon S3, SQL Server, Power BI.
 
 ## **Tabla de contenido**
-1. [Información general](#i)
-2. [Technologies](#t)
+1. [Objetivos](#objetivos)
+2. [Technologies](#script-de-la-base-de-datos-del-dw)
 3. [Installation](#)
 4. [Collaboration](#)
 5. [FAQs](#f)
@@ -40,7 +40,7 @@ Cuando a un pedido se le ha aplicado descuentos por producto y, además, un desc
 Luego de que el pedido ha sido aprobado, pasa al departamento de facturación. Este departamento realiza una revisión muy parecida a la del validador para verificar que no se le haya escapado ningún detalle. En caso, de alguna inconsistencia, el departamento desaprueba el pedido, a lo cual el sistema reacciona actualizando el pedido a estado ‘Normal’. Si todo está en orden, el departamento utiliza la función de ‘Generar factura/Boleta’. Esta acción desencadena un proceso que realiza la creación de los registros en la base de datos en las tablas que almacenan la información del encabezado de la factura y sus líneas y se imprime el documento. Vale mencionar que una vez impresa la factura no se puede volver a imprimir el documento, de ser necesario se efectúa una refacturación; es decir, realizar todo el proceso nuevamente. A continuación, un diagrama BPMN del proceso que la institución lleva acabo en el sistema.
 
 
-![BPMN](imagenesReadme/BPMN.png)
+![BPMN](FilesReadme/BPMN.png)
 
 
 
@@ -48,16 +48,16 @@ Luego de que el pedido ha sido aprobado, pasa al departamento de facturación. E
 
 Para la solución del proceso de ventas de la empresa se han identificado un conjunto de tablas del sistema transaccional que serán utilizadas como fuente de datos para el Data Warehouse, estas tablas serán conocidas como el ‘Data Set’, todas las tablas pertenecen al mismo esquema de la base de datos (SQL Server). Esquema: LICASA. Las tablas identificadas son las siguientes:
 
-![BPMN](imagenesReadme/BDLICA.png)
+![BPMN](FilesReadme/BDLICA.png)
 
 ---
 ### **1. Artículo**
 Almacena los productos que la empresa utiliza para su proceso de ventas y para uso interno de sus operaciones.
-![BPMN](imagenesReadme/DataSet/ArticuloDataset.png)
+![BPMN](FilesReadme/DataSet/ArticuloDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/DataSet/ArticuloIndices.png)
+![BPMN](FilesReadme/DataSet/ArticuloIndices.png)
 
 **Referencias:**
 
@@ -76,11 +76,11 @@ LICASA.FACTURA_LINEA (ARTICULO)
 ---
 ### **2. Clasificación**
 Guarda los valores del catálogo que se utiliza para clasificar los artículos de la empresa. 
-![BPMN](imagenesReadme/DataSet/ClasificacionDataset.png)
+![BPMN](FilesReadme/DataSet/ClasificacionDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/DataSet/ClasificacionIndices.png)
+![BPMN](FilesReadme/DataSet/ClasificacionIndices.png)
 
 **Referenciada por:**
 
@@ -93,11 +93,11 @@ LICASA.ARTICULO (CLASIFICACION_3 -> CLASIFICACION)
 ---
 ### **3. Cliente**
 Almacena a todas las personas naturales y jurídicas que forman parte de la cartera de clientes de la empresa.
-![BPMN](imagenesReadme/DataSet/ClienteDataset.png)
+![BPMN](FilesReadme/DataSet/ClienteDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/DataSet/ClienteIndices.png)
+![BPMN](FilesReadme/DataSet/ClienteIndices.png)
 
 **Referencias:**
 
@@ -118,11 +118,11 @@ LICASA.FACTURA (CLIENTE_CORPORAC -> CLIENTE)
 ---
 ### **4. Categoria_Cliente**
 Almacena el catálogo que se utiliza para categorizar a los clientes.
-![BPMN](imagenesReadme/DataSet/CategoriaClienteDataset.png)
+![BPMN](FilesReadme/DataSet/CategoriaClienteDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/DataSet/CategoriaClienteIndices.png)
+![BPMN](FilesReadme/DataSet/CategoriaClienteIndices.png)
 
 **Referenciada por:**
 
@@ -131,11 +131,11 @@ LICASA.CLIENTE (CATEGORIA_CLIENTE)
 ---
 ### **5. Vendedor**
 Guarda todos los vendedores con los que han trabajado en la empresa.
-![BPMN](imagenesReadme/DataSet/VendedorDataset.png)
+![BPMN](FilesReadme/DataSet/VendedorDataset.png)
 
 **Indices**
 
-![BPMN](imagenesReadme/DataSet/VendedorIndices.png)
+![BPMN](FilesReadme/DataSet/VendedorIndices.png)
 
 **Referenciada por:**
 
@@ -146,10 +146,10 @@ LICASA.FACTURA (VENDEDOR)
 ---
 ### **6. Proveedor**
 Almacena todos los proveedores con los que ha trabajado la empresa.
-![BPMN](imagenesReadme/DataSet/ProveedorDataset.png)
+![BPMN](FilesReadme/DataSet/ProveedorDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/ProveedorIndices.png)
+![BPMN](FilesReadme/DataSet/ProveedorIndices.png)
 
 **Referenciada por:**
 
@@ -158,10 +158,10 @@ LICASA.ARTICULO (PROVEEDOR)
 ---
 ### **7. Cobrador**
 Guarda los datos de los cobradores, internamente conocidos como motoristas, que han trabajado en la empresa.
-![BPMN](imagenesReadme/DataSet/CobradorDataset.png)
+![BPMN](FilesReadme/DataSet/CobradorDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/CobradorIndices.png)
+![BPMN](FilesReadme/DataSet/CobradorIndices.png)
 
 
 **Referenciada por:**
@@ -173,10 +173,10 @@ LICASA.FACTURA (COBRADOR)
 ---
 ### **8. Zona**
 Almacena el catálogo que permite a la empresa segregar a sus clientes de forma geográfica y/o por la empleada (display) encargada de promocionar sus productos en sus establecimientos.
-![BPMN](imagenesReadme/DataSet/ZonaDataset.png)
+![BPMN](FilesReadme/DataSet/ZonaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/ZonaIndices.png)
+![BPMN](FilesReadme/DataSet/ZonaIndices.png)
 
 **Referenciada por:**
 
@@ -187,10 +187,10 @@ LICASA.FACTURA (ZONA)
 ---
 ### **9. Bodega**
 Guarda los datos de las bodegas utilizadas por la empresa como almacén de sus productos.
-![BPMN](imagenesReadme/DataSet/BodegaDataset.png)
+![BPMN](FilesReadme/DataSet/BodegaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/BodegaIndices.png)
+![BPMN](FilesReadme/DataSet/BodegaIndices.png)
 
 **Referenciada por:**
 
@@ -199,10 +199,10 @@ LICASA.FACTURA_LINEA (BODEGA)
 ---
 ### **10. Factura**
 Guarda los datos relacionados al encabezado de una transacción de venta, también conocida como factura. 
-![BPMN](imagenesReadme/DataSet/FacturaDataset.png)
+![BPMN](FilesReadme/DataSet/FacturaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/FacturaIndices.png)
+![BPMN](FilesReadme/DataSet/FacturaIndices.png)
 
 
 **Referencias:**
@@ -218,10 +218,10 @@ LICASA.VENDEDOR (VENDEDOR)
 ---
 ### **11. Factura_Linea**
 Almacena los datos detallados de una transacción de venta, el artículo, cantidades y otros detalles pertinentes a la transacción. 
-![BPMN](imagenesReadme/DataSet/FacturaLineaDataset.png)
+![BPMN](FilesReadme/DataSet/FacturaLineaDataset.png)
 
 **Indices**
-![BPMN](imagenesReadme/DataSet/FacturaLineaIndices.png)
+![BPMN](FilesReadme/DataSet/FacturaLineaIndices.png)
 
 
 **Referencias:**
@@ -239,37 +239,37 @@ En lo que respecta al análisis del data set y el perfilamiento los valores alma
 
 
 ### **1. Articulo**
-![BPMN](imagenesReadme/DataProfiling/ArticuloDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/ArticuloDataProfiling.png)
 
 ### **2. Clasificación**
-![BPMN](imagenesReadme/DataProfiling/ClasificacionDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/ClasificacionDataProfiling.png)
 
 ### **3. Cliente**
-![BPMN](imagenesReadme/DataProfiling/ClienteDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/ClienteDataProfiling.png)
 
 ### **4. Categoria_Cliente**
-![BPMN](imagenesReadme/DataProfiling/CategoriaClienteDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/CategoriaClienteDataProfiling.png)
 
 ### **5. Vendedor**
-![BPMN](imagenesReadme/DataProfiling/VendedorDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/VendedorDataProfiling.png)
 
 ### **6. Proveedor**
-![BPMN](imagenesReadme/DataProfiling/ProveedorDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/ProveedorDataProfiling.png)
 
 ### **7. Cobrador**
-![BPMN](imagenesReadme/DataProfiling/CobradorDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/CobradorDataProfiling.png)
 
 ### **8. Zona**
-![BPMN](imagenesReadme/DataProfiling/ZonaDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/ZonaDataProfiling.png)
 
 ### **9. Bodega**
-![BPMN](imagenesReadme/DataProfiling/BodegaDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/BodegaDataProfiling.png)
 
 ### **10. Factura**
-![BPMN](imagenesReadme/DataProfiling/FacturaDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/FacturaDataProfiling.png)
 
 ### **11. Factura_Linea**
-![BPMN](imagenesReadme/DataProfiling/FacturaLineaDataProfiling.png)
+![BPMN](FilesReadme/DataProfiling/FacturaLineaDataProfiling.png)
 
 
 ## **Especificación de necesidades analíticas que el modelo dimensional propuesto solventará**
@@ -310,58 +310,58 @@ Margen=(TotalVendido/MetaDelPeriodo)×100
 ## **Modelo dimensional**
 
 ### **Paso 1. Seleccionar proceso del negocio**
-![BPMN](imagenesReadme/PasosModeloDimensional/Paso1SeleccionarProcesoDelNegocio.png)
+![BPMN](FilesReadme/PasosModeloDimensional/Paso1SeleccionarProcesoDelNegocio.png)
 
 ### **Paso 2. Definir el nivel de granularidad**
-![BPMN](imagenesReadme/PasosModeloDimensional/Paso2DefinirElNivelDeGranularidad.png)
+![BPMN](FilesReadme/PasosModeloDimensional/Paso2DefinirElNivelDeGranularidad.png)
 
 ### **Paso 3. Identificar las dimensiones**
-![BPMN](imagenesReadme/PasosModeloDimensional/Paso3IdentificarDimensiones.png)
+![BPMN](FilesReadme/PasosModeloDimensional/Paso3IdentificarDimensiones.png)
 
 ### **Paso 4. Identificar metricas**
-![BPMN](imagenesReadme/PasosModeloDimensional/Paso4IdentificarMetricas.png)
+![BPMN](FilesReadme/PasosModeloDimensional/Paso4IdentificarMetricas.png)
 
 
 ## **Diagrama ER del LICADW del oproceso de venta**
-![BPMN](imagenesReadme/PasosModeloDimensional/ERLICADW.png)
-![BPMN](imagenesReadme/PasosModeloDimensional/ER2LICADW.png)
+![BPMN](FilesReadme/PasosModeloDimensional/ERLICADW.png)
+![BPMN](FilesReadme/PasosModeloDimensional/ER2LICADW.png)
 
 
 ## **Mapping de modelo dimensional y tablas del dataset**
 
 ### **1. DimCliente**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimCliente1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimCliente2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimCliente1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimCliente2.png)
 
 
 ### **2. DimBodega**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimBodega1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimBodega2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimBodega1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimBodega2.png)
 
 ### **3. DimCobrador**
 
-![BPMN](imagenesReadme/MappingModeloDimensional/DimCobrador1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimCobrador2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimCobrador1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimCobrador2.png)
 
 ### **4. DimProveedor**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimProveedor1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimProveedor2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimProveedor1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimProveedor2.png)
 
 ### **5. DimVendedor**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimVendedor1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimVendedor2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimVendedor1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimVendedor2.png)
 
 ### **6. DimFecha**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimFecha1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimFecha2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimFecha1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimFecha2.png)
 
 ### **7. DimArticulo**
-![BPMN](imagenesReadme/MappingModeloDimensional/DimArticulo1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/DimArticulo2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimArticulo1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/DimArticulo2.png)
 
 ### **FactVentas**
-![BPMN](imagenesReadme/MappingModeloDimensional/FactVentas1.png)
-![BPMN](imagenesReadme/MappingModeloDimensional/FactVentas2.png)
+![BPMN](FilesReadme/MappingModeloDimensional/FactVentas1.png)
+![BPMN](FilesReadme/MappingModeloDimensional/FactVentas2.png)
 
 
 ## **Script de la base de datos del DW**
