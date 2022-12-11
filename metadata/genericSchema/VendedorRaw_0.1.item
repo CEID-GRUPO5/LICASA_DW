@@ -3,8 +3,9 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_OYAHIHBbEe2MC545H857gQ" name="VendedorRaw" label="VendedorRaw" dataPackage="_xI9MYW-REe2jBq9Nka1WkQ"/>
   <TalendMetadata:GenericPackage xmi:id="_xI9MYW-REe2jBq9Nka1WkQ" name="repository.metadataGenericSchema" dataManager="_OYAHIHBbEe2MC545H857gQ">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xI9MYm-REe2jBq9Nka1WkQ" id="_8LKyEG-QEe2jBq9Nka1WkQ" label="VendedorRaw">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MY2-REe2jBq9Nka1WkQ" name="VENDEDOR" label="VENDEDOR" length="20" talendType="id_String" key="true" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MZG-REe2jBq9Nka1WkQ" name="NOMBRE" label="NOMBRE" length="150" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MY2-REe2jBq9Nka1WkQ" name="Vendedor" label="Vendedor" length="20" talendType="id_String" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xI9MZG-REe2jBq9Nka1WkQ" name="Nombre" label="Nombre" length="150" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_84UysHhGEe2gJsTk0hGQOg" name="Fecha_modificacion" label="Fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
