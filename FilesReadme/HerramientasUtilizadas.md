@@ -11,7 +11,7 @@
 
 >Es un completo Sistema de Gestión para Pymes que permite realizar una contabilidad, gestión comercial y pago de remuneraciones de manera eficiente y controlada. Se desarrolla mediante una línea de productos de gestión para Pymes, orientado especialmente a cubrir las necesidades totales de la empresa del siglo XXI.
 
-## **Talend OpenStudio**
+## **Talend Open Studio**
 ![BPMN](Logos/LogoTalend.png)
 
 >Talend Open Studio (TOS) es una suite que aporta un conjunto muy complejo, variado y completo de herramientas para llevar a cabo la integración de datos que se ofrece en una versión de código libre (open source). Precisamente por ello, esta es una de las herramientas de integración ETL (extract, transform, load) más utilizadas dentro del mundo Big Data; es más, es la cuarta en la lista después de Informática Powercenter, IBM InfoSphere Datastage y Oracle Data Integrator (ODI).
@@ -39,5 +39,7 @@
 ---
 
 [Anterior](ScriptBaseDW.md)
+
+[Siguiente](Construccion.md)
 
 [Regresar a pagina principal](../README.md)

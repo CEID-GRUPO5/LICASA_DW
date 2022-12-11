@@ -22,6 +22,8 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 
 9. [Herramientas utilizadas](FilesReadme/HerramientasUtilizadas.md)
 
+10. [Construcción](FilesReadme/HerramientasUtilizadas.md)
+
 ---
 ## Instituciones
 
