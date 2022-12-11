@@ -1,5 +1,7 @@
-## **Script de la base de datos del DW**
+# **Script de la base de datos del DW**
  
+
+## **Script a ejecutar en Amazon Redshift**
 ``` sql
 
 /*Creacion del DW*/
@@ -191,6 +193,91 @@ ALTER TABLE "licasa"."fact_ventas" ADD CONSTRAINT "dim_cobrador_fk" FOREIGN KEY(
 /*<-- Fin de creacion de schema licasa*/
 
 ``` 
+
+## **Script a ejecutar en base de datos local**
+
+``` sql
+/*Creacion de Schema Staging en base de datos local -->*/
+
+--DimProveedor 
+CREATE TABLE "staging"."dim_proveedor"
+	("proveedor_id" VARCHAR(20) NOT NULL,
+	 "proveedor_nombre" VARCHAR(150) NOT NULL);
+
+--DimVendedor
+CREATE TABLE "staging"."dim_vendedor"
+	("vendedor_id" VARCHAR(20) NOT NULL,
+	 "vendedor_nombre" VARCHAR(150) NOT NULL);
+	 
+--DimArticulo
+CREATE TABLE "staging"."dim_articulo"
+	("articulo_id" VARCHAR(20) NOT NULL,
+	 "articulo_descripcion" VARCHAR(254) NOT NULL,
+	 "clasificacion1_grupo" VARCHAR(40) NOT NULL,
+     "clasificacion2_subgrupo" VARCHAR(40) NOT NULL,
+	 "clasificacion3_marca" VARCHAR(40) NOT NULL,
+	 "articulo_tipo" VARCHAR(1) NOT NULL);
+	 
+--DimBodega
+CREATE TABLE "staging"."dim_bodega"
+	("bodega_id" VARCHAR (4) NOT NULL,
+	 "bodega_nombre" VARCHAR (40) NOT NULL);
+	 
+--DimCobrador
+CREATE TABLE "staging"."dim_cobrador"
+	("cobrador_id" VARCHAR (4) NOT NULL,
+	 "cobrador_nombre" VARCHAR (40) NOT NULL);
+
+--DimCliente
+CREATE TABLE "staging"."dim_cliente"
+	("cliente_id" VARCHAR (20) NOT NULL,
+	 "cliente_nombre" VARCHAR (150) NOT NULL,
+	 "cliente_categoria" VARCHAR (40) NOT NULL,
+	 "cliente_zona" VARCHAR (40) NOT NULL);
+
+
+--FactVentas
+CREATE TABLE "staging"."fact_ventas"
+	("articulo_key" BIGINT NOT NULL,
+	 "cliente_key" BIGINT NOT NULL,
+	 "fecha_key" BIGINT NOT NULL,
+	 "vendedor_key" BIGINT NOT NULL,
+	 "proveedor_key" BIGINT NOT NULL,
+	 "bodega_key" BIGINT NOT NULL,
+	 "cobrador_key" BIGINT NOT NULL,
+	 "factura_id" VARCHAR (50) NOT NULL,
+	 "tipo_documento" VARCHAR (10) NOT NULL,
+	 "linea_factura" smallint NOT NULL,
+	 "precio_unitario" decimal (28,8) DEFAULT 0,
+	 "cantidad_venta" integer DEFAULT 1,
+	 "cantidad_vendida" decimal (28,8) DEFAULT 0,
+	 "sub_total_vendido" decimal (28,8) DEFAULT 0,
+	 "total_descuento" decimal (28,8) DEFAULT 0,
+	 "total_descuento_global" decimal (28,8) DEFAULT 0,
+	 "total_impuesto" decimal (28,8) DEFAULT 0,
+	 "total_vendido" decimal (28,8) DEFAULT 0,
+	 "total_costo" decimal (28,8) DEFAULT 0,
+	 "utilidad_total" decimal (28,8) DEFAULT 0,
+	 CONSTRAINT fact_ventas_pk PRIMARY KEY("articulo_key","cliente_key","fecha_key","vendedor_key","proveedor_key","bodega_key","cobrador_key"),
+	 CONSTRAINT fact_ventas_uk UNIQUE ("articulo_key","cliente_key","fecha_key","vendedor_key","proveedor_key","bodega_key","cobrador_key"),
+	 CONSTRAINT fact_ventas_facturaid_uk UNIQUE ("factura_id"))
+GO
+
+
+--Script para quitar duplicados
+
+WITH duplicados AS (
+      SELECT ds.*,
+             row_number() OVER (PARTITION BY tabla_id ORDER BY fecha_modificacion DESC) AS rownum
+      FROM staging.dim_tabla ds
+     ) ;
+
+DELETE FROM duplicados WHERE rownum > 1;
+
+
+/*<-- Fin de creación de Schema Staging en base de datos local*/
+``` 
+
 ---
 [Anterior](MappingModeloDimensional.md)
 
