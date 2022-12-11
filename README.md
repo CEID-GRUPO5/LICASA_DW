@@ -31,3 +31,13 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 ![BPMN](FilesReadme/Logos/LogoLica.png)
 ![BPMN](FilesReadme/Logos/LogoUES.png)
 
+
+---
+## Curso de Especialización de Ingeniería de Datos
+### **Docente Asesor**
+- Ing. Fabricio Quintanilla
+
+### **Integrantes**
+- BR15007 Barahona Ramos, Adonay Absalón
+- DM15012 Díaz Mejía, Carlos Dalton
+- HS15018 Hernández Sánchez, Elmer Alexander
