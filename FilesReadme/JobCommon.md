@@ -5,7 +5,7 @@ Son los Jobs comunes en todo el proceso, el cual para la reutilización y mejor 
 ## **1. Job ActualizarDelta**
 ![BPMN](Construccion/Common/JobActualizarDelta.png)
 
-## **2. Job DeleteToLocalFile**
+## **2. Job DeleteLocalFile**
 ![BPMN](Construccion/Common/JobDeleteLocalFile.png)
 
 ## **3. Job LoadDataToRedshift**
