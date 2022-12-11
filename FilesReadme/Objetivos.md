@@ -1,6 +1,4 @@
-## **Objetivos**
-
-
+# **Objetivos**
 
 ### **Objetivo General**
 Diseñar un modelo multidimensional de Data Warehouse que soporte el análisis del proceso de ventas de la empresa “LICA S.A. de C.V.” que utiliza el software ERP Softland.
@@ -14,4 +12,7 @@ Diseñar un modelo multidimensional de Data Warehouse que soporte el análisis d
 - Crear un modelo multidimensional que solvente las necesidades analíticas del proceso de ventas.
 - Elaborar un mapeo sobre el modelo multidimensional propuesto y el dataset del sistema transaccional Softland involucrado en el proceso de ventas.
 
-[Regresar a pagina principal](../../README.md)
+---
+[Siguiente](IntroduccionLogicaNegocio.md)
+
+[Regresar a pagina principal](../README.md)
