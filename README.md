@@ -21,10 +21,9 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 7. [Script de la base de datos del DW](FilesReadme/ScriptBaseDW.md)
 
 
-| | |
-| -- |  -- |
-| ![BPMN](FilesReadme/Logos/LogoLica.png) |![BPMN](FilesReadme/Logos/LogoUES.png)|
 
+![BPMN](FilesReadme/Logos/LogoLica.png)
+![BPMN](FilesReadme/Logos/LogoUES.png)
 
 ![BPMN](FilesReadme/Logos/LogoAWS.png)
 ![BPMN](FilesReadme/Logos/LogoSoftland.png)
