@@ -8,7 +8,14 @@ En el software Talend Open Studio se diseño  la siguiente estructura para la ge
 
 ## **Estructura de Jobs**
 1. [Jobs Common](JobCommon.md)
+
 2. [Jobs FromDBToRaw](FromDBToRaw.md)
+
+3. [Jobs FromRawToStage](FromRawToStage.md)
+
+4. [Jobs FromStageToPresentation](FromStageToPPT.md)
+
+5. [Jobs FromPresentationToRedshift](FromPresentationToRedshift.md)
 
 ---
 [Anterior](HerramientasUtilizadas.md)
