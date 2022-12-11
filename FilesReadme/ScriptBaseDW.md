@@ -194,4 +194,6 @@ ALTER TABLE "licasa"."fact_ventas" ADD CONSTRAINT "dim_cobrador_fk" FOREIGN KEY(
 ---
 [Anterior](MappingModeloDimensional.md)
 
+[Siguiente](HerramientasUtilizadas.md)
+
 [Regresar a pagina principal](../README.md)

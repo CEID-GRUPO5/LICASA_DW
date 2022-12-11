@@ -18,15 +18,13 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 
 7. [Mapping de modelo dimensional y tablas del dataset](FilesReadme/MappingModeloDimensional.md)
 
-7. [Script de la base de datos del DW](FilesReadme/ScriptBaseDW.md)
+8. [Script de la base de datos del DW](FilesReadme/ScriptBaseDW.md)
 
+9. [Herramientas utilizadas](FilesReadme/HerramientasUtilizadas.md)
 
+---
+## Instituciones
 
 ![BPMN](FilesReadme/Logos/LogoLica.png)
 ![BPMN](FilesReadme/Logos/LogoUES.png)
 
-![BPMN](FilesReadme/Logos/LogoAWS.png)
-![BPMN](FilesReadme/Logos/LogoSoftland.png)
-![BPMN](FilesReadme/Logos/LogoSQL.png)
-![BPMN](FilesReadme/Logos/LogoTalend.png)
-![BPMN](FilesReadme/Logos/LogoPowerBI.png)
