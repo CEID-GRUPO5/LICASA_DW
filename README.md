@@ -37,7 +37,7 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 ### **Docente Asesor**
 - Ing. Fabricio Quintanilla
 
-### **Integrantes**
+### **Integrantes Grupo 05**
 - BR15007 Barahona Ramos, Adonay Absalón
 - DM15012 Díaz Mejía, Carlos Dalton
 - HS15018 Hernández Sánchez, Elmer Alexander
