@@ -24,6 +24,7 @@ Para ello se detalla un análisis y construcción de un Datawarehouse así como 
 
 ![BPMN](FilesReadme/Logos/LogoLica.png)
 ![BPMN](FilesReadme/Logos/LogoUES.png)
+
 ![BPMN](FilesReadme/Logos/LogoAWS.png)
 ![BPMN](FilesReadme/Logos/LogoSoftland.png)
 ![BPMN](FilesReadme/Logos/LogoSQL.png)
