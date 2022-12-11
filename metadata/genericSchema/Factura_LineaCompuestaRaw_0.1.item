@@ -52,7 +52,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvI3a2Ee2wH_5plyvi-g" name="FECHA_FACTURA" id="883" label="FECHA_FACTURA" length="23" precision="3" sourceType="" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
         <initialValue xmi:id="_ubkvJHa2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvJXa2Ee2wH_5plyvi-g" name="RecordDate" id="208" label="RecordDate" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvJXa2Ee2wH_5plyvi-g" name="RecordDate" id="208" label="RecordDate" length="-1" precision="-1" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;">
         <initialValue xmi:id="_ubkvJna2Ee2wH_5plyvi-g"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d8jowHa_Ee2wH_5plyvi-g" name="MONTO_DESCUENTO1" label="MONTO_DESCUENTO1" length="28" precision="8" talendType="id_BigDecimal" nullable="false">

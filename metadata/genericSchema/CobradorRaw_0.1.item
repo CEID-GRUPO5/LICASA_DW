@@ -9,6 +9,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_dq585XZjEe2s4rtqHtCj9w" name="Nombre" id="382" label="Nombre" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <initialValue xmi:id="_dq585nZjEe2s4rtqHtCj9w"/>
       </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_aB3xMHhGEe2gJsTk0hGQOg" name="Fecha_modificacion" label="Fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

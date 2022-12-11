@@ -9,6 +9,7 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_p21GN3ZuEe2s4rtqHtCj9w" name="cobrador_nombre" id="2356" label="cobrador_nombre" length="40" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_p21GOHZuEe2s4rtqHtCj9w"/>
       </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_eON10HhGEe2gJsTk0hGQOg" name="fecha_modificacion" label="fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

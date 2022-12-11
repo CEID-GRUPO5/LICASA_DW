@@ -18,9 +18,10 @@
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN3XZrEe2s4rtqHtCj9w" name="clasificacion3_marca" id="1326" label="clasificacion3_marca" length="40" precision="-1" sourceType="" talendType="id_String">
         <initialValue xmi:id="_TXDN3nZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZcSS0HbQEe2zo6yVSuvFPA" name="articulo_tipo" label="articulo_tipo" length="1" precision="-1" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZcSS0HbQEe2zo6yVSuvFPA" name="articulo_tipo" label="articulo_tipo" length="20" precision="-1" talendType="id_String">
         <initialValue xmi:id="_ePC3MHbQEe2zo6yVSuvFPA" body=""/>
       </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0jXIUHhFEe2gJsTk0hGQOg" name="fecha_modificacion" label="fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

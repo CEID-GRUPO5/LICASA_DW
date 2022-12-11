@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_NB-v4HjhEe2mAq-HpoouKw" comment="connectionComment" label="connectionLabel" dataPackage="_NB-v4XjhEe2mAq-HpoouKw" mappingTypeUsed="true" mappingTypeId="id_MSSQL"/>
+  <TalendMetadata:GenericPackage xmi:id="_NB-v4XjhEe2mAq-HpoouKw" dataManager="_NB-v4HjhEe2mAq-HpoouKw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NB-v4njhEe2mAq-HpoouKw" id="_RnBhAHjkEe22L6KZAr_Lhw" label="dim_cobrador">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NB_W8HjhEe2mAq-HpoouKw" name="cobrador_id" id="1008" label="cobrador_id" length="4" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_NB_W8XjhEe2mAq-HpoouKw"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NB_W8njhEe2mAq-HpoouKw" name="cobrador_nombre" id="1009" label="cobrador_nombre" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_NB_W83jhEe2mAq-HpoouKw"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

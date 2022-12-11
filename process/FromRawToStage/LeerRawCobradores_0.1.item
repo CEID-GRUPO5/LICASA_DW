@@ -9,7 +9,7 @@
     <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_ZK9B83ZyEe2s4rtqHtCj9w"/>
     <contextParameter comment="" name="StagePath" prompt="StagePath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="stage" internalId="_ZK9B9HZyEe2s4rtqHtCj9w"/>
     <contextParameter comment="" name="Unprocessed" prompt="Unprocessed?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="NoProcesados" internalId="_ZK9B9XZyEe2s4rtqHtCj9w"/>
-    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp\" internalId="_ZK9B9nZyEe2s4rtqHtCj9w"/>
+    <contextParameter comment="Folder para almacenar archivos temporales" name="LocalTempPath" prompt="Ubicacion de los archivos." promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="\temp" internalId="_ZK9B9nZyEe2s4rtqHtCj9w"/>
     <contextParameter comment="Ruta local donde se unica el folder para el almacenamiento der archivos temporales" name="RootPath" prompt="Ubicacion de los archivos (Antes de EP3)?" promptNeeded="false" repositoryContextId="_x01kAF1TEe2YD9aznrVLOw" type="id_String" value="C:\Users\Adonay" internalId="_ZK9B93ZyEe2s4rtqHtCj9w"/>
     <contextParameter comment="Nombre del archivo en S3" name="FileName" prompt="FileName?" promptNeeded="false" repositoryContextId="_wzOEEF1VEe2YD9aznrVLOw" type="id_String" value="" internalId="_ZK9B-HZyEe2s4rtqHtCj9w"/>
     <contextParameter comment="" name="CSVExt" prompt="CSVExt?" promptNeeded="false" repositoryContextId="_-MyG8F3pEe2Q3cH_xodkWA" type="id_String" value=".csv" internalId="_ZLAFQHZyEe2s4rtqHtCj9w"/>
@@ -62,7 +62,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:PGtrBJFy9p+bE78VbVfrfoz83XiUqb6Hy5c3LIir" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:k8B28i4cdJjG6A0O4fntO/TYoKluMY8gtObgP+Mb" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -97,7 +97,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:hcDYmsMizKSjEkA7eyyYR+5i8JNuu5IVNCDts4MG" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:4NtJXri1fuKTg+aCFeriftnpI/brJ4oDiiKQLMV7" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -136,7 +136,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="416" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.CobradorOutputFileName + context.SeparadorPalabra + context.StagePath + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine + context.StagePath + context.LocalMachine + context.FileName;;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.CobradorOutputFileName + context.SeparadorPalabra + context.StagePath + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.LocalMachine + context.Unprocessed + context.LocalMachine + context.StagePath + context.LocalMachine + context.FileName;;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
@@ -233,7 +233,7 @@
       <elementValue elementRef="PARAM_NAME_COLUMN" value="RemoteZone"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.RemoteMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalSourcePath"/>
-      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.Unprocessed+context.LocalMachine"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.LocalMachine+context.Unprocessed+context.LocalMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="LocalZone"/>
       <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.RawPath+context.LocalMachine"/>
       <elementValue elementRef="PARAM_NAME_COLUMN" value="FileNamePrefix"/>
@@ -255,7 +255,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_1" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.LocalMachine + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -306,6 +306,8 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Nombre"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fecha_modificacion"/>
+      <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
     <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
@@ -318,6 +320,8 @@
       <elementValue elementRef="DECODE" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Nombre"/>
       <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Fecha_modificacion"/>
+      <elementValue elementRef="DECODE" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="DESTINATION" value="" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
@@ -325,10 +329,12 @@
     <metadata connector="FLOW" label="CobradorRaw" name="tFileInputDelimited_1">
       <column comment="" key="true" length="4" name="Cobrador" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="Nombre" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" label="CobradorRaw" name="REJECT">
       <column comment="" key="true" length="4" name="Cobrador" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="Nombre" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
@@ -350,6 +356,7 @@
     <metadata connector="FLOW" label="stage" name="stage">
       <column comment="" key="true" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
@@ -357,10 +364,12 @@
       <outputTables sizeState="INTERMEDIATE" name="stage">
         <mapperTableEntries name="cobrador_id" expression="row1.Cobrador " type="id_String"/>
         <mapperTableEntries name="cobrador_nombre" expression="row1.Nombre " type="id_String"/>
+        <mapperTableEntries name="fecha_modificacion" expression="row1.Fecha_modificacion " type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="Cobrador" type="id_String"/>
         <mapperTableEntries name="Nombre" type="id_String"/>
+        <mapperTableEntries name="Fecha_modificacion" type="id_Date"/>
       </inputTables>
     </nodeData>
   </node>
@@ -399,11 +408,12 @@
     <metadata connector="FLOW" label="CobradorStage" name="tFileOutputDelimited_1">
       <column comment="" key="true" length="4" name="cobrador_id" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="40" name="cobrador_nombre" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="fecha_modificacion" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_3" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.LocalMachine + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -456,7 +466,7 @@
   </node>
   <node componentName="tFileList" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileList_2" show="false"/>
-    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine  + context.StagePath + context.LocalMachine"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" value="context.RootPath + context.LocalTempPath + context.LocalMachine + context.Unprocessed + context.LocalMachine + context.StagePath + context.LocalMachine"/>
     <elementParameter field="CLOSED_LIST" name="LIST_MODE" value="FILES"/>
     <elementParameter field="CHECK" name="INCLUDSUBDIR" value="false"/>
     <elementParameter field="CLOSED_LIST" name="CASE_SENSITIVE" value="YES"/>
@@ -536,6 +546,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="cobrador_id"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="fecha_modificacion"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="stage" show="false"/>
@@ -557,13 +570,13 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="iterate3" show="false"/>
   </connection>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPrejob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>

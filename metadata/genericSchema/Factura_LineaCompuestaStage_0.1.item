@@ -53,6 +53,7 @@
         <initialValue xmi:id="_ubkvIna2Ee2wH_5plyvi-g"/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pcItoHbDEe2wH_5plyvi-g" name="UTILIDAD_TOTAL" label="UTILIDAD_TOTAL" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrUcgHhMEe2gJsTk0hGQOg" name="FECHA_MODIFICACION" label="FECHA_MODIFICACION" length="-1" precision="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>
