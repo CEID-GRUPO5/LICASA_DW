@@ -1,0 +1,110 @@
+{
+  "itemId" : "_X1VCUHXvEe2XO4Q6dndEhg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qV55gG1HEe2RRexG98jSIQ",
+    "parameterList" : [ {
+      "id" : "_oE4VI27TEe2q4PETIaKj0w",
+      "name" : "Delta"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "parameterList" : [ {
+      "id" : "_JJgfBV1BEe2LUq6GAYvfnw",
+      "name" : "BuketName"
+    }, {
+      "id" : "_ewYWsF83Ee2U_bRQ1uDmug",
+      "name" : "LocalMachine"
+    }, {
+      "id" : "_JJgfAl1BEe2LUq6GAYvfnw",
+      "name" : "RawPath"
+    }, {
+      "id" : "_ewYWsV83Ee2U_bRQ1uDmug",
+      "name" : "RemoteMachine"
+    }, {
+      "id" : "_uV0C4F4YEe2blsXHUKcvPQ",
+      "name" : "Unprocessed"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_uEDNYGMOEe2DOZSW8nq6Dg",
+    "parameterList" : [ {
+      "id" : "_uEWIUGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_AdditionalParams"
+    }, {
+      "id" : "_uEVhQmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Database"
+    }, {
+      "id" : "_uEWIU2MOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Login"
+    }, {
+      "id" : "_uEWIUWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Password"
+    }, {
+      "id" : "_uEWIVGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Port"
+    }, {
+      "id" : "_uEVhQWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Schema"
+    }, {
+      "id" : "_uEWIUmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Cz-OEG1MEe2RRexG98jSIQ",
+    "parameterList" : [ {
+      "id" : "_8dxg5W7TEe2q4PETIaKj0w",
+      "name" : "NombreTabla"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_x01kAF1TEe2YD9aznrVLOw",
+    "parameterList" : [ {
+      "id" : "_x1GCsl1TEe2YD9aznrVLOw",
+      "name" : "LocalTempPath"
+    }, {
+      "id" : "_x1GCsV1TEe2YD9aznrVLOw",
+      "name" : "RootPath"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_wzOEEF1VEe2YD9aznrVLOw",
+    "parameterList" : [ {
+      "id" : "_wzbfcl1VEe2YD9aznrVLOw",
+      "name" : "FileName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "parameterList" : [ {
+      "id" : "_-NDMsl3pEe2Q3cH_xodkWA",
+      "name" : "CSVExt"
+    }, {
+      "id" : "_b9sQUF39Ee2Q3cH_xodkWA",
+      "name" : "DateNameFormat"
+    }, {
+      "id" : "_rNB_EGPhEe2j8O8hDcRJow",
+      "name" : "EscapeChar"
+    }, {
+      "id" : "_syGKUWPfEe2j8O8hDcRJow",
+      "name" : "FieldSeparator"
+    }, {
+      "id" : "_rZy_0GPNEe2j8O8hDcRJow",
+      "name" : "ModifiedDateFormat"
+    }, {
+      "id" : "_syGKUGPfEe2j8O8hDcRJow",
+      "name" : "RowSeparator"
+    }, {
+      "id" : "_-NDMt13pEe2Q3cH_xodkWA",
+      "name" : "SeparadorPalabra"
+    }, {
+      "id" : "_rNB_EWPhEe2j8O8hDcRJow",
+      "name" : "TextEnclosure"
+    }, {
+      "id" : "_Nr06IGMUEe2b-7T3-ll5oA",
+      "name" : "ZIPExt"
+    } ]
+  } ]
+}

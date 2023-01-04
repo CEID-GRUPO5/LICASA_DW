@@ -52,16 +52,38 @@
     } ]
   }, {
     "contextName" : "Default",
+    "repoId" : "_hwQWEG26Ee2mkY_pehLLgw",
+    "parameterList" : [ {
+      "id" : "_3BSNUW9zEe28t8F4rSr0mg",
+      "name" : "ArticuloOutputFileName"
+    }, {
+      "id" : "_WxTEsG-oEe2RG4YmmXOOfg",
+      "name" : "BodegaOutputFileName"
+    }, {
+      "id" : "_WxTEsW-oEe2RG4YmmXOOfg",
+      "name" : "ClienteOutputFileName"
+    }, {
+      "id" : "_3BSNUG9zEe28t8F4rSr0mg",
+      "name" : "CobradorOutputFileName"
+    }, {
+      "id" : "_UqRJYHaQEe2QO-17MY0PQg",
+      "name" : "Factura_LineaOutputFileName"
+    }, {
+      "id" : "_hwltQW26Ee2mkY_pehLLgw",
+      "name" : "ProveedorOutputFileName"
+    }, {
+      "id" : "_hwltQm26Ee2mkY_pehLLgw",
+      "name" : "VendedorOutputFileName"
+    } ]
+  }, {
+    "contextName" : "Default",
     "repoId" : "_JJZMMGokEe2g-JAJsVDEDg",
     "parameterList" : [ {
-      "id" : "_JJkyZWokEe2g-JAJsVDEDg",
-      "name" : "LICAREDSHIFT_AdditionalParams"
+      "id" : "_JJkyZGokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Server"
     }, {
       "id" : "_JJkyY2okEe2g-JAJsVDEDg",
       "name" : "LICAREDSHIFT_Database"
-    }, {
-      "id" : "_JJkyYmokEe2g-JAJsVDEDg",
-      "name" : "LICAREDSHIFT_Login"
     }, {
       "id" : "_JJkyYWokEe2g-JAJsVDEDg",
       "name" : "LICAREDSHIFT_Password"
@@ -72,18 +94,11 @@
       "id" : "_b-6bQG1GEe2RRexG98jSIQ",
       "name" : "LICAREDSHIFT_Schema_Configuracion"
     }, {
-      "id" : "_JJkyZGokEe2g-JAJsVDEDg",
-      "name" : "LICAREDSHIFT_Server"
-    } ]
-  }, {
-    "contextName" : "Default",
-    "repoId" : "_hwQWEG26Ee2mkY_pehLLgw",
-    "parameterList" : [ {
-      "id" : "_hwltQW26Ee2mkY_pehLLgw",
-      "name" : "ProveedorOutputFileName"
+      "id" : "_JJkyYmokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_Login"
     }, {
-      "id" : "_hwltQm26Ee2mkY_pehLLgw",
-      "name" : "VendedorOutputFileName"
+      "id" : "_JJkyZWokEe2g-JAJsVDEDg",
+      "name" : "LICAREDSHIFT_AdditionalParams"
     } ]
   } ]
 }

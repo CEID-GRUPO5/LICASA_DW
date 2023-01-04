@@ -27,6 +27,9 @@
     }, {
       "id" : "_b-6bQG1GEe2RRexG98jSIQ",
       "name" : "LICAREDSHIFT_Schema_Configuracion"
+    }, {
+      "id" : "_FGiOIHcyEe2Aycke1_4hKQ",
+      "name" : "LICAREDSHIFT_Schema_Staging"
     } ]
   } ]
 }

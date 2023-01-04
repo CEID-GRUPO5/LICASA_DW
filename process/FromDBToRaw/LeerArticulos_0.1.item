@@ -11,7 +11,7 @@
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_vSRRFnXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_vSRRF3XzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_vSRRGHXzEe2WQo0cOgox-w"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:t8nmJ29L6o11mcZ4RaTk+zC85a3RxuduGbsC0vaAJyg=" internalId="_vSRRGXXzEe2WQo0cOgox-w"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:CpTzTEovwOBJlnJK9xINEeQsU9Tc2or/JJq2QiIw31A=" internalId="_vSRRGXXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_vSRRGnXzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_vSRRG3XzEe2WQo0cOgox-w"/>
     <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_vSRRHHXzEe2WQo0cOgox-w"/>
@@ -69,7 +69,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:/EqVK6BZTA8Fyt1bVZLT2FqLeEFGGVh5uWL8rASo" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:tekfOFdnLOKhfwWetC8nGChDFrMtLzPLtECk8Tr0" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -104,7 +104,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:CsLY6/mTL7zuXKZq/p13i1UhLngnhsA0b7LXgm/S" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:m3rxIRMrgt4CzZBaKYxir7xXVxn+5UNoPPKQ3kMw" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -144,7 +144,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:EfrVrR7J5O0ReH/69K0zwQzBLbLy8F4TL5lQ9syKi4Ofxjg3HaPOtnt3/zISiGeZjGYVFw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:QTQnk5bmOTc3zRt411WZ7y2VzvPl16SHklrj3uTrWjDmAhYhQVYMz6eVnY/0csabkt74wg=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" show="false"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICA_DB_AdditionalParams"/>
@@ -156,6 +156,7 @@
     <elementParameter field="CHECK" name="ACTIVE_DIR_AUTH" value="false"/>
     <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
     <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="LICASA"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="224">
@@ -169,13 +170,13 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="DBNAME" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:NyTbAqIijsQofyJZc79DdAxO8BXmWV3relpUXut3" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:UwV33VgQY2tItdmO9AyNvbktZK9GSojbTI8LOhl1" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;ARTICULO&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.DESCRIPCION,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_2,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_3,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.TIPO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ORIGEN_CORP,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ACTIVO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.DESCRIPCION,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_2,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.CLASIFICACION_3,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.TIPO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ORIGEN_CORP,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.ACTIVO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.ARTICULO&quot;&#xD;&#xA;+&quot; WHERE RecordDate > '&quot;+context.Delta+&quot;'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime" show="false"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false" show="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -205,6 +206,7 @@
       <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="LICA_DB_Articulo"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ARTICULO" name="tDBInput_1">
       <column comment="" key="true" length="20" name="ARTICULO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -249,6 +251,7 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" value="false" show="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Conversion"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="raw" name="raw">
       <column comment="" key="true" length="20" name="Articulo" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -274,7 +277,7 @@
       </column>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="raw">
         <mapperTableEntries name="Articulo" expression="row1.ARTICULO" type="id_String"/>
@@ -329,6 +332,7 @@
     <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
     <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="90" show="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Articulos"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" label="ArticuloRaw" name="tFileOutputDelimited_1">
       <column comment="" key="true" length="20" name="Articulo" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
@@ -379,6 +383,7 @@
   <node componentName="tMSSqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBClose_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Cerrar LICASA"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="96">
@@ -391,8 +396,9 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="384" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.ArticuloOutputFileName + context.SeparadorPalabra + context.RawPath + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine + context.FileName;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.FileName = context.ArticuloOutputFileName + context.SeparadorPalabra + context.RawPath + context.SeparadorPalabra + TalendDate.formatDate(context.DateNameFormat, TalendDate.getCurrentDate()) + context.CSVExt;&#xA;&#xA;context.OutputLocalFile = context.RootPath + context.LocalTempPath + context.LocalMachine + context.Unprocessed + context.LocalMachine  + context.RawPath + context.LocalMachine + context.FileName;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Asignar nombre"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
   </node>

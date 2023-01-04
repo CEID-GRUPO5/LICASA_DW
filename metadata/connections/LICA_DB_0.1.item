@@ -168,11 +168,6 @@
           <initialValue xsi:type="relational:TdExpression" xmi:id="__tdKt3avEe2wH_5plyvi-g" language="COLUMN_DEF"/>
           <sqlDataType xmi:id="__tdKuHavEe2wH_5plyvi-g" name="VARCHAR" javaDataType="12"/>
         </feature>
-        <feature xsi:type="relational:TdColumn" xmi:id="__tdLEXavEe2wH_5plyvi-g" name="FECHA" label="FECHA" length="23" precision="3" sourceType="DATETIME" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
-          <taggedValue xmi:id="__tdLEnavEe2wH_5plyvi-g" tag="Comment" value=""/>
-          <initialValue xsi:type="relational:TdExpression" xmi:id="__tdLE3avEe2wH_5plyvi-g" language="COLUMN_DEF"/>
-          <sqlDataType xmi:id="__tdLFHavEe2wH_5plyvi-g" name="DATETIME" numericPrecision="3" javaDataType="93"/>
-        </feature>
         <feature xsi:type="relational:TdColumn" xmi:id="__tdLbXavEe2wH_5plyvi-g" name="ANULADA" label="ANULADA" length="1" sourceType="VARCHAR" talendType="id_String" nullable="false">
           <taggedValue xmi:id="__tdLbnavEe2wH_5plyvi-g" tag="Comment" value=""/>
           <initialValue xsi:type="relational:TdExpression" xmi:id="__tdLb3avEe2wH_5plyvi-g" language="COLUMN_DEF"/>

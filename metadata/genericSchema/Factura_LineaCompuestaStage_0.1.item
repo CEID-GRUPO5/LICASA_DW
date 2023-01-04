@@ -3,57 +3,70 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_oY6LgHbCEe2wH_5plyvi-g" name="Factura_LineaCompuestaStage" comment="connectionComment" label="Factura_LineaCompuestaStage" dataPackage="_ubkvA3a2Ee2wH_5plyvi-g"/>
   <TalendMetadata:GenericPackage xmi:id="_ubkvA3a2Ee2wH_5plyvi-g" dataManager="_oY6LgHbCEe2wH_5plyvi-g">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ubkvBHa2Ee2wH_5plyvi-g" id="_w8nIYHa2Ee2wH_5plyvi-g" label="Factura_LineaCompuesta">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvBXa2Ee2wH_5plyvi-g" name="FACTURA_ID" id="197" label="FACTURA_ID" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvBXa2Ee2wH_5plyvi-g" name="factura_id" id="197" label="factura_id" length="50" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
         <initialValue xmi:id="_ubkvBna2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvB3a2Ee2wH_5plyvi-g" name="TIPO_DOCUMENTO" id="198" label="TIPO_DOCUMENTO" length="1" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvB3a2Ee2wH_5plyvi-g" name="tipo_documento" id="198" label="tipo_documento" length="10" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
         <initialValue xmi:id="_ubkvCHa2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvCXa2Ee2wH_5plyvi-g" name="LINEA_FACTURA" id="199" label="LINEA_FACTURA" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvCXa2Ee2wH_5plyvi-g" name="linea_factura" id="199" label="linea_factura" length="5" sourceType="SMALLINT" talendType="id_Short" key="true" nullable="false">
         <initialValue xmi:id="_ubkvCna2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvC3a2Ee2wH_5plyvi-g" name="ARTICULO" id="201" label="ARTICULO" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvC3a2Ee2wH_5plyvi-g" name="articulo" id="201" label="articulo" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvDHa2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvDXa2Ee2wH_5plyvi-g" name="CLIENTE" id="1953" label="CLIENTE" length="20" precision="-1" sourceType="" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvDXa2Ee2wH_5plyvi-g" name="cliente" id="1953" label="cliente" length="20" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvDna2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvI3a2Ee2wH_5plyvi-g" name="FECHA_FACTURA" id="883" label="FECHA_FACTURA" length="23" precision="3" sourceType="" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
-        <initialValue xmi:id="_ubkvJHa2Ee2wH_5plyvi-g"/>
-      </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvEXa2Ee2wH_5plyvi-g" name="VENDEDOR" id="1952" label="VENDEDOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvEXa2Ee2wH_5plyvi-g" name="vendedor" id="1952" label="vendedor" length="4" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvEna2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvFXa2Ee2wH_5plyvi-g" name="PROVEEDOR" id="1954" label="PROVEEDOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvFXa2Ee2wH_5plyvi-g" name="proveedor" id="1954" label="proveedor" length="20" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvFna2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvE3a2Ee2wH_5plyvi-g" name="BODEGA" id="200" label="BODEGA" length="4" sourceType="VARCHAR" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvE3a2Ee2wH_5plyvi-g" name="bodega" id="200" label="bodega" length="4" sourceType="VARCHAR" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvFHa2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvD3a2Ee2wH_5plyvi-g" name="COBRADOR" id="1951" label="COBRADOR" length="4" precision="-1" sourceType="" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvD3a2Ee2wH_5plyvi-g" name="cobrador" id="1951" label="cobrador" length="4" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_ubkvEHa2Ee2wH_5plyvi-g"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvF3a2Ee2wH_5plyvi-g" name="PRECIO_UNITARIO" id="202" label="PRECIO_UNITARIO" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
-        <initialValue xmi:id="_ubkvGHa2Ee2wH_5plyvi-g"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvF3a2Ee2wH_5plyvi-g" name="precio_unitario" id="202" label="precio_unitario" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvGHa2Ee2wH_5plyvi-g" body="BigDecimal.ZERO"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O1oJEHbDEe2wH_5plyvi-g" name="CANTIDAD_VENTA" label="CANTIDAD_VENTA" length="-1" precision="-1" talendType="id_Integer" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7-osHbDEe2wH_5plyvi-g" name="CANTIDAD_VENDIDA" label="CANTIDAD_VENDIDA" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bOVyMHbDEe2wH_5plyvi-g" name="SUBTOTAL_VENDIDO" label="SUBTOTAL_VENDIDO" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iStM0HbDEe2wH_5plyvi-g" name="TOTAL_DESCUENTO" label="TOTAL_DESCUENTO" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvG3a2Ee2wH_5plyvi-g" name="TOTAL_DESCUENTO_GLOBAL" id="204" label="TOTAL_DESCUENTO_GLOBAL" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
-        <initialValue xmi:id="_ubkvHHa2Ee2wH_5plyvi-g"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O1oJEHbDEe2wH_5plyvi-g" name="cantidad_venta" label="cantidad_venta" length="10" talendType="id_Integer" nullable="false">
+        <initialValue xmi:id="_ZMma4HzMEe21bKwA262eoQ" body="1"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvHXa2Ee2wH_5plyvi-g" name="TOTAL_IMPUESTO" id="205" label="TOTAL_IMPUESTO" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
-        <initialValue xmi:id="_ubkvHna2Ee2wH_5plyvi-g"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_O7-osHbDEe2wH_5plyvi-g" name="cantidad_vendida" label="cantidad_vendida" length="28" precision="8" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_aQBmwHzMEe21bKwA262eoQ" body="BigDecimal.ZERO"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvH3a2Ee2wH_5plyvi-g" name="TOTAL_VENDIDO" id="206" label="TOTAL_VENDIDO" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
-        <initialValue xmi:id="_ubkvIHa2Ee2wH_5plyvi-g"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_bOVyMHbDEe2wH_5plyvi-g" name="subtotal_vendido" label="subtotal_vendido" length="28" precision="8" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_adL5AHzMEe21bKwA262eoQ" body="BigDecimal.ZERO"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvIXa2Ee2wH_5plyvi-g" name="TOTAL_COSTO" id="207" label="TOTAL_COSTO" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
-        <initialValue xmi:id="_ubkvIna2Ee2wH_5plyvi-g"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_iStM0HbDEe2wH_5plyvi-g" name="total_descuento" label="total_descuento" length="28" precision="8" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_aiDK4HzMEe21bKwA262eoQ" body="BigDecimal.ZERO"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pcItoHbDEe2wH_5plyvi-g" name="UTILIDAD_TOTAL" label="UTILIDAD_TOTAL" length="28" precision="8" talendType="id_BigDecimal" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrUcgHhMEe2gJsTk0hGQOg" name="FECHA_MODIFICACION" label="FECHA_MODIFICACION" length="-1" precision="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvG3a2Ee2wH_5plyvi-g" name="total_descuento_global" id="204" label="total_descuento_global" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvHHa2Ee2wH_5plyvi-g" body="BigDecimal.ZERO"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvHXa2Ee2wH_5plyvi-g" name="total_impuesto" id="205" label="total_impuesto" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvHna2Ee2wH_5plyvi-g" body="BigDecimal.ZERO"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvH3a2Ee2wH_5plyvi-g" name="total_vendido" id="206" label="total_vendido" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvIHa2Ee2wH_5plyvi-g" body="BigDecimal.ZERO"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvIXa2Ee2wH_5plyvi-g" name="total_costo" id="207" label="total_costo" length="28" precision="8" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_ubkvIna2Ee2wH_5plyvi-g" body="BigDecimal.ZERO"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pcItoHbDEe2wH_5plyvi-g" name="utilidad_total" label="utilidad_total" length="28" precision="8" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_bH0KYHzMEe21bKwA262eoQ" body="BigDecimal.ZERO"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_up5UEHnFEe2uee1RKrOwxg" name="anulada" label="anulada" length="2" talendType="id_String">
+        <initialValue xmi:id="_c7ThQHzMEe21bKwA262eoQ" body=""/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ubkvI3a2Ee2wH_5plyvi-g" name="fecha_factura" id="883" label="fecha_factura" length="23" precision="3" sourceType="" talendType="id_Date" nullable="false" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_ubkvJHa2Ee2wH_5plyvi-g"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NrUcgHhMEe2gJsTk0hGQOg" name="fecha_modificacion" label="fecha_modificacion" length="-1" precision="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
   </TalendMetadata:GenericPackage>
 </xmi:XMI>

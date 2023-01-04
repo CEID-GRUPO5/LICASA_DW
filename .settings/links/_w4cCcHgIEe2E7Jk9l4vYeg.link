@@ -1,0 +1,29 @@
+{
+  "itemId" : "_w4cCcHgIEe2E7Jk9l4vYeg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__x7UUHgKEe2E7Jk9l4vYeg",
+    "parameterList" : [ {
+      "id" : "__yEeQXgKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Login"
+    }, {
+      "id" : "__yEeQngKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_AdditionalParams"
+    }, {
+      "id" : "__yEeQ3gKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Schema"
+    }, {
+      "id" : "__yEeRHgKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Database"
+    }, {
+      "id" : "__yEeRXgKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Port"
+    }, {
+      "id" : "__yEeRngKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Server"
+    }, {
+      "id" : "__yEeR3gKEe2E7Jk9l4vYeg",
+      "name" : "LICA_DB_STAGING_Password"
+    } ]
+  } ]
+}

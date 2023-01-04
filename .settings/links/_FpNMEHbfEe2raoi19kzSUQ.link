@@ -1,0 +1,102 @@
+{
+  "itemId" : "_FpNMEHbfEe2raoi19kzSUQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_qvho0F1AEe2LUq6GAYvfnw",
+    "parameterList" : [ {
+      "id" : "_uV0C4V4YEe2blsXHUKcvPQ",
+      "name" : "Archive"
+    }, {
+      "id" : "_ewYWsF83Ee2U_bRQ1uDmug",
+      "name" : "LocalMachine"
+    }, {
+      "id" : "_JJgfBF1BEe2LUq6GAYvfnw",
+      "name" : "PPTPath"
+    }, {
+      "id" : "_ewYWsV83Ee2U_bRQ1uDmug",
+      "name" : "RemoteMachine"
+    }, {
+      "id" : "_JJgfA11BEe2LUq6GAYvfnw",
+      "name" : "StagePath"
+    }, {
+      "id" : "_uV0C4F4YEe2blsXHUKcvPQ",
+      "name" : "Unprocessed"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_uEDNYGMOEe2DOZSW8nq6Dg",
+    "parameterList" : [ {
+      "id" : "_uEWIUGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_AdditionalParams"
+    }, {
+      "id" : "_uEVhQmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Database"
+    }, {
+      "id" : "_uEWIU2MOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Login"
+    }, {
+      "id" : "_uEWIUWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Password"
+    }, {
+      "id" : "_uEWIVGMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Port"
+    }, {
+      "id" : "_uEVhQWMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Schema"
+    }, {
+      "id" : "_uEWIUmMOEe2DOZSW8nq6Dg",
+      "name" : "LICA_DB_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_x01kAF1TEe2YD9aznrVLOw",
+    "parameterList" : [ {
+      "id" : "_x1GCsl1TEe2YD9aznrVLOw",
+      "name" : "LocalTempPath"
+    }, {
+      "id" : "_x1GCsV1TEe2YD9aznrVLOw",
+      "name" : "RootPath"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "parameterList" : [ {
+      "id" : "_-NDMsl3pEe2Q3cH_xodkWA",
+      "name" : "CSVExt"
+    }, {
+      "id" : "_b9sQUF39Ee2Q3cH_xodkWA",
+      "name" : "DateNameFormat"
+    }, {
+      "id" : "_rNB_EGPhEe2j8O8hDcRJow",
+      "name" : "EscapeChar"
+    }, {
+      "id" : "_Nr06J2MUEe2b-7T3-ll5oA",
+      "name" : "FactVentas"
+    }, {
+      "id" : "_syGKUWPfEe2j8O8hDcRJow",
+      "name" : "FieldSeparator"
+    }, {
+      "id" : "_syGKUGPfEe2j8O8hDcRJow",
+      "name" : "RowSeparator"
+    }, {
+      "id" : "_-NDMt13pEe2Q3cH_xodkWA",
+      "name" : "SeparadorPalabra"
+    }, {
+      "id" : "_W4pjgG-gEe2jBq9Nka1WkQ",
+      "name" : "Star"
+    }, {
+      "id" : "_rNB_EWPhEe2j8O8hDcRJow",
+      "name" : "TextEnclosure"
+    }, {
+      "id" : "_Nr06IGMUEe2b-7T3-ll5oA",
+      "name" : "ZIPExt"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_hwQWEG26Ee2mkY_pehLLgw",
+    "parameterList" : [ {
+      "id" : "_UqRJYHaQEe2QO-17MY0PQg",
+      "name" : "Factura_LineaOutputFileName"
+    } ]
+  } ]
+}

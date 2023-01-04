@@ -3,22 +3,22 @@
   <TalendMetadata:GenericSchemaConnection xmi:id="_TXDN0nZrEe2s4rtqHtCj9w" comment="connectionComment" label="connectionLabel" dataPackage="_TXDN03ZrEe2s4rtqHtCj9w"/>
   <TalendMetadata:GenericPackage xmi:id="_TXDN03ZrEe2s4rtqHtCj9w" dataManager="_TXDN0nZrEe2s4rtqHtCj9w">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_TXDN1HZrEe2s4rtqHtCj9w" id="_WyVB4HZrEe2s4rtqHtCj9w" label="ArticuloStage">
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN1XZrEe2s4rtqHtCj9w" name="articulo_id" id="1322" label="articulo_id" length="20" precision="-1" sourceType="" talendType="id_String" key="true" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN1XZrEe2s4rtqHtCj9w" name="articulo_id" id="1322" label="articulo_id" length="20" sourceType="" talendType="id_String" key="true" nullable="false">
         <initialValue xmi:id="_TXDN1nZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN13ZrEe2s4rtqHtCj9w" name="articulo_descripcion" id="1323" label="articulo_descripcion" length="254" precision="-1" sourceType="" talendType="id_String" nullable="false">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN13ZrEe2s4rtqHtCj9w" name="articulo_descripcion" id="1323" label="articulo_descripcion" length="254" sourceType="" talendType="id_String" nullable="false">
         <initialValue xmi:id="_TXDN2HZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN2XZrEe2s4rtqHtCj9w" name="clasificacion1_grupo" id="1324" label="clasificacion1_grupo" length="40" precision="-1" sourceType="" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN2XZrEe2s4rtqHtCj9w" name="clasificacion1_grupo" id="1324" label="clasificacion1_grupo" length="40" sourceType="" talendType="id_String">
         <initialValue xmi:id="_TXDN2nZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN23ZrEe2s4rtqHtCj9w" name="clasificacion2_subgrupo" id="1325" label="clasificacion2_subgrupo" length="40" precision="-1" sourceType="" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN23ZrEe2s4rtqHtCj9w" name="clasificacion2_subgrupo" id="1325" label="clasificacion2_subgrupo" length="40" sourceType="" talendType="id_String">
         <initialValue xmi:id="_TXDN3HZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN3XZrEe2s4rtqHtCj9w" name="clasificacion3_marca" id="1326" label="clasificacion3_marca" length="40" precision="-1" sourceType="" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_TXDN3XZrEe2s4rtqHtCj9w" name="clasificacion3_marca" id="1326" label="clasificacion3_marca" length="40" sourceType="" talendType="id_String">
         <initialValue xmi:id="_TXDN3nZrEe2s4rtqHtCj9w"/>
       </feature>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZcSS0HbQEe2zo6yVSuvFPA" name="articulo_tipo" label="articulo_tipo" length="20" precision="-1" talendType="id_String">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ZcSS0HbQEe2zo6yVSuvFPA" name="articulo_tipo" label="articulo_tipo" length="20" talendType="id_String">
         <initialValue xmi:id="_ePC3MHbQEe2zo6yVSuvFPA" body=""/>
       </feature>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_0jXIUHhFEe2gJsTk0hGQOg" name="fecha_modificacion" label="fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>

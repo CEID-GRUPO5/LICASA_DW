@@ -1,0 +1,79 @@
+{
+  "itemId" : "_P4YqoHXTEe226L-Vkd9oFA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_d5KkUHYAEe2WQo0cOgox-w",
+    "parameterList" : [ {
+      "id" : "_CTo9UnYBEe2WQo0cOgox-w",
+      "name" : "campos_articulo"
+    }, {
+      "id" : "_CTo9U3YBEe2WQo0cOgox-w",
+      "name" : "campos_bodega"
+    }, {
+      "id" : "_CTo9VXYBEe2WQo0cOgox-w",
+      "name" : "campos_cliente"
+    }, {
+      "id" : "_CTo9VHYBEe2WQo0cOgox-w",
+      "name" : "campos_cobrador"
+    }, {
+      "id" : "_CTo9VnYBEe2WQo0cOgox-w",
+      "name" : "campos_fact_ventas"
+    }, {
+      "id" : "_CTo9UHYBEe2WQo0cOgox-w",
+      "name" : "campos_proveedor"
+    }, {
+      "id" : "_CTo9UXYBEe2WQo0cOgox-w",
+      "name" : "campos_vendedor"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-MyG8F3pEe2Q3cH_xodkWA",
+    "parameterList" : [ {
+      "id" : "_Nr06IWMUEe2b-7T3-ll5oA",
+      "name" : "DimArticulo"
+    }, {
+      "id" : "_Nr06JWMUEe2b-7T3-ll5oA",
+      "name" : "DimBodega"
+    }, {
+      "id" : "_Nr06JGMUEe2b-7T3-ll5oA",
+      "name" : "DimCliente"
+    }, {
+      "id" : "_Nr06I2MUEe2b-7T3-ll5oA",
+      "name" : "DimCobrador"
+    }, {
+      "id" : "_Nr06JmMUEe2b-7T3-ll5oA",
+      "name" : "DimProveedor"
+    }, {
+      "id" : "_Nr06ImMUEe2b-7T3-ll5oA",
+      "name" : "DimVendedor"
+    }, {
+      "id" : "_-NDMt13pEe2Q3cH_xodkWA",
+      "name" : "SeparadorPalabra"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_iVR_wHX_Ee2WQo0cOgox-w",
+    "parameterList" : [ {
+      "id" : "_JdS9EXYAEe2WQo0cOgox-w",
+      "name" : "dim_articulo"
+    }, {
+      "id" : "_JdS9EnYAEe2WQo0cOgox-w",
+      "name" : "dim_bodega"
+    }, {
+      "id" : "_JdS9FHYAEe2WQo0cOgox-w",
+      "name" : "dim_cliente"
+    }, {
+      "id" : "_JdS9E3YAEe2WQo0cOgox-w",
+      "name" : "dim_cobrador"
+    }, {
+      "id" : "_qVW0sHX_Ee2WQo0cOgox-w",
+      "name" : "dim_proveedor"
+    }, {
+      "id" : "_JdS9EHYAEe2WQo0cOgox-w",
+      "name" : "dim_vendedor"
+    }, {
+      "id" : "_JdS9FXYAEe2WQo0cOgox-w",
+      "name" : "fact_ventas"
+    } ]
+  } ]
+}

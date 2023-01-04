@@ -22,12 +22,12 @@
     <contextParameter comment="" name="Factura_LineaOutputFileName" prompt="Factura_LineaOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="FacturaLinea" internalId="_5A1_OHajEe27wtOC9i64DA"/>
     <contextParameter comment="" name="ProveedorOutputFileName" prompt="ProveedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Proveedor" internalId="_5A1_OXajEe27wtOC9i64DA"/>
     <contextParameter comment="" name="VendedorOutputFileName" prompt="VendedorOutputFileName?" promptNeeded="false" repositoryContextId="_hwQWEG26Ee2mkY_pehLLgw" type="id_String" value="Vendedor" internalId="_5A1_OnajEe27wtOC9i64DA"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-lica-test.ciajdesjkekl.us-east-2.redshift.amazonaws.com" internalId="_W7d_kHgHEe2E7Jk9l4vYeg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="lica" internalId="_W7d_kXgHEe2E7Jk9l4vYeg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:5Og7U+W73GuMMVZ/FZNb0A/UMLthF8sM/qq4XrqheCA02XBAm6jKy6Ioew==" internalId="_W7d_kngHEe2E7Jk9l4vYeg"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Server" prompt="LICAREDSHIFT_Server?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="lica-cluster-ues.ctjqty3v0pn9.us-east-1.redshift.amazonaws.com" internalId="_W7d_kHgHEe2E7Jk9l4vYeg"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Database" prompt="LICAREDSHIFT_Database?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="dwventaslica" internalId="_W7d_kXgHEe2E7Jk9l4vYeg"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Password" prompt="LICAREDSHIFT_Password?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_Password" value="enc:system.encryption.key.v1:KtLFqwP0atKg4TifMzXVCZmU5y61W8PbvUwQkXN/LjUJFovD0e7WaFc=" internalId="_W7d_kngHEe2E7Jk9l4vYeg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Port" prompt="LICAREDSHIFT_Port?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="5439" internalId="_W7d_k3gHEe2E7Jk9l4vYeg"/>
     <contextParameter comment="" name="LICAREDSHIFT_Schema_Configuracion" prompt="LICAREDSHIFT_Schema_Configuracion?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="configuracion" internalId="_W7d_lHgHEe2E7Jk9l4vYeg"/>
-    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="redshift-testing" internalId="_W7d_lXgHEe2E7Jk9l4vYeg"/>
+    <contextParameter comment="" name="LICAREDSHIFT_Login" prompt="LICAREDSHIFT_Login?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="licauser" internalId="_W7d_lXgHEe2E7Jk9l4vYeg"/>
     <contextParameter comment="" name="LICAREDSHIFT_AdditionalParams" prompt="LICAREDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_JJZMMGokEe2g-JAJsVDEDg" type="id_String" value="" internalId="_W7d_lngHEe2E7Jk9l4vYeg"/>
   </context>
   <parameters>
@@ -72,7 +72,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:2RZaTryQygRRswjOzBF2qjwuQvpyWB1NkaFUxpwb" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:RpREdNgB0CKi5cRS7ClBF2JpcmVayREPmg2k0qAR" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -107,7 +107,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xgfymhRb7HTSvwsp9LAXc2JyOUX0IlB3OO4VQ9T2" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:kQnpIvrfqeKRy3GvWZVIWI4EMfAIwXon9OSfSM/S" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -152,7 +152,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.LICAREDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.LICAREDSHIFT_Schema_Configuracion"/>
     <elementParameter field="TEXT" name="USER" value="context.LICAREDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:mGY31w/jnzx7eDeAH2ahMADLE5V6rhUzX3iZdyh6PPOHPZWuwsV4uTTnZyfMOLEBtSSZQMkPHgSX"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:a+Gdq//h/ViQ9kN7BYTuhEAowlRJyS+YGo6JGBJRhSdVUhPoHmzbyGEedCgqWl/x+n+E4sV0s1HM"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.LICAREDSHIFT_AdditionalParams"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;cargasdelta&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>

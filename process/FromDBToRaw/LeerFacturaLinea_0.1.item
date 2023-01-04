@@ -2,7 +2,7 @@
 <talendfile:ProcessType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" defaultContext="Default" jobType="Standard">
   <context confirmationNeeded="false" name="Default">
     <contextParameter comment="" name="Delta" prompt="Delta?" promptNeeded="false" repositoryContextId="_qV55gG1HEe2RRexG98jSIQ" type="id_String" value="2154-12-21 23:59:59" internalId="_DbA4AHakEe27wtOC9i64DA"/>
-    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="ues-talend-s3" internalId="_DbBfEHakEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="BuketName" prompt="BuketName?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="lica.datalake" internalId="_DbBfEHakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LocalMachine" prompt="LocalMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="\" internalId="_DbBfEXakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="RawPath" prompt="RawPath?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="raw" internalId="_DbBfEnakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="RemoteMachine" prompt="RemoteMachine?" promptNeeded="false" repositoryContextId="_qvho0F1AEe2LUq6GAYvfnw" type="id_String" value="/" internalId="_DbBfE3akEe27wtOC9i64DA"/>
@@ -10,7 +10,7 @@
     <contextParameter comment="" name="LICA_DB_AdditionalParams" prompt="LICA_DB_AdditionalParams?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="&quot;noDatetimeStringSync=true;encrypt=true;trustServerCertificate=true;ssl=require&quot;" internalId="_DbBfFXakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LICA_DB_Database" prompt="LICA_DB_Database?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICA" internalId="_DbBfFnakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LICA_DB_Login" prompt="LICA_DB_Login?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="lica" internalId="_DbBfF3akEe27wtOC9i64DA"/>
-    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:Yb8KNN97R4x6dMLOnqx9ZrVxa7FLKqljpoIWEOAVpOk=" internalId="_DbBfGHakEe27wtOC9i64DA"/>
+    <contextParameter comment="" name="LICA_DB_Password" prompt="LICA_DB_Password?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_Password" value="enc:system.encryption.key.v1:Y9dLxdQdQx56pzFtCaW9LOhEhbW8I61E4qbq82E0qys=" internalId="_DbBfGHakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LICA_DB_Port" prompt="LICA_DB_Port?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="1433" internalId="_DbBfGXakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LICA_DB_Schema" prompt="LICA_DB_Schema?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="LICASA" internalId="_DbBfGnakEe27wtOC9i64DA"/>
     <contextParameter comment="" name="LICA_DB_Server" prompt="LICA_DB_Server?" promptNeeded="false" repositoryContextId="_uEDNYGMOEe2DOZSW8nq6Dg" type="id_String" value="DESKTOP-PB2RH7L" internalId="_DbBfG3akEe27wtOC9i64DA"/>
@@ -70,7 +70,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:G36EkKY3jS//bHuXxdiXPnf23ejsC2YtqjxqF7V9" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" value="enc:system.encryption.key.v1:/U6dBQenfuZd9+LQKc1M84bbomY7mWY7IrUpn+xD" show="false"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" value="&quot;&quot;" show="false"/>
@@ -105,7 +105,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="&quot;&quot;" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:+GO9H62hGBd64b/IRlZr29wQ5LJpBwwiUErIw+Z/" show="false"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:yzVIIpLAJ6OmVP72ybYXo0baqC/6UI7WJmUEEyXf" show="false"/>
     <elementParameter field="FILE" name="DBFILE" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
@@ -148,7 +148,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:1WkHXVina00yoaSGFITFyMrUlSDgsQLPfkdllk2qKKdm0U3ptqt6uhexwk7ti0v9bU2RZw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:U+7yiMowwoijS0ZyOVDRclRtjN5UHUDtmpifjb388GVOqHfH8cVGWgG84885rutig8Ku3Q=="/>
     <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
     <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_IOAqwGMNEe2DOZSW8nq6Dg - FACTURA_LINEA" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FACTURA_LINEA&quot;"/>
@@ -156,7 +156,7 @@
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.TIPO_DOCUMENTO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.LINEA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.BODEGA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.PRECIO_UNITARIO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.CANTIDAD,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.CANTIDAD_DEVUELT,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.TOTAL_IMPUESTO1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.PRECIO_TOTAL,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.COSTO_TOTAL,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.DESC_TOT_LINEA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.FECHA_FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.TIPO_DOCUMENTO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.LINEA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.BODEGA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.ARTICULO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.PRECIO_UNITARIO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.CANTIDAD,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.CANTIDAD_DEVUELT,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.TOTAL_IMPUESTO1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.PRECIO_TOTAL,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.COSTO_TOTAL,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.DESC_TOT_LINEA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.FECHA_FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA_LINEA&quot;&#xD;&#xA;+&quot; WHERE RecordDate > '&quot;+context.Delta+&quot;'&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -259,11 +259,11 @@
       <column comment="" key="true" length="1" name="TIPO_DOCUMENTO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="5" name="LINEA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ARTICULO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="PROVEEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="PRECIO_UNITARIO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="CANTIDAD" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="CANTIDAD_DEVUELT" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
@@ -271,10 +271,13 @@
       <column comment="" key="false" length="28" name="PRECIO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="COSTO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="DESC_TOT_LINEA" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="ANULADA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties/>
@@ -288,7 +291,7 @@
         <mapperTableEntries name="COBRADOR" expression="row2.COBRADOR " type="id_String"/>
         <mapperTableEntries name="VENDEDOR" expression="row2.VENDEDOR " type="id_String"/>
         <mapperTableEntries name="BODEGA" expression="row1.BODEGA" type="id_String"/>
-        <mapperTableEntries name="PROVEEDOR" expression="row3.PROVEEDOR " type="id_String"/>
+        <mapperTableEntries name="PROVEEDOR" expression="row3.PROVEEDOR == null ? &quot;ND&quot; : row3.PROVEEDOR  " type="id_String"/>
         <mapperTableEntries name="PRECIO_UNITARIO" expression="row1.PRECIO_UNITARIO" type="id_BigDecimal"/>
         <mapperTableEntries name="CANTIDAD" expression="row1.CANTIDAD" type="id_BigDecimal"/>
         <mapperTableEntries name="CANTIDAD_DEVUELT" expression="row1.CANTIDAD_DEVUELT " type="id_BigDecimal"/>
@@ -296,10 +299,11 @@
         <mapperTableEntries name="PRECIO_TOTAL" expression="row1.PRECIO_TOTAL" type="id_BigDecimal"/>
         <mapperTableEntries name="COSTO_TOTAL" expression="row1.COSTO_TOTAL" type="id_BigDecimal"/>
         <mapperTableEntries name="DESC_TOT_LINEA" expression="row1.DESC_TOT_LINEA" type="id_BigDecimal"/>
-        <mapperTableEntries name="FECHA_FACTURA" expression="row1.FECHA_FACTURA" type="id_Date" nullable="true"/>
-        <mapperTableEntries name="RecordDate" expression="row1.RecordDate" type="id_Date"/>
         <mapperTableEntries name="MONTO_DESCUENTO1" expression="row2.MONTO_DESCUENTO1 " type="id_BigDecimal"/>
         <mapperTableEntries name="MONTO_DESCUENTO2" expression="row2.MONTO_DESCUENTO2 " type="id_BigDecimal"/>
+        <mapperTableEntries name="ANULADA" expression="row2.ANULADA " type="id_String"/>
+        <mapperTableEntries name="FECHA_FACTURA" expression="row1.FECHA_FACTURA" type="id_Date" nullable="true"/>
+        <mapperTableEntries name="RecordDate" expression="row1.RecordDate" type="id_Date"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="FACTURA" type="id_String"/>
@@ -320,11 +324,13 @@
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
         <mapperTableEntries name="TIPO_DOCUMENTO" expression="row1.TIPO_DOCUMENTO " type="id_String" operator="="/>
         <mapperTableEntries name="FACTURA" expression="row1.FACTURA " type="id_String" operator="="/>
-        <mapperTableEntries name="CLIENTE" type="id_String"/>
+        <mapperTableEntries name="ANULADA" type="id_String"/>
         <mapperTableEntries name="COBRADOR" type="id_String"/>
         <mapperTableEntries name="VENDEDOR" expression="" type="id_String"/>
-        <mapperTableEntries name="MONTO_DESCUENTO1" type="id_BigDecimal"/>
-        <mapperTableEntries name="MONTO_DESCUENTO2" type="id_BigDecimal"/>
+        <mapperTableEntries name="CLIENTE" type="id_String"/>
+        <mapperTableEntries name="MONTO_DESCUENTO1" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="MONTO_DESCUENTO2" type="id_BigDecimal" nullable="true"/>
+        <mapperTableEntries name="RecordDate" type="id_Date"/>
       </inputTables>
       <inputTables sizeState="INTERMEDIATE" name="row3" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE" innerJoin="true">
         <mapperTableEntries name="ARTICULO" expression="row1.ARTICULO " type="id_String" operator="="/>
@@ -370,11 +376,11 @@
       <column comment="" key="true" length="1" name="TIPO_DOCUMENTO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column comment="" key="true" length="5" name="LINEA" nullable="false" pattern="" precision="0" sourceType="SMALLINT" type="id_Short" usefulColumn="true"/>
       <column comment="" key="false" length="20" name="ARTICULO" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="4" name="BODEGA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
-      <column comment="" key="false" length="4" name="PROVEEDOR" nullable="false" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="PROVEEDOR" nullable="false" pattern="" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="PRECIO_UNITARIO" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="CANTIDAD" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="CANTIDAD_DEVUELT" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
@@ -382,13 +388,14 @@
       <column comment="" key="false" length="28" name="PRECIO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="COSTO_TOTAL" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="DESC_TOT_LINEA" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
-      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
-      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
       <column comment="" defaultValue="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
       <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="false" pattern="" precision="8" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="ANULADA" nullable="true" pattern="" precision="0" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="FECHA_FACTURA" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="RecordDate" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;" precision="-1" sourceType="DATETIME" type="id_Date" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_2" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -401,13 +408,15 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:RJDbBWbkKNxch1eTyc0MWON2LsAwnIo654oqUzTzUZrsHkuJ5sfrgaWoZkpcchMKNKsBtw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:BxY9EJTipfoKNFH49qD0azGXvKbw6uSN1NmL3Ebbo5ISooJ2skQS0WIUX+KWkmZ/y2kYMQ=="/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:SCHEMA_TYPE" value="REPOSITORY" show="false"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA:REPOSITORY_SCHEMA_TYPE" value="_IOAqwGMNEe2DOZSW8nq6Dg - FACTURA" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;FACTURA&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
     <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
-    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.TIPO_DOCUMENTO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.CLIENTE,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.COBRADOR,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.VENDEDOR,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.MONTO_DESCUENTO1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.MONTO_DESCUENTO2&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA&quot;+&#xD;&#xA;&quot; WHERE ANULADA = 'N' &quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT \&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.TIPO_DOCUMENTO,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.FACTURA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.ANULADA,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.COBRADOR,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.VENDEDOR,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.CLIENTE,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.MONTO_DESCUENTO1,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.MONTO_DESCUENTO2,&#xA;&#x9;&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA.RecordDate&quot;&#xA;+&quot;&#xA;FROM&#x9;\&quot;&quot;+context.LICA_DB_Schema+&quot;\&quot;.FACTURA&quot;"/>
     <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
     <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
     <elementParameter field="TEXT" name="DATASOURCE_ALIAS" value="&quot;&quot;" show="false"/>
@@ -422,15 +431,19 @@
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="FACTURA"/>
       <elementValue elementRef="TRIM" value="false"/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENTE"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ANULADA"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="COBRADOR"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="VENDEDOR"/>
       <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CLIENTE"/>
+      <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO1"/>
       <elementValue elementRef="TRIM" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="MONTO_DESCUENTO2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="RecordDate"/>
       <elementValue elementRef="TRIM" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LABEL" value="LICA_DB_FACTURA"/>
@@ -442,7 +455,7 @@
       <column comment="" key="true" length="50" name="FACTURA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+      <column comment="" key="false" length="1" name="ANULADA" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
       <column comment="" key="false" length="4" name="COBRADOR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
@@ -451,11 +464,17 @@
       <column comment="" key="false" length="4" name="VENDEDOR" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
         <additionalField key="Comment" value=""/>
       </column>
-      <column comment="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" originalLength="28" usefulColumn="true"/>
-      <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="false" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" originalLength="28" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="CLIENTE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="28" name="MONTO_DESCUENTO1" nullable="true" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="28" name="MONTO_DESCUENTO2" nullable="true" pattern="" precision="8" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="23" name="RecordDate" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
     </metadata>
   </node>
-  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="288">
+  <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="288">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDBInput_3" show="false"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="" show="false"/>
@@ -468,7 +487,7 @@
     <elementParameter field="TEXT" name="DB_SCHEMA" value="context.LICA_DB_Schema"/>
     <elementParameter field="TEXT" name="DBNAME" value="context.LICA_DB_Database"/>
     <elementParameter field="TEXT" name="USER" value="context.LICA_DB_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:PH/qOXNqtS+suBY9Xbxx9bb0QtHIOBUJINLFr8e4t+9vDApb56cOTgzRz0ZCRtinlEOwvw=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:TspLe5aTfmZxNyinFkcs64rlHzQGaNksZrz0jK1glGWnxgO6AYT4pIM4eK+Ae9c8sNYtZA=="/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;ARTICULO&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" value="" show="false"/>
@@ -571,7 +590,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="416">
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tRunJob_3" show="false"/>
     <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
     <elementParameter field="TEXT" name="CONTEXT_JOB" value="" show="false"/>
@@ -631,6 +650,9 @@
       <elementValue elementRef="TRACE_COLUMN" value="MONTO_DESCUENTO1"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ANULADA"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="ListarFacturaLinea" show="false"/>
@@ -676,7 +698,7 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true" show="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostjob_1" show="false"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>

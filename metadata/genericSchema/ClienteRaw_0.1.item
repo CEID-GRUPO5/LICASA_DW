@@ -5,7 +5,7 @@
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_NcgBsnRMEe2GipjZ6aK9Aw" id="_AftbIHRMEe2GipjZ6aK9Aw" label="ClienteRaw">
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBs3RMEe2GipjZ6aK9Aw" name="Cliente" label="Cliente" length="20" talendType="id_String" key="true" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtHRMEe2GipjZ6aK9Aw" name="Nombre" label="Nombre" length="150" talendType="id_String" nullable="false"/>
-      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtXRMEe2GipjZ6aK9Aw" name="Categoria_cliente" label="Categoria_cliente" length="8" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtXRMEe2GipjZ6aK9Aw" name="Categoria_cliente" label="Categoria_cliente" length="40" talendType="id_String" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NcgBtnRMEe2GipjZ6aK9Aw" name="Zona" label="Zona" length="40" talendType="id_String" nullable="false"/>
       <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RawxcHhGEe2gJsTk0hGQOg" name="Fecha_modificacion" label="Fecha_modificacion" length="-1" precision="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss.SSS&quot;"/>
     </ownedElement>
