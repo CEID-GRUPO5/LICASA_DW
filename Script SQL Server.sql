@@ -56,7 +56,7 @@ CREATE TABLE "staging"."dim_cliente"
 	 "fecha_modificacion" DATETIME NOT NULL);
 
 /*Creacion de la tabla de staging para factura_linea*/
-CREATE TABLE "staging"."dim_factura_linea"
+CREATE TABLE "staging"."factura_linea"
 	("factura_id" VARCHAR (50) NOT NULL,
 	 "tipo_documento" VARCHAR (10) NOT NULL,
 	 "linea_factura" smallint NOT NULL,
